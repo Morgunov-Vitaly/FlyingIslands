@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"flo",
+				"float"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"lo",
+				"logoPlace"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"fo",
+				"font-style"
+			],
+			[
 				"s",
 				"pagescroll/"
 			],
@@ -31,6 +91,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2524,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.less",
+			"settings":
+			{
+				"buffer_size": 1919,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -39,10 +115,50 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "pu",
+		"height": 230.0,
+		"last_filter": "push",
 		"selected_items":
 		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git add all",
+				"Git: Add All"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git add",
+				"Git: Add All"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
 			[
 				"pu",
 				"Git: Push"
@@ -56,28 +172,12 @@
 				"Git: Add All"
 			],
 			[
-				"push",
-				"Git: Push"
-			],
-			[
 				"add",
 				"Git: Add All"
 			],
 			[
 				"inst",
 				"Package Control: Install Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"LiveReload: Enable/disable plugins",
-				"LiveReload: Enable/disable plug-ins"
-			],
-			[
-				"pack",
-				"Package Control: Remove Package"
 			],
 			[
 				"gut",
@@ -117,10 +217,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/GitHub/FlyingIsland"
+		"/C/GitHub/FlyingIsland",
+		"/C/GitHub/FlyingIsland/css",
+		"/C/GitHub/FlyingIsland/fonts",
+		"/C/GitHub/FlyingIsland/js"
 	],
 	"file_history":
 	[
+		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/Less2Css/README.md",
 		"/C/GitHub/FlyingIsland/FlyingIsland.sublime-project",
 		"/C/GitHub/1coPro/css/sass/fonts.sass",
 		"/C/GitHub/1coPro/css/sass/skins/tomato.sass",
@@ -165,6 +269,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			";\n",
 			"main",
 			"header",
 			"main",
@@ -188,8 +293,77 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1180,
+								1180
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1011,
+								1011
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 939.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -199,7 +373,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 129.0
 	},
 	"layout":
 	{
@@ -210,11 +384,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -230,7 +411,7 @@
 	},
 	"output.git":
 	{
-		"height": 186.0
+		"height": 116.0
 	},
 	"pinned_build_system": "",
 	"project": "FlyingIsland.sublime-project",
@@ -270,7 +451,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 		"last_automatic_layout":
@@ -280,6 +461,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		]
 	},
@@ -287,7 +474,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 232.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

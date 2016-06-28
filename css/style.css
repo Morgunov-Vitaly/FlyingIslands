@@ -2,12 +2,65 @@
 .RSnormal {
   font-family: 'Roboto Slab', serif;
   font-weight: normal;
+  color: #728192;
 }
 .RSbold {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
+  color: #728192;
+}
+.RCnormal {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  color: #728192;
+}
+.RCbold {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
+  color: #728192;
 }
 /*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+body {
+  background-color: white;
+}
+header {
+  background: url(../img/banner.png) center 60px no-repeat;
+  height: 680px;
+}
+.header_Menu {
+  display: inline-block;
+  height: 45px;
+  padding: 0;
+  margin: 0;
+}
+.logoPlace {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  color: #728192;
+  width: 225px;
+}
+.logoPlace a {
+  color: #dc911b;
+  font-size: 38px;
+  text-transform: uppercase;
+  line-height: 45px;
+}
+.logoPlace a:before {
+  content: '';
+  width: 67px;
+  height: 116px;
+  background: url(../img/logo.png) no-repeat center center;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-top: -15px;
+}
+.logoPlace a:hover {
+  text-decoration: none;
+  display: block;
+  float: left;
+  color: red;
+}
 /*============    ШРИФТЫ    ===========*/
 /*============    ШРИФТЫ    ===========*/
 /*============    ШРИФТЫ    ===========*/
