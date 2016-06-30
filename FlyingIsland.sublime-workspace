@@ -4,12 +4,48 @@
 		"selected_items":
 		[
 			[
-				"mar",
-				"margin-left"
+				"tex",
+				"text-center"
 			],
 			[
 				"pad",
-				"padding-right"
+				"padding-top"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"bot",
+				"button	Tag"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-left"
 			],
 			[
 				"wi",
@@ -28,10 +64,6 @@
 				"margin-top"
 			],
 			[
-				"text",
-				"text-transform"
-			],
-			[
 				"font",
 				"font-size"
 			],
@@ -46,10 +78,6 @@
 			[
 				"back",
 				"background-position"
-			],
-			[
-				"ba",
-				"background-color"
 			],
 			[
 				"i",
@@ -95,7 +123,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2524,
+				"buffer_size": 4159,
 				"line_ending": "Windows"
 			}
 		},
@@ -103,7 +131,7 @@
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 1919,
+				"buffer_size": 3911,
 				"line_ending": "Windows"
 			}
 		}
@@ -115,10 +143,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 230.0,
-		"last_filter": "push",
+		"height": 95.0,
+		"last_filter": "LiveReload: Enable/disable plugins",
 		"selected_items":
 		[
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
 			[
 				"push",
 				"Git: Push"
@@ -126,6 +158,18 @@
 			[
 				"qui",
 				"Git: Quick Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"add .",
+				"Git: Add..."
 			],
 			[
 				"git co",
@@ -156,23 +200,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"LiveReload: Enable/disable plugins",
-				"LiveReload: Enable/disable plug-ins"
-			],
-			[
-				"pu",
-				"Git: Push"
-			],
-			[
 				"qu",
 				"Git: Quick Commit"
 			],
 			[
 				"ad",
-				"Git: Add All"
-			],
-			[
-				"add",
 				"Git: Add All"
 			],
 			[
@@ -224,6 +256,9 @@
 	],
 	"file_history":
 	[
+		"/D/Рабочая/1 Центр оценки/Логотиип/zvonok/zvonok/index.html",
+		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/Color Highlighter/Default.sublime-keymap",
+		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
 		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/Less2Css/README.md",
 		"/C/GitHub/FlyingIsland/FlyingIsland.sublime-project",
 		"/C/GitHub/1coPro/css/sass/fonts.sass",
@@ -237,7 +272,6 @@
 		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
 		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/SublimeMagick/SublimeMagick.sublime-settings",
 		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
-		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
 		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
 		"/D/Обучение/Make Templates for WP/__clean_html_original/index.html",
 		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
@@ -269,6 +303,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<raw>",
 			";\n",
 			"main",
 			"header",
@@ -283,6 +318,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"<div class=\"raw\">"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -302,15 +338,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2524,
+						"buffer_size": 4159,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1180,
-								1180
+								2166,
+								2166
 							]
 						],
 						"settings":
@@ -323,7 +359,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 234.0,
+						"translation.y": 1278.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -341,15 +377,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1919,
+						"buffer_size": 3911,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1011,
-								1011
+								155,
+								155
 							]
 						],
 						"settings":
@@ -358,7 +394,7 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 939.0,
+						"translation.y": 2730.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -417,7 +453,7 @@
 	"project": "FlyingIsland.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 116.0
 	},
 	"save_all_on_build": true,
 	"select_file":
