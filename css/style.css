@@ -1,4 +1,5 @@
-/*============    ШРИФТЫ    ===========*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Slab:400,700&subset=latin,cyrillic);
+/*============    Мои  переменные   ===========*/
 .RSnormal {
   font-family: 'Roboto Slab', serif;
   font-weight: normal;
@@ -27,6 +28,11 @@ h5 {
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
   color: #728192;
+  margin-bottom: 30px;
+}
+h1,
+h2 {
+  text-transform: uppercase;
 }
 a,
 p {
@@ -34,9 +40,9 @@ p {
   font-weight: normal;
   color: #728192;
 }
-/*============    ГЛАВНЫЙ ЭКРАН    ===========*/
+/*============    Шапка   ===========*/
 body {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU2YWFmZSIvPjxzdG9wIG9mZnNldD0iMTUlIiBzdG9wLWNvbG9yPSIjZjVmYWZlIi8+PHN0b3Agb2Zmc2V0PSIyMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZGllbnQpIiAvPjwvc3ZnPg==');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU2YWFmZSIvPjxzdG9wIG9mZnNldD0iNiUiIHN0b3AtY29sb3I9IiNmNWZhZmUiLz48c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWRpZW50KSIgLz48L3N2Zz4=');
   background-repeat: no-repeat;
   background-color: white;
   min-width: 370px;
@@ -65,7 +71,7 @@ section {
   margin-left: -30px;
 }
 .logoPlace a {
-  color: #f79700;
+  color: #ffffff;
   font-size: 38px;
   text-transform: uppercase;
   line-height: 45px;
@@ -84,7 +90,7 @@ section {
   text-decoration: none;
   display: block;
   float: left;
-  color: #f7c000;
+  color: #ffffff;
 }
 .offer {
   text-shadow: white 0px 0 15px;
@@ -142,12 +148,98 @@ section {
   text-transform: uppercase;
   color: #728192;
 }
-/*============    ШРИФТЫ    ===========*/
-/*============    ШРИФТЫ    ===========*/
-/*============    ШРИФТЫ    ===========*/
-/*============    ШРИФТЫ    ===========*/
-/*============    ШРИФТЫ    ===========*/
-/*============    ШРИФТЫ    ===========*/
+/*============    Почему у нас?  ===========*/
+/*============    Список Банков   ===========*/
+.bank_card {
+  height: 207px;
+  padding: 0;
+  line-height: 207px;
+  text-align: center;
+}
+/*============    Цены    ===========*/
+/*============    Отзывы    ===========*/
+blockquote footer {
+  color: #728192;
+  background-color: white;
+}
+/*============    Карта    ===========*/
+/*============    Футер контакты    ===========*/
+#contacts {
+  background-color: #6f6f6f;
+  padding: 50px;
+}
+#contacts .logo_footer {
+  margin-top: 0px;
+  margin-left: 0px;
+  vertical-align: top;
+  display: inline-block;
+}
+#contacts .phone-numbers {
+  display: inline-block;
+  padding: 0;
+  margin: 0 0 0 20px;
+}
+#contacts .phone-numbers address {
+  margin: 0;
+  padding: 0;
+}
+#contacts .phone-numbers h2,
+#contacts .phone-numbers h5 {
+  padding: 0;
+  color: #d6d6d6;
+}
+#contacts .phone-numbers h2 {
+  margin: 18px 0 0 0;
+}
+#contacts .phone-numbers h5 {
+  margin: 10px 0 0 0;
+}
+#contacts .mvdesign {
+  display: inline-block;
+  margin-top: 0px;
+  float: right;
+  vertical-align: top;
+  padding: 0;
+}
+#contacts .mvdesign p {
+  color: #d6d6d6;
+}
+#contacts .mvdesign a {
+  color: #43D5FF;
+  text-decoration: underline;
+}
+#contacts .mvdesign a:hover {
+  color: #43D5FF;
+}
+/*============    СПРАЙТЫ    ===========*/
+.icon_mv {
+  width: 80px;
+  height: 80px;
+  float: left;
+  display: block;
+  margin-left: 15px;
+  background: url(../img/mvdesign.png) no-repeat;
+}
+a.design {
+  width: 80px;
+  height: 80px;
+  float: left;
+  display: block;
+  margin-left: 15px;
+  background: url(../img/mvdesign.png) no-repeat;
+  background-position: 0 0px;
+  cursor: pointer;
+}
+a.design:hover {
+  width: 80px;
+  height: 80px;
+  float: left;
+  display: block;
+  margin-left: 15px;
+  background: url(../img/mvdesign.png) no-repeat;
+  background-position: 0 -80px;
+  cursor: pointer;
+}
 /*============    ШРИФТЫ    ===========*/
 /*============    ШРИФТЫ    ===========*/
 /*============    ШРИФТЫ    ===========*/
