@@ -118,23 +118,50 @@ section {
 }
 .order_btn{ // Button class
 	.RCbold;
-	width: 310px;
-	height: 50px;
 	font-size: 36px;
-	line-height: 50px;
+	margin: 0;
+	border: none;
+	outline-style: none;
+	padding: 0 65px;
 	background-color: #cc436a; /* фон кнопки */
 	text-transform: uppercase;
 	color: white;
 	text-decoration: none; /* убирать подчёркивание у ссылок */
 	user-select: none; /* убирать выделение текста */
-  	//padding: .7em 1.5em; /* отступ от текста */
   	outline: none; /* убирать контур в Mozilla */
-  	border-radius: 20px;
+  	border-radius: 20px; // скругление углов
+  	&:hover { /* при наведении курсора мышки */
+  		background: #ef5000; 
+  		color: white;
+  		text-decoration: none; /* убирать подчёркивание у ссылок */
+  		user-select: none; /* убирать выделение текста */
+ 	 	outline: none; /* убирать контур в Mozilla */
+		outline-style: none; 	 	
+  	} 
+  	&:active {  /* при нажатии */
+  		background: #cc436a;
+  		color: white;
+  		text-decoration: none; /* убирать подчёркивание у ссылок */
+  		user-select: none; /* убирать выделение текста */
+	  	outline: none; /* убирать контур в Mozilla */
+		outline-style: none;	  	
+  	}
+  	&:visited {  /* посещенная кнопка */
+  		background: #cc436a;
+  		color: white;
+  		text-decoration: none; /* убирать подчёркивание у ссылок */
+  		user-select: none; /* убирать выделение текста */
+	  	outline: none; /* убирать контур в Mozilla */
+	  	outline-style: none;
+  	}
+  	&:focus {
+  		outline: none; //убираем рамку вокруг элемента кнопки после нажатия
+  		// background: #cc436a;
+  		// color: white;  		
+  	}
 
-//a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
-//a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
+  } 
 
-} 
 .description {
 	margin-top: 35px; //distance betveen booton and h5
 	h5 {
@@ -251,13 +278,13 @@ blockquote {
     }
     a.design {
     	.icon_mv;
-    	background-position: 0 0px;
+    	background-position: 0 -80px;
     	cursor: pointer; 
 	
     }
     a.design:hover {
     	.icon_mv;
-    	background-position: 0 -80px;
+    	background-position: 0 0;
     	cursor: pointer;
     }    
 

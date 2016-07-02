@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
 				"bac",
 				"background-color"
 			],
@@ -12,20 +40,12 @@
 				"background-color"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"text",
 				"text-align"
 			],
 			[
 				"Padd",
 				"padding-top"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"pad",
@@ -42,10 +62,6 @@
 			[
 				"colo",
 				"color"
-			],
-			[
-				"min",
-				"min-width"
 			],
 			[
 				"bot",
@@ -88,10 +104,6 @@
 				"background-position"
 			],
 			[
-				"i",
-				"inline-block"
-			],
-			[
 				"al",
 				"alt	Attr"
 			],
@@ -131,7 +143,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12668,
+				"buffer_size": 13018,
 				"line_ending": "Windows"
 			}
 		},
@@ -139,7 +151,7 @@
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 4548,
+				"buffer_size": 5937,
 				"line_ending": "Windows"
 			}
 		},
@@ -147,7 +159,7 @@
 			"file": "css/less/variables.less",
 			"settings":
 			{
-				"buffer_size": 25506,
+				"buffer_size": 25540,
 				"line_ending": "Unix"
 			}
 		},
@@ -180,12 +192,16 @@
 				"Git: Quick Commit"
 			],
 			[
-				"add",
+				"git a",
 				"Git: Add All"
 			],
 			[
 				"LiveReload: Enable/disable plugins",
 				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"add",
+				"Git: Add All"
 			],
 			[
 				"qui",
@@ -256,7 +272,7 @@
 				"SassBeautify"
 			]
 		],
-		"width": 414.0
+		"width": 510.0
 	},
 	"console":
 	{
@@ -325,7 +341,7 @@
 	],
 	"find":
 	{
-		"height": 71.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -339,6 +355,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"@link-color",
+			"MV",
+			"mv",
+			"fluid",
+			"bank_logo",
+			"bank_card",
+			"img class=\"bank_logo\"",
+			"img src=\"img/banks",
+			"col-lg-3 bank_card",
+			"col-sm-6 col-lg-3 bank_card",
+			"\n       ",
+			"          </div>\n          <div class=\"raw\">    ",
+			"\n        ",
+			" \n",
+			"sm-6",
+			"sm12",
+			"lg-4 bank",
+			"container-fluid",
+			"lg-3 bank",
+			"3",
+			"div",
+			"            <",
+			"01",
 			"@text-color",
 			"MV ",
 			"@table-bg-hover",
@@ -385,15 +424,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12668,
+						"buffer_size": 13018,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10607,
-								10607
+								13018,
+								13018
 							]
 						],
 						"settings":
@@ -406,10 +445,10 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4650.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -424,15 +463,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4548,
+						"buffer_size": 5937,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3595,
-								3595
+								631,
+								631
 							]
 						],
 						"settings":
@@ -441,10 +480,10 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 3849.0,
+						"translation.y": 2400.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -453,15 +492,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25506,
+						"buffer_size": 25540,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1183,
-								1183
+								444,
+								444
 							]
 						],
 						"settings":
@@ -470,7 +509,7 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 750.0,
+						"translation.y": 244.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -536,7 +575,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.540391676867,
 			1.0
 		],
 		"rows":
