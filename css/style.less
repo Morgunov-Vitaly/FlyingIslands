@@ -130,31 +130,31 @@ header {
 	color: white;
 	text-decoration: none; /* убирать подчёркивание у ссылок */
 	user-select: none; /* убирать выделение текста */
-  	outline: none; /* убирать контур в Mozilla */
+	outline: none; /* убирать контур в Mozilla */
   	border-radius: 20px; // скругление углов
   	&:hover { /* при наведении курсора мышки */
   		background: #ef5000; 
   		color: white;
   		text-decoration: none; /* убирать подчёркивание у ссылок */
   		user-select: none; /* убирать выделение текста */
- 	 	outline: none; /* убирать контур в Mozilla */
-		outline-style: none; 	 	
+  		outline: none; /* убирать контур в Mozilla */
+  		outline-style: none; 	 	
   	} 
   	&:active {  /* при нажатии */
   		background: #cc436a;
   		color: white;
   		text-decoration: none; /* убирать подчёркивание у ссылок */
   		user-select: none; /* убирать выделение текста */
-	  	outline: none; /* убирать контур в Mozilla */
-		outline-style: none;	  	
+  		outline: none; /* убирать контур в Mozilla */
+  		outline-style: none;	  	
   	}
   	&:visited {  /* посещенная кнопка */
   		background: #cc436a;
   		color: white;
   		text-decoration: none; /* убирать подчёркивание у ссылок */
   		user-select: none; /* убирать выделение текста */
-	  	outline: none; /* убирать контур в Mozilla */
-	  	outline-style: none;
+  		outline: none; /* убирать контур в Mozilla */
+  		outline-style: none;
   	}
   	&:focus {
   		outline: none; //убираем рамку вокруг элемента кнопки после нажатия
@@ -164,7 +164,7 @@ header {
 
   } 
 
-.description {
+  .description {
 	margin-top: 35px; //distance betveen booton and h5
 	h5 {
 		.RCnormal;
@@ -180,86 +180,111 @@ header {
 #why_we { // Section Why We?
 }
 .points_why_we {
-	display: list-item;
 	list-style: none;
+	padding: 0;
+	display: block;
 
 	li {
 		min-height: 139px;
 		display: list-item;
 		padding-left: 130px;
-		text-align: -webkit-match-parent;
-			
+		position:relative;
+	}
+
+}
+/*============    Иконки спрайты    ===========*/
+
+.iconstyle {
+	&:before{
+		content: "";
+		position:absolute;
+		display: block;
+		/* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+		/* top: 0;   для выравнивания по центру */
+		/* bottom: 0;   для выравнивания по центру */
+		margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+		padding:0;
+		float: left;
+		background: url(../img/icons/sprites.png) left center no-repeat;
+		width: 125px;
+		height: 139px;
+	}
+
+}
+
+.clock{
+	.iconstyle;
+	&:before{
+		background-position: 0 0;
+	}
+}
+.moneyinpig{
+	.iconstyle;
+	&:before{
+		background-position: -128px 0;
+	}
+}
+.analytics{
+	.iconstyle;
+	&:before{				
+		background-position: -1182px 0;
+	}
+}
+
+.bank{
+	.iconstyle;
+	&:before{
+		background-position: -1054px 0;
+	}
+}
+
+.bulb{
+	.iconstyle;
+	&:before{
+		background-position: -926px 0;
+	}
+
+}
+
+
+.degree{
+	.iconstyle;
+	&:before{
+		background-position: -390px 0;
+	}
+}
+
+.lock{
+	.iconstyle;
+	&:before{
+		background-position: -788px 0;
 		}
 	}
-			/*============    Иконки спрайты    ===========*/
 
-			.analytics, .bank, .bulb, .clock, .degree, .lock, .message2, .moneyinpig, .place, .shield{
-				background: url(../img/icons/sprites.png) left center no-repeat;
-			}
+	.message2{
+		.iconstyle;
+		&:before{
+			background-position: -518px 0;
+		}
+	}
 
-			.analytics{
-				background-position: -1182px 0;
-				width: 125px;
-				height: 139px;
-			}
 
-			.bank{
-				background-position: -1054px 0;
-				width: 125px;
-				height: 139px;
-			}
+	.place{
+		.iconstyle;
+		&:before{
+			background-position: -653px 0;
+		}
+	}
 
-			.bulb{
-				background-position: -926px 0;
-				width: 125px;
-				height: 139px;
-			}
-
-			.clock{
-				background-position: 0 0;
-				width: 125px;
-				height: 139px;
-			}
-
-			.degree{
-				background-position: -390px 0;
-				width: 125px;
-				height: 139px;
-			}
-
-			.lock{
-				background-position: -788px 0;
-				width: 125px;
-				height: 139px;
-			}
-
-			.message2{
-				background-position: -518px 0;
-				width: 125px;
-				height: 139px;
-			}
-
-			.moneyinpig{
-				background-position: -128px 0;
-				width: 125px;
-				height: 139px;
-			}
-
-			.place{
-				background-position: -653px 0;
-				width: 125px;
-				height: 139px;
-			}
-
-			.shield{
-				background-position: -255px 0;
-				width: 125px;
-				height: 139px;
-			}
+	.shield{
+		.iconstyle;
+		&:before{
+			background-position: -255px 0;
+			}}
 
 
 
-/*============    Список Банков   ===========*/
+				/*============    Список Банков   ===========*/
 #list_of_banks { // Список банков
 }
 .bank_card {
@@ -284,6 +309,14 @@ header {
 #price_table { // Секция с таблицой цен
 
 }
+/*============    Последовательность действий    ===========*/
+#algorithm {
+
+	span {
+		
+	}
+}
+
 /*============    Отзывы    ===========*/
 
 blockquote {
@@ -349,24 +382,24 @@ blockquote {
 
 /*============    СПРАЙТЫ    ===========*/
 .icon_mv {
-      width: 80px;
-      height: 80px;
-      float: left;
-      display: block;
-      margin-left: 15px;
-      background: url(../img/mvdesign.png) no-repeat;
-    }
-    a.design {
-    	.icon_mv;
-    	background-position: 0 -80px;
-    	cursor: pointer; 
+	width: 80px;
+	height: 80px;
+	float: left;
+	display: block;
+	margin-left: 15px;
+	background: url(../img/mvdesign.png) no-repeat;
+}
+a.design {
+	.icon_mv;
+	background-position: 0 -80px;
+	cursor: pointer; 
 	
-    }
-    a.design:hover {
-    	.icon_mv;
-    	background-position: 0 0;
-    	cursor: pointer;
-    }    
+}
+a.design:hover {
+	.icon_mv;
+	background-position: 0 0;
+	cursor: pointer;
+}    
 
 
 /*============    ШРИФТЫ    ===========*/

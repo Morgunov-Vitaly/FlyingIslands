@@ -185,77 +185,211 @@ header {
 }
 /*============    Почему у нас?  ===========*/
 .points_why_we {
-  display: list-item;
   list-style: none;
+  padding: 0;
+  display: block;
 }
 .points_why_we li {
   min-height: 139px;
   display: list-item;
   padding-left: 130px;
-  text-align: -webkit-match-parent;
+  position: relative;
 }
 /*============    Иконки спрайты    ===========*/
-.analytics,
-.bank,
-.bulb,
-.clock,
-.degree,
-.lock,
-.message2,
-.moneyinpig,
-.place,
-.shield {
+.iconstyle:before {
+  content: "";
+  position: absolute;
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  margin-left: -140px;
+  /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+  padding: 0;
+  float: left;
   background: url(../img/icons/sprites.png) left center no-repeat;
-}
-.analytics {
-  background-position: -1182px 0;
   width: 125px;
   height: 139px;
 }
-.bank {
-  background-position: -1054px 0;
+.clock:before {
+  content: "";
+  position: absolute;
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  margin-left: -140px;
+  /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+  padding: 0;
+  float: left;
+  background: url(../img/icons/sprites.png) left center no-repeat;
   width: 125px;
   height: 139px;
 }
-.bulb {
-  background-position: -926px 0;
-  width: 125px;
-  height: 139px;
-}
-.clock {
+.clock:before {
   background-position: 0 0;
+}
+.moneyinpig:before {
+  content: "";
+  position: absolute;
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  margin-left: -140px;
+  /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+  padding: 0;
+  float: left;
+  background: url(../img/icons/sprites.png) left center no-repeat;
   width: 125px;
   height: 139px;
 }
-.degree {
-  background-position: -390px 0;
-  width: 125px;
-  height: 139px;
-}
-.lock {
-  background-position: -788px 0;
-  width: 125px;
-  height: 139px;
-}
-.message2 {
-  background-position: -518px 0;
-  width: 125px;
-  height: 139px;
-}
-.moneyinpig {
+.moneyinpig:before {
   background-position: -128px 0;
+}
+.analytics:before {
+  content: "";
+  position: absolute;
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  margin-left: -140px;
+  /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+  padding: 0;
+  float: left;
+  background: url(../img/icons/sprites.png) left center no-repeat;
   width: 125px;
   height: 139px;
 }
-.place {
+.analytics:before {
+  background-position: -1182px 0;
+}
+.bank:before {
+  content: "";
+  position: absolute;
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  margin-left: -140px;
+  /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+  padding: 0;
+  float: left;
+  background: url(../img/icons/sprites.png) left center no-repeat;
+  width: 125px;
+  height: 139px;
+}
+.bank:before {
+  background-position: -1054px 0;
+}
+.bulb:before {
+  content: "";
+  position: absolute;
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  margin-left: -140px;
+  /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+  padding: 0;
+  float: left;
+  background: url(../img/icons/sprites.png) left center no-repeat;
+  width: 125px;
+  height: 139px;
+}
+.bulb:before {
+  background-position: -926px 0;
+}
+.degree:before {
+  content: "";
+  position: absolute;
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  margin-left: -140px;
+  /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+  padding: 0;
+  float: left;
+  background: url(../img/icons/sprites.png) left center no-repeat;
+  width: 125px;
+  height: 139px;
+}
+.degree:before {
+  background-position: -390px 0;
+}
+.lock:before {
+  content: "";
+  position: absolute;
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  margin-left: -140px;
+  /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+  padding: 0;
+  float: left;
+  background: url(../img/icons/sprites.png) left center no-repeat;
+  width: 125px;
+  height: 139px;
+}
+.lock:before {
+  background-position: -788px 0;
+}
+.message2:before {
+  content: "";
+  position: absolute;
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  margin-left: -140px;
+  /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+  padding: 0;
+  float: left;
+  background: url(../img/icons/sprites.png) left center no-repeat;
+  width: 125px;
+  height: 139px;
+}
+.message2:before {
+  background-position: -518px 0;
+}
+.place:before {
+  content: "";
+  position: absolute;
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  margin-left: -140px;
+  /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+  padding: 0;
+  float: left;
+  background: url(../img/icons/sprites.png) left center no-repeat;
+  width: 125px;
+  height: 139px;
+}
+.place:before {
   background-position: -653px 0;
+}
+.shield:before {
+  content: "";
+  position: absolute;
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  margin-left: -140px;
+  /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+  padding: 0;
+  float: left;
+  background: url(../img/icons/sprites.png) left center no-repeat;
   width: 125px;
   height: 139px;
 }
-.shield {
+.shield:before {
   background-position: -255px 0;
-  width: 125px;
-  height: 139px;
 }
 /*============    Список Банков   ===========*/
 .bank_card {
@@ -265,6 +399,7 @@ header {
   text-align: center;
 }
 /*============    Цены    ===========*/
+/*============    Последовательность действий    ===========*/
 /*============    Отзывы    ===========*/
 blockquote footer {
   color: #728192;
