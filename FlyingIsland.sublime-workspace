@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"i",
+				"inline-block"
+			],
+			[
+				"ro",
+				"row"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
 				"margin",
 				"margin-left"
 			],
@@ -14,10 +30,6 @@
 			[
 				"margi",
 				"margin-left"
-			],
-			[
-				"i",
-				"inline-block"
 			],
 			[
 				"b",
@@ -143,7 +155,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 13018,
+				"buffer_size": 13898,
 				"line_ending": "Windows"
 			}
 		},
@@ -151,7 +163,7 @@
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 5937,
+				"buffer_size": 7965,
 				"line_ending": "Windows"
 			}
 		},
@@ -188,6 +200,14 @@
 				"Git: Push"
 			],
 			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
 				"quick",
 				"Git: Quick Commit"
 			],
@@ -198,10 +218,6 @@
 			[
 				"LiveReload: Enable/disable plugins",
 				"LiveReload: Enable/disable plug-ins"
-			],
-			[
-				"add",
-				"Git: Add All"
 			],
 			[
 				"qui",
@@ -242,10 +258,6 @@
 			[
 				"in",
 				"Package Control: Install Package"
-			],
-			[
-				"qu",
-				"Git: Quick Commit"
 			],
 			[
 				"ad",
@@ -297,10 +309,12 @@
 		"/C/GitHub/FlyingIsland/css",
 		"/C/GitHub/FlyingIsland/css/less",
 		"/C/GitHub/FlyingIsland/fonts",
+		"/C/GitHub/FlyingIsland/img",
 		"/C/GitHub/FlyingIsland/js"
 	],
 	"file_history":
 	[
+		"/C/GitHub/FlyingIsland/img/sprites.css",
 		"/C/GitHub/FlyingIsland/css/style.css",
 		"/C/GitHub/FlyingIsland/css/bootstrap.min.css",
 		"/C/GitHub/FlyingIsland/css/less/bootstrap.less",
@@ -355,6 +369,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"raw",
+			"class=\"raw\"",
 			"@link-color",
 			"MV",
 			"mv",
@@ -424,15 +440,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13018,
+						"buffer_size": 13898,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13018,
-								13018
+								2361,
+								2361
 							]
 						],
 						"settings":
@@ -445,10 +461,10 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4650.0,
+						"translation.y": 1344.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -463,15 +479,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5937,
+						"buffer_size": 7965,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								631,
-								631
+								4582,
+								4582
 							]
 						],
 						"settings":
@@ -480,10 +496,10 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2400.0,
+						"translation.y": 1694.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -499,8 +515,8 @@
 						"selection":
 						[
 							[
-								444,
-								444
+								2201,
+								2180
 							]
 						],
 						"settings":
@@ -509,7 +525,7 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 244.0,
+						"translation.y": 1444.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,

@@ -35,6 +35,8 @@ a, p  {
 	.RCnormal;
 }
 
+
+
 /*============    Шапка   ===========*/
 @link_color: white;  // #dc911b  Color of the links
 @main_color: #d05100; //  The dominant Color of the Color wheel
@@ -54,12 +56,12 @@ header {
 	background: url(../img/banner.svg) center 60px  no-repeat;
 	height: 680px;
 }
-section {
-	margin: 0 auto;
-	padding: 0;
-	padding-top: 70px;
+// section {
+// 	margin: 0 auto;
+// 	padding: 0;
+// 	padding-top: 70px;
 
-}
+// }
 .header_Menu {
 	display: block;
 	text-align: right;
@@ -105,7 +107,7 @@ section {
 		padding: 0;
 		padding-top: 220px;
 		margin: 0 auto;
-		letter-spacing: -2px;
+		letter-spacing: -1px;
 		line-height: 1.3;
 		//text-shadow: white 1px 0 0px, white 0 1px 0px, white -1px 0 0px, white 0 -1px 0px;
 		}	text-shadow: white 0px 0 15px;
@@ -176,8 +178,86 @@ section {
 }
 /*============    Почему у нас?  ===========*/
 #why_we { // Section Why We?
-
 }
+.points_why_we {
+	display: list-item;
+	list-style: none;
+
+	li {
+		min-height: 139px;
+		display: list-item;
+		padding-left: 130px;
+		text-align: -webkit-match-parent;
+			
+		}
+	}
+			/*============    Иконки спрайты    ===========*/
+
+			.analytics, .bank, .bulb, .clock, .degree, .lock, .message2, .moneyinpig, .place, .shield{
+				background: url(../img/icons/sprites.png) left center no-repeat;
+			}
+
+			.analytics{
+				background-position: -1182px 0;
+				width: 125px;
+				height: 139px;
+			}
+
+			.bank{
+				background-position: -1054px 0;
+				width: 125px;
+				height: 139px;
+			}
+
+			.bulb{
+				background-position: -926px 0;
+				width: 125px;
+				height: 139px;
+			}
+
+			.clock{
+				background-position: 0 0;
+				width: 125px;
+				height: 139px;
+			}
+
+			.degree{
+				background-position: -390px 0;
+				width: 125px;
+				height: 139px;
+			}
+
+			.lock{
+				background-position: -788px 0;
+				width: 125px;
+				height: 139px;
+			}
+
+			.message2{
+				background-position: -518px 0;
+				width: 125px;
+				height: 139px;
+			}
+
+			.moneyinpig{
+				background-position: -128px 0;
+				width: 125px;
+				height: 139px;
+			}
+
+			.place{
+				background-position: -653px 0;
+				width: 125px;
+				height: 139px;
+			}
+
+			.shield{
+				background-position: -255px 0;
+				width: 125px;
+				height: 139px;
+			}
+
+
 
 /*============    Список Банков   ===========*/
 #list_of_banks { // Список банков
@@ -288,7 +368,6 @@ blockquote {
     	cursor: pointer;
     }    
 
-/*============    ШРИФТЫ    ===========*/
 
 /*============    ШРИФТЫ    ===========*/
 
