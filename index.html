@@ -24,10 +24,10 @@
 <header>
   <div class="container">
     <div class="row"> <!-- Значек меню здесь -->
-      <div class="col-sm-12 header_Menu"><a href="#"><img alt="Меню" height="45" width="50" src="img/menu-icon.svg"></a> </div>
+      <div class="col-sm-12 header_Menu"><a href="#"><img alt="Меню" height="45" width="50" src="img/menu-icon.svg"></a></div>
     </div>
     <div class="row"> <!-- Banner here -->
-      <div class="col-sm-12 col-lg-3 col-"> <!-- Logo here -->
+      <div class="col-sm-12 col-lg-12"> <!-- Logo here -->
         <div class="logoPlace"><a href="#">Центр оценки</a></div>
       </div>
     </div>
@@ -39,7 +39,7 @@
             за <span>1</span> день - от <span>3000</span>₽!</h1>
         </div>
         <div class="row"> <!-- Кнопка заказать! -->
-          <div class="text-center button_order">
+          <div id="main_button" class="text-center button_order">
             <button class="btn order_btn">Заказать!</button>
           </div>
         </div> <!-- end Кнопка заказать! -->
@@ -61,34 +61,38 @@
     </div>
     <div class="row">
       <ul class="points_why_we">
-        <li class="col-sm-12 col-lg-6 clock">
+        <li class="col-sm-12 col-lg-6 icon120 icon120-clock-icon"> 
           <h3>У нас быстрее!</h3>
-          <p>Оформление отчета за 1 день!</p>
+          <p>Оформление стандартного отчета по квартире за 1 день!</p>
         </li>
-        <li class="col-sm-12 col-lg-6 moneyinpig">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-money-in-pig-icon-green"> <!-- icon120-money-in-pig-icon-yellow -->
           <h3>У нас дешевле!</h3>
           <p>Наши цены ниже рыночных. Стандартный оценочный отчет на квартиру 3000р.</p>
         </li>
-        <li class="col-sm-12 col-lg-6 shield">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-shield-2-icon">
           <h3>У нас надежнее!</h3>
-          <p>Оплата при получении готового отчета - никаких авансов. Вы ничем не рискуете!</p>
+          <p>Оплата при получении готового отчета - никаких авансов. Кроме того, мы гарантируем возврат денег в случае отказа банка. Вы ничем не рискуете!</p>
         </li>
-        <li class="col-sm-12 col-lg-6 degree">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-cup-icon"> <!-- icon120-degree-icon -->
           <h3>У нас качественнее!</h3>
-          <p>В штате компании трудятся лучшие оценщики города. Специалисты компании имеют российские и международные сертификаты..Все отчеты проходят двойную проверку. За годы работы не было ни одного замечания по выполненным отчетам!</p>
+          <p>В штате компании трудятся лучшие оценщики города. Специалисты компании имеют российские и международные сертификаты. Все отчеты проходят двойную проверку.</p>
         </li>
-        <li class="col-sm-12 col-lg-6 message2">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-cup-coffee-icon">
           <h3>С нами удобнее!</h3>
           <p>Принимаем заказы с 09:00 до 21:00 и в выходные дни. Работаем практически со всеми банками и со всеми видами оценки</p>
         </li>
-        <li class="col-sm-12 col-lg-6 place">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-place-icon">
           <h3>Мы к Вам ближе!</h3>
-          <p>Наш офис находится в самом центре города прямо возле метро Петроградская. А наши менеджеры готовы учесть все пожелания клиента по процедуре оценки и организовать доставку готового отчета.</p>
+          <p>Наш офис находится в самом центре города прямо возле метро Петроградская. Для Вас не составит труда забрать готовый отчет.</p>
         </li>
-        <li class="col-sm-12 col-lg-6 lock">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-lock-icon">
           <h3>У нас - конфиденциально!</h3>
-          <p>Гарантируем конфиденциальность вашей информации. Уделяем особое внимание внутренней информационной безопасности для защиты интересов  наших Заказчиков.</p>
+          <p>Гарантируем конфиденциальность вашей информации. Уделяем особое внимание внутренней информационной безопасности для защиты интересов наших Заказчиков.</p>
         </li>
+        <li class="col-sm-12 col-lg-6  icon120 icon120-files-2-icon">
+          <h3>Мы услужливее!</h3>
+          <p>Мы готовы учесть все ваши пожелания по процедуре оценки, организовать доставку готового отчета к Вам домой или сразу в банк доверенному лицу.</p>
+        </li>        
       </ul>
     </div>
     <div class="row">
@@ -101,7 +105,7 @@
 <section id="list_of_banks"> <!-- Список банков -->
   <div class="container">
     <div class="row">
-      <h1>Список банков с которыми мы работаем:</h1>
+      <h1>Список банков, с которыми мы работаем:</h1>
     </div>
     <div class="row">
       <div class="col-xs-6 col-md-3">
@@ -199,7 +203,7 @@
 <section id="price_table"> <!-- Секция с таблицой цен -->
   <div class="container">
     <div class="row">
-      <h1>Цены</h1>
+      <h1>Цены:</h1>
     </div>
     <div class="row">
       <table class="table table-hover">
@@ -215,25 +219,25 @@
           <tr>
             <td>1</td>
             <td>Комната</td>
-            <td>от 2700р.</td>
+            <td>от 2700 р.</td>
             <td>1 день</td>
           </tr>
           <tr>
             <td>2</td>
             <td>Квартира</td>
-            <td>от 3000р.</td>
+            <td>от 3000 р.</td>
             <td>1 день</td>
           </tr>
           <tr>
             <td>3</td>
             <td>Дом с участком земли</td>
-            <td>от 10000руб.</td>
+            <td>от 10000 р.</td>
             <td>1-3 дня</td>
           </tr>
           <tr>
             <td>4</td>
-            <td>Участком земли</td>
-            <td>от 7000руб.</td>
+            <td>Земельный участок</td>
+            <td>от 7000 р.</td>
             <td>2-3 дня</td>
           </tr>
         </tbody>
@@ -244,14 +248,14 @@
 <section id="algorithm"> <!-- Порядок работы оценщика -->
   <div class="container">
     <div class="row">
-      <h1>Последовтельность действий</h1>
+      <h1>Последовательность действий:</h1>
     </div>
     <div class="row">
       <ul>
-        <li>Шаг 1: Вы оставляете заявку на оценку.</li>
-        <li>Шаг 2: Оценщик согласует время выезда специалиста на объект оценки.</li>
-        <li>Шаг 3: Выезд специалиста, заключение договора. Фотофиксация и сбор исходных данных по объекту оценки.</li>
-        <li>Шаг 4: Передача готового отчета Заказчику. Оплата работы.</li>
+        <li><span class="icon60 icon60-message-2-icon"></span><p class="listalgorytm_tetx">Шаг 1: Вы заказываете оценку.</p></li>
+        <li><span class="icon60 icon60-call-icon"></span><p class="listalgorytm_tetx">Шаг 2: Мы перезваниваем Вам и согласовываем время выезда специалиста на объект оценки.</p></li>
+        <li><i class="icon60 icon60-camera-icon"></i><p class="listalgorytm_tetx">Шаг 3: Сотрудник приезжает на объект, заключает с Вами договор и проводит фотосъемку и сбор исходных данных.</p></li>
+        <li><i class="icon60 icon60-letterhead-icon"></i><p class="listalgorytm_tetx">Шаг 4: Вы забираете готовый отчет и оплачиваете работу.</p></li>
       </ul>
     </div>
     <div class="row"> <!-- Кнопка заказать! -->
