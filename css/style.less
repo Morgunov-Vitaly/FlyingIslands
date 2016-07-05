@@ -54,7 +54,7 @@ body {
 	min-width: 370px;	
 }
 header {
-	background: url(../img/banner.svg) center 60px  no-repeat;
+	background: url(../img/banner.png) center 60px  no-repeat;
 	height: 680px;
 }
 
@@ -199,99 +199,8 @@ header {
 	}
 
 }
-/*============    Иконки спрайты    ===========*/
-
-.iconstyle {
-	&:before{
-		content: "";
-		position:absolute;
-		display: block;
-		// Блок для выравнивания по центру, но он не  работает, если высота абзаца меньше иконки
-		/* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
-		/* top: 0;   для выравнивания по центру */
-		/* bottom: 0;   для выравнивания по центру */
-		margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
-		padding:0;
-		float: left;
-		background: url(../img/icons/sprites.png) left center no-repeat;
-		width: 125px;
-		height: 139px;
-	}
-
-}
-
-.clock{
-	.iconstyle;
-	&:before{
-		background-position: 0 0;
-	}
-}
-.moneyinpig{
-	.iconstyle;
-	&:before{
-		background-position: -128px 0;
-	}
-}
-.analytics{
-	.iconstyle;
-	&:before{				
-		background-position: -1182px 0;
-	}
-}
-
-.bank{
-	.iconstyle;
-	&:before{
-		background-position: -1054px 0;
-	}
-}
-
-.bulb{
-	.iconstyle;
-	&:before{
-		background-position: -926px 0;
-	}
-
-}
-
-
-.degree{
-	.iconstyle;
-	&:before{
-		background-position: -390px 0;
-	}
-}
-
-.lock{
-	.iconstyle;
-	&:before{
-		background-position: -788px 0;
-		}
-	}
-
-	.message2{
-		.iconstyle;
-		&:before{
-			background-position: -518px 0;
-		}
-	}
-
-
-	.place{
-		.iconstyle;
-		&:before{
-			background-position: -653px 0;
-		}
-	}
-
-	.shield{
-		.iconstyle;
-		&:before{
-			background-position: -255px 0;
-			}
-		}
-
-/*============    icons 120    =========== class="icon120 icon120-call-icon" */
+/*============    Иконки спрайты  icons 120    =========== 
+class="icon120 icon120-call-icon" */
 .stitches-icon120(@x: 0, @y: 0, @width: 0, @height: 0) {
    &:before {
     background-position: @x @y;
