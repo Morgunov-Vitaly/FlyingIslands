@@ -72,7 +72,7 @@
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-money-in-pig-icon-green"> <!-- icon120-money-in-pig-icon-yellow -->
           <h3>У нас дешевле!</h3>
-          <p>Наши цены ниже рыночных. Стандартный оценочный отчет на квартиру 3000р.</p>
+          <p>Наши цены ниже рыночных. Оценка стандартной квартиры от 3000р.</p>
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-shield-2-icon">
           <h3>У нас надежнее!</h3>
@@ -82,7 +82,7 @@
           <h3>У нас качественнее!</h3>
           <p>В штате компании трудятся лучшие оценщики города. Специалисты компании имеют российские и международные сертификаты. Все отчеты проходят двойную проверку.</p>
         </li>
-        <li class="col-sm-12 col-lg-6  icon120 icon120-cup-coffee-icon">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-check-icon">
           <h3>С нами удобнее!</h3>
           <p>Принимаем заказы с 09:00 до 21:00 и в выходные дни. Работаем практически со всеми банками и со всеми <a href="#">видами оценки</a>.</p>
         </li>
@@ -94,17 +94,21 @@
           <h3>У нас - конфиденциально!</h3>
           <p>Гарантируем конфиденциальность вашей информации. Уделяем особое внимание внутренней информационной безопасности для защиты интересов наших Заказчиков.</p>
         </li>
-        <li class="col-sm-12 col-lg-6  icon120 icon120-files-2-icon">
-          <h3>Мы услужливее!</h3>
+        <li class="col-sm-12 col-lg-6  icon120 icon120-cup-coffee-icon">
+          <h3>Мы заботливее!</h3>
           <p>Мы готовы учесть все ваши пожелания по процедуре оценки, организовать доставку готового отчета к Вам домой или сразу в банк доверенному лицу.</p>
         </li>        
       </ul>
     </div>
-    <div class="row">
-      <div class="text-center button_order">
-        <a href="#"><button class="btn order_btn">Заказать!</button></a>
-      </div>
-    </div>    
+
+        <!-- Кнопка 2 заказать! -->
+        <div class="row"> 
+          <div  class="text-center button_order">
+            <button data-toggle="modal" id="order_now2" href="#order_now_modal" class="order_btn">Заказать!</button>
+          </div>
+        </div> 
+        <!-- end Кнопка заказать! -->
+   
   </div>
 </section>
 <section id="list_of_banks"> <!-- Список банков -->
@@ -198,11 +202,15 @@
         <div class="bank_card"><img src="img/banks/28.png" alt="Банк28"></div>
       </div>
     </div>
-    <div class="row"> <!-- Кнопка заказать! -->
-      <div class="text-center button_order">
-        <a href="#"><button class="btn order_btn">Заказать!</button></a>
-      </div>
-    </div> <!-- end Кнопка заказать! -->
+    
+        <!-- Кнопка Спросить -->
+        <div class="row"> 
+          <div  class="text-center button_order">
+            <button data-toggle="modal" id="ask" href="#order_now_modal" class="order_btn">Задать вопрос</button>
+          </div>
+        </div> 
+        <!-- end Кнопка заказать! -->
+
   </div>
 </section>
 <section id="price_table"> <!-- Секция с таблицой цен -->
@@ -263,24 +271,16 @@
         <li><i class="icon60 icon60-letterhead-icon"></i><p class="listalgorytm_tetx">Шаг 4: Вы забираете готовый отчет и оплачиваете работу.</p></li>
       </ul>
     </div>
-    <div class="row"> <!-- Кнопка заказать! -->
-      <!-- Форма Битрикс 24 начало -->
-      <script id="bx24_form_button" data-skip-moving="true">
-        (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
-          (w[b].forms=w[b].forms||[]).push(arguments[0])};
-          if(w[b]['forms']) return;
-          s=d.createElement('script');r=1*new Date();s.async=1;s.src=u+'?'+r;
-          h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-        })(window,document,'https://1copro.bitrix24.ru/bitrix/js/crm/form_loader.js','b24form');
 
-        b24form({"id":"2","lang":"ru","sec":"7nxc8v","type":"button","click":""});
-      </script>
-      <!-- Форма Битрикс 24 конец -->
-      <div class="text-center button_order">
-        <a href="#"><button class="btn order_btn">Заказать!</button></a>
-      </div>
-    </div> <!-- end Кнопка заказать! -->    
-  </div>
+        <!-- Кнопка 3 заказать! -->
+        <div class="row"> 
+          <div  class="text-center button_order">
+            <button data-toggle="modal" id="order_now3" href="#order_now_modal" class="order_btn">Заказать!</button>
+          </div>
+        </div> 
+        <!-- end Кнопка заказать! -->
+        </div>
+
 </section>
 <section id="feedback"> <!-- Отзывы клиентов -->
   <div class="container">
@@ -309,11 +309,15 @@
           <small>Екатерина <cite>агенство недвижимости</cite></small></blockquote>
       </div>
     </div>
-    <div class="row"> <!-- Кнопка заказать! -->
-      <div class="text-center button_order">
-        <a href="#"><button class="btn order_btn">Заказать!</button></a>
-      </div>
-    </div> <!-- end Кнопка заказать! -->    
+
+        <!-- Кнопка 3 заказать! -->
+        <div class="row"> 
+          <div  class="text-center button_order">
+            <button data-toggle="modal" id="order_now3" href="#order_now_modal" class="order_btn">Заказать!</button>
+          </div>
+        </div> 
+        <!-- end Кнопка заказать! -->
+  
   </div>
 </section>
 <section id="yandex_map"> <!-- карта YandexMap -->
@@ -357,12 +361,15 @@
         <div class="row"> 
         </div>
         <div class="row">
-          <form action="#">
+          <form action="send.php" method="POST">
              <div class="col-xs-12">
+              <!-- Хочу отправлять переменную с указанием, какой кнопкой была вызвана форма, не хочу делать много одинаковых форм с разными идентификаторами
+              -->
+              <input name="what" type="hidden" value="Заказать оценку"> 
               <input name="name" type="text" required placeholder="Имя..." class="form-control">
             </div>
             <div class="col-xs-12">
-              <input name="phone" type="text" required placeholder="Телефон..." class="form-control">
+              <input name="phone" id="phone-1" type="text" required placeholder="Телефон..." class="form-control">
             </div>
             <div class="col-xs-12">
               <button type="submit">Отправить заявку</button>

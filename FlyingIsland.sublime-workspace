@@ -4,36 +4,12 @@
 		"selected_items":
 		[
 			[
-				"mar",
-				"margin"
-			],
-			[
-				"tabl",
-				"table-cell"
+				"htm",
+				"htmlspecialchars"
 			],
 			[
 				"i",
 				"inline-block"
-			],
-			[
-				"ma",
-				"margin-left"
-			],
-			[
-				"pa",
-				"padding-left"
-			],
-			[
-				"l",
-				"list-item"
-			],
-			[
-				"po",
-				"pos-f	position: fixed;"
-			],
-			[
-				"list-s",
-				"list-style"
 			],
 			[
 				"ro",
@@ -50,6 +26,10 @@
 			[
 				"margin",
 				"margin-left"
+			],
+			[
+				"mar",
+				"margin"
 			],
 			[
 				"margi",
@@ -124,6 +104,10 @@
 				"float"
 			],
 			[
+				"pa",
+				"padding-top"
+			],
+			[
 				"font",
 				"font-size"
 			],
@@ -175,7 +159,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15500,
+				"buffer_size": 16571,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "send.php",
+			"settings":
+			{
+				"buffer_size": 662,
 				"line_ending": "Windows"
 			}
 		},
@@ -183,7 +175,7 @@
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 12109,
+				"buffer_size": 15806,
 				"line_ending": "Windows"
 			}
 		},
@@ -211,7 +203,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 230.0,
+		"height": 135.0,
 		"last_filter": "push",
 		"selected_items":
 		[
@@ -220,7 +212,7 @@
 				"Git: Push"
 			],
 			[
-				"quick",
+				"qui",
 				"Git: Quick Commit"
 			],
 			[
@@ -228,15 +220,23 @@
 				"Git: Add All"
 			],
 			[
-				"git status",
-				"Git: Status"
+				"git checkout",
+				"Git: Checkout Tag"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
 			],
 			[
 				"qu",
 				"Git: Quick Commit"
 			],
 			[
-				"qui",
+				"quick",
 				"Git: Quick Commit"
 			],
 			[
@@ -246,10 +246,6 @@
 			[
 				"LiveReload: Enable/disable plugins",
 				"LiveReload: Enable/disable plug-ins"
-			],
-			[
-				"pu",
-				"Git: Push"
 			],
 			[
 				"add .",
@@ -308,7 +304,7 @@
 				"SassBeautify"
 			]
 		],
-		"width": 414.0
+		"width": 402.0
 	},
 	"console":
 	{
@@ -329,15 +325,17 @@
 	},
 	"expanded_folders":
 	[
-		"/C/GitHub/FlyingIsland",
-		"/C/GitHub/FlyingIsland/css",
-		"/C/GitHub/FlyingIsland/css/less",
-		"/C/GitHub/FlyingIsland/fonts",
-		"/C/GitHub/FlyingIsland/img",
-		"/C/GitHub/FlyingIsland/js"
+		"/C/GitHub/FlyingIslands"
 	],
 	"file_history":
 	[
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/GitHub/CSS HTML Lessons/index2.html",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
 		"/C/GitHub/FlyingIsland/img/sprites.css",
 		"/C/GitHub/FlyingIsland/css/style.css",
 		"/C/GitHub/FlyingIsland/css/bootstrap.min.css",
@@ -379,7 +377,7 @@
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -393,8 +391,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			";\n",
-			"display",
+			"form_input",
+			"order_btn",
+			"browser",
+			"%;\n",
+			"&:before {\n				.iconstyle;",
+			"				width: 125px;\n				height: 139px;",
 			"raw",
 			"class=\"raw\"",
 			"@link-color",
@@ -466,15 +468,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15500,
+						"buffer_size": 16571,
 						"regions":
 						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										5141,
+										5141
+									]
+								],
+								"scope": "bookmarks"
+							}
 						},
 						"selection":
 						[
 							[
-								1438,
-								1438
+								15182,
+								15182
 							]
 						],
 						"settings":
@@ -487,7 +502,35 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 425.0,
+						"translation.y": 1034.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "send.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								620,
+								620
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -500,36 +543,50 @@
 			"sheets":
 			[
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "css/style.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12109,
+						"buffer_size": 15806,
 						"regions":
 						{
+							"bookmarks":
+							{
+								"flags": 144,
+								"icon": "bookmark",
+								"regions":
+								[
+									[
+										4062,
+										4062
+									]
+								],
+								"scope": "bookmarks"
+							}
 						},
 						"selection":
 						[
 							[
-								2418,
-								2418
+								7562,
+								7580
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1950.0,
+						"translation.y": 4334.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "css/less/variables.less",
 					"semi_transient": false,
 					"settings":
@@ -541,8 +598,8 @@
 						"selection":
 						[
 							[
-								2201,
-								2180
+								797,
+								797
 							]
 						],
 						"settings":
@@ -551,16 +608,16 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1275.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "css/less/bootstrap.less",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1071,
@@ -577,13 +634,13 @@
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -591,7 +648,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 33.0
+		"height": 30.0
 	},
 	"input":
 	{
@@ -617,7 +674,7 @@
 		"cols":
 		[
 			0.0,
-			0.471848225215,
+			0.591377954081,
 			1.0
 		],
 		"rows":
@@ -633,13 +690,13 @@
 	},
 	"output.git":
 	{
-		"height": 116.0
+		"height": 89.0
 	},
 	"pinned_build_system": "",
 	"project": "FlyingIsland.sublime-project",
 	"replace":
 	{
-		"height": 116.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -695,8 +752,8 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 286.0,
+	"side_bar_visible": false,
+	"side_bar_width": 193.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
