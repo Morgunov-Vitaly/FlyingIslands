@@ -29,7 +29,10 @@
     <div class="row"> <!-- Banner here -->
       <div class="col-sm-12 col-lg-12"> <!-- Logo here -->
         <div class="logoPlace"><a href="#">Центр оценки</a></div>
-        <div class="heder_phone_number"><h3>+7 (921) 360-58-92</h3><p><small><i class="glyphicon glyphicon-map-marker"></i> СПб и Л.О. <i class="glyphicon glyphicon-calendar"></i> с 9:00  до 21:00</small></p></div>
+        <div class="heder_phone_number">
+        <h3>+7 (921) 360-58-92</h3>
+        <p><small><i class="glyphicon glyphicon-map-marker"></i> СПб и Л.О. <i class="glyphicon glyphicon-calendar"></i> с 9:00  до 21:00</small></p>
+        </div>
       </div>
     </div>
     <div class="row">
@@ -38,11 +41,13 @@
           <h1>Оценка квартиры<br>
             <small>за <span>1</span> день - от <span>3000</span>р!</small></h1>
         </div>
-        <div class="row"> <!-- Кнопка заказать! -->
-          <div id="main_button" class="text-center button_order">
-            <button class="btn order_btn">Заказать!</button>
+        <!-- Кнопка заказать! -->
+        <div class="row"> 
+          <div  class="text-center button_order main_button">
+            <button data-toggle="modal" id="order_now" href="#order_now_modal" class="order_btn">Заказать!</button>
           </div>
-        </div> <!-- end Кнопка заказать! -->
+        </div> 
+        <!-- end Кнопка заказать! -->
         <div class="row">
           <div class="description text-center">
             <h5><span>Оценка комнат, квартир, земельных участков, домов </span><a href="#">...</a><br>
@@ -340,15 +345,30 @@
 <!-- Кнопка наверх start -->
 <div id="top"><i class="glyphicon glyphicon-chevron-up"> </i></div> <!-- <i class="glyphicon glyphicon-chevron-up"> </i> -->
 <!-- Кнопка наверх end -->
+
 <!-- Modal -->
-<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="order_now_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
       </div>
-      <div class="modal-body">
-        <div class="row"> </div>
+      <div class="modal-body text-center"><h4>Укажите свои данные,<br>Чтобы оставить заявку:</h4>
+        <div class="row"> 
+        </div>
+        <div class="row">
+          <form action="#">
+             <div class="col-xs-12">
+              <input name="name" type="text" required placeholder="Имя..." class="form-control">
+            </div>
+            <div class="col-xs-12">
+              <input name="phone" type="text" required placeholder="Телефон..." class="form-control">
+            </div>
+            <div class="col-xs-12">
+              <button type="submit">Отправить заявку</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </div>

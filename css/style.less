@@ -157,7 +157,7 @@ header {
 		padding: 0;
 		//padding-top: 220px; 
 		margin: 0 auto;
-		margin-top: 190px;
+		margin-top: 196px;
 		letter-spacing: -1px;
 		line-height: 1.3;
 		//text-shadow: white 1px 0 0px, white 0 1px 0px, white -1px 0 0px, white 0 -1px 0px;
@@ -179,12 +179,12 @@ header {
 	margin-top: 50px; //distance betveen button and h1
 	margin-bottom: 40px;
 }
-#main_button {
+.main_button {
 	margin-top: 30px; //distance betveen button and h1
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
-.order_btn{ // Button class
+.order_btn{ // Button class for button
 	.RCbold;
 	font-size: 36px;
 	margin: 0;
@@ -614,7 +614,103 @@ a.design:hover {
 /*============    ПОДВАЛ    ===========*/
 
 /*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+// класс для поля ввода имени
 
+
+input[name="name"] {
+margin-top: 10px;
+background: url(../img/user_25.png) no-repeat center left 5px;
+padding: 25px;
+padding-left: 30px;
+border-radius: 0;
+border: 1px solid @text-color;
+.RCnormal;
+opacity: 0.3;
+&:hover,
+&:focus {
+	opacity: 0.7;
+}
+}
+
+input[name="phone"] {
+margin-top: 10px;
+background: url(../img/cell-phone_25.png) no-repeat center left 5px;
+padding: 25px;
+padding-left: 30px;
+border-radius: 0;
+border: 1px solid @text-color;
+.RCnormal;
+opacity: 0.3;
+&:hover,
+&:focus {
+	opacity: 0.7;
+}
+}
+
+button[type="submit"] {
+	margin: 25px 0;
+	padding: 10px;
+	width: 100%;
+	.RCbold;
+	font-size: 22px;
+	border: none;
+	outline-style: none;
+	background-color: #cc436a; /* фон кнопки */
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none; /* убирать подчёркивание у ссылок */
+	user-select: none; /* убирать выделение текста */
+	outline: none; /* убирать контур в Mozilla */
+  	border-radius: 10px; // скругление углов
+  	&:hover { /* при наведении курсора мышки */
+  		background: #ef5000; 
+  		color: white;
+  		text-decoration: none; /* убирать подчёркивание у ссылок */
+  		user-select: none; /* убирать выделение текста */
+  		outline: none; /* убирать контур в Mozilla */
+  		outline-style: none; 	 	
+  	} 
+  	&:active {  /* при нажатии */
+  		background: #cc436a;
+  		color: white;
+  		text-decoration: none; /* убирать подчёркивание у ссылок */
+  		user-select: none; /* убирать выделение текста */
+  		outline: none; /* убирать контур в Mozilla */
+  		outline-style: none;	  	
+  	}
+  	&:visited {  /* посещенная кнопка */
+  		background: #cc436a;
+  		color: white;
+  		text-decoration: none; /* убирать подчёркивание у ссылок */
+  		user-select: none; /* убирать выделение текста */
+  		outline: none; /* убирать контур в Mozilla */
+  		outline-style: none;
+  	}
+  	&:focus {
+  		outline: none; //убираем рамку вокруг элемента кнопки после нажатия
+  		// background: #cc436a;
+  		color: white;  		
+  	}
+}
+
+// Расположение модального окна по вертикали
+.modal-dialog {
+	margin-top: 15%;
+
+
+}
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-body {
+	h4 {
+		.RCbold;
+		text-transform: uppercase;
+		margin: 10px auto;
+
+		}	
+}
 /*============    	АДАПТИВ    ===========*/
 
 @media(min-width:0px) and (max-width:320px) {
