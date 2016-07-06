@@ -95,9 +95,10 @@ header {
 .logoPlace a {
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
+  color: #728192;
   display: block;
   float: left;
-  color: #728192;
+  color: #768daa;
   font-size: 39px;
   text-transform: uppercase;
   text-decoration: none;
@@ -117,7 +118,7 @@ header {
 }
 .logoPlace a:hover {
   text-decoration: none;
-  color: #727c92;
+  color: #7684aa;
 }
 .logoPlace a:focus {
   text-decoration: none;
@@ -131,7 +132,7 @@ header {
 }
 .heder_phone_number h3,
 .heder_phone_number p {
-  color: #ffdc8e;
+  color: #ffe3a5;
   margin: 0;
   padding: 0;
 }
@@ -534,6 +535,8 @@ a.design {
   background: url(../img/mvdesign.png) no-repeat;
   background-position: 0 -80px;
   cursor: pointer;
+  border: none;
+  text-decoration: none;
 }
 a.design:hover {
   width: 80px;
@@ -544,6 +547,8 @@ a.design:hover {
   background: url(../img/mvdesign.png) no-repeat;
   background-position: 0 0;
   cursor: pointer;
+  border: none;
+  text-decoration: none;
 }
 /*============    Стиль кнопки НАВЕРХ    ===========*/
 #top {
