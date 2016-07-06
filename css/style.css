@@ -41,6 +41,30 @@ p {
   font-weight: normal;
   color: #728192;
 }
+a {
+  color: #728192;
+  text-decoration: none;
+  outline: none;
+  border-bottom: 1px dotted #acb4be;
+}
+a:visited {
+  color: #728192;
+  text-decoration: none;
+  outline: none;
+}
+a:active {
+  text-decoration: none;
+  outline: none;
+}
+a:focus {
+  text-decoration: none;
+}
+a:hover {
+  color: #92bce0;
+  text-decoration: none;
+  outline: none;
+  border-bottom: 1px dotted #92bce0;
+}
 /*============    Шапка   ===========*/
 body {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU2YWFmZSIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNmNWZhZmUiLz48c3RvcCBvZmZzZXQ9IjYlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWRpZW50KSIgLz48L3N2Zz4=');
@@ -71,9 +95,14 @@ header {
 .logoPlace a {
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
+  display: block;
+  float: left;
   color: #728192;
   font-size: 39px;
   text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  border: none;
   line-height: 45px;
 }
 .logoPlace a:before {
@@ -88,9 +117,10 @@ header {
 }
 .logoPlace a:hover {
   text-decoration: none;
-  display: block;
-  float: left;
   color: #727c92;
+}
+.logoPlace a:focus {
+  text-decoration: none;
 }
 .heder_phone_number {
   height: 80px;
@@ -515,7 +545,31 @@ a.design:hover {
   background-position: 0 0;
   cursor: pointer;
 }
-/*============    ШРИФТЫ    ===========*/
+/*============    Стиль кнопки НАВЕРХ    ===========*/
+#top {
+  position: fixed;
+  bottom: 5px;
+  right: 42px;
+  cursor: pointer;
+  display: none;
+  font-size: 14px;
+  color: white;
+  opacity: 0.5;
+}
+#top:before {
+  content: "";
+  border: 50px solid;
+  border-top: none;
+  border-left-color: rgba(255, 255, 255, 0);
+  border-right-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #256fa1;
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+}
+#top:hover {
+  opacity: 1;
+}
 /*============    ПОДВАЛ    ===========*/
 /*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
 /*============    	АДАПТИВ    ===========*/

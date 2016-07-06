@@ -29,7 +29,7 @@
     <div class="row"> <!-- Banner here -->
       <div class="col-sm-12 col-lg-12"> <!-- Logo here -->
         <div class="logoPlace"><a href="#">Центр оценки</a></div>
-        <div class="heder_phone_number"><h3>+7 (921) 360-58-92</h3><p>с 9:00  до 21:00</p></div>
+        <div class="heder_phone_number"><h3>+7 (921) 360-58-92</h3><p><small><i class="glyphicon glyphicon-map-marker"></i> СПб и Л.О. <i class="glyphicon glyphicon-calendar"></i> с 9:00  до 21:00</small></p></div>
       </div>
     </div>
     <div class="row">
@@ -45,7 +45,7 @@
         </div> <!-- end Кнопка заказать! -->
         <div class="row">
           <div class="description text-center">
-            <h5><span>Оценка комнат, квартир, земельных участков, домов</span><a href="#"> ...</a><br>
+            <h5><span>Оценка комнат, квартир, земельных участков, домов </span><a href="#">...</a><br>
               в Санкт-Петербурге и Л.О. для банков, ипотеки,  судов и т.д.</h5>
           </div>
         </div>
@@ -79,7 +79,7 @@
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-cup-coffee-icon">
           <h3>С нами удобнее!</h3>
-          <p>Принимаем заказы с 09:00 до 21:00 и в выходные дни. Работаем практически со всеми банками и со всеми видами оценки</p>
+          <p>Принимаем заказы с 09:00 до 21:00 и в выходные дни. Работаем практически со всеми банками и со всеми <a href="#">видами оценки</a>.</p>
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-place-icon">
           <h3>Мы к Вам ближе!</h3>
@@ -259,18 +259,18 @@
       </ul>
     </div>
     <div class="row"> <!-- Кнопка заказать! -->
-    <!-- Форма Битрикс 24 начало -->
-<script id="bx24_form_button" data-skip-moving="true">
+      <!-- Форма Битрикс 24 начало -->
+      <script id="bx24_form_button" data-skip-moving="true">
         (function(w,d,u,b){w['Bitrix24FormObject']=b;w[b] = w[b] || function(){arguments[0].ref=u;
-                (w[b].forms=w[b].forms||[]).push(arguments[0])};
-                if(w[b]['forms']) return;
-                s=d.createElement('script');r=1*new Date();s.async=1;s.src=u+'?'+r;
-                h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+          (w[b].forms=w[b].forms||[]).push(arguments[0])};
+          if(w[b]['forms']) return;
+          s=d.createElement('script');r=1*new Date();s.async=1;s.src=u+'?'+r;
+          h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
         })(window,document,'https://1copro.bitrix24.ru/bitrix/js/crm/form_loader.js','b24form');
 
         b24form({"id":"2","lang":"ru","sec":"7nxc8v","type":"button","click":""});
-</script>
-<!-- Форма Битрикс 24 конец -->
+      </script>
+      <!-- Форма Битрикс 24 конец -->
       <div class="text-center button_order">
         <a href="#"><button class="btn order_btn">Заказать!</button></a>
       </div>
@@ -337,7 +337,9 @@
     </div>
   </div>
 </footer>
-
+<!-- Кнопка наверх start -->
+<div id="top"><i class="glyphicon glyphicon-chevron-up"> </i></div> <!-- <i class="glyphicon glyphicon-chevron-up"> </i> -->
+<!-- Кнопка наверх end -->
 <!-- Modal -->
 <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -358,7 +360,9 @@
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/jquery.nicescroll.min.js"></script> 
 <script src="js/wow.min.js"></script> 
+<script src="js/main.js"></script> <!-- Подключаю свои скрипты с кнопкой наверх -->
 <script>new WOW().init();</script> 
+
 <script>
 $(document).ready(
   function() {

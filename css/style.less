@@ -35,14 +35,40 @@ h1, h2 {
 a, p  {
 	.RCnormal;
 }
+a{
+	color: @text-color;;
+	text-decoration: none;
+	outline: none;
+	border-bottom: 1px dotted lighten(@text-color, 20%);
 
-
+	&:visited {
+		color: @text-color;;
+		text-decoration: none;
+		outline: none;
+		//border-bottom: 1px dotted @text-color;
+	}
+	&:active {
+		//color: @text-color;;
+		text-decoration: none;
+		outline: none;
+		//border-bottom: 1px dotted @text-color;
+	}
+	&:focus {
+		text-decoration: none;
+	}
+	&:hover {
+		color: lighten(@link-color, 20%); // Делаем светлее
+		text-decoration: none;
+		outline: none;
+		border-bottom: 1px dotted lighten(@link-color, 20%);
+	}
+}
 
 /*============    Шапка   ===========*/
-@link_color: #728192;  // #dc911b  Color of the links
+@header_link_color: #728192;  // #dc911b  Color of the links
 @main_color: #d05100; //  The dominant Color of the Color wheel
-@add_color1: spin(@link_color, 135); //  The first additional Color of the Color wheel 
-@add_color2: spin(@link_color, -135); // The second additional Color of the Color wheel 
+//@add_color1: spin(@link_color, 135); //  The first additional Color of the Color wheel 
+//@add_color2: spin(@link_color, -135); // The second additional Color of the Color wheel 
 @distanceUP: 10; // #dc911b  Color of the links
 @distanceDown: 15; // #dc911b  Color of the links
 @bigheadertext: #99b221; //Color of the offer in header and maybe others headers
@@ -76,9 +102,14 @@ header {
 
 	a {
 		.RSbold;
-		color: @link_color;
+		display: block;
+		float: left;
+		color: @header_link_color;
 		font-size: 39px;
 		text-transform: uppercase;
+		text-decoration: none;
+		outline: none;
+		border: none;
 		line-height: 45px;
 		&:before {
 			content: '';
@@ -92,11 +123,11 @@ header {
 		}	
 		&:hover {
 			text-decoration: none;
-			display: block;
-			float: left;
-			color: spin(@link_color, @distanceUP); // saturate(@link_color,-30%);
-
+			color: spin(@header_link_color, @distanceUP); // saturate(@link_color,-30%);
 		}		
+		&:focus {
+			text-decoration: none;
+		}
 	}
 }
 .heder_phone_number{ //здесь будет размещен номер телефона
@@ -541,8 +572,41 @@ a.design:hover {
 
 
 
-/*============    ШРИФТЫ    ===========*/
+/*============    Стиль кнопки НАВЕРХ    ===========*/
+#top {
+  position: fixed;
+  bottom: 5px;
+  right: 42px;
+  cursor: pointer;
+  display: none;
+  font-size: 14px;
+  color: white;
+  //padding: 15px 50px 5px 50px;
+  //margin-top: 25px;
+  //margin-left: 5px;
+  //margin-right: 5px;
+  //margin-bottom: 5px; 
+  //background-color: #256fa1;
+  opacity: 0.5;
+  //width: 0; height: 0;
 
+  &:before {
+  	content: "";
+  	border: 50px solid;
+  	border-top: none;
+  	border-left-color: rgba(255,255,255, 0);
+  	border-right-color: rgba(255,255,255, 0);
+  	//border-left: none;
+  	//border-right: none;
+    border-bottom-color:  #256fa1; // #ffb500; // #b73d62;
+    position: fixed;
+    bottom: 0;
+  	right: 0px;
+  }
+  &:hover {
+  	  opacity: 1;
+  }
+}
 /*============    ПОДВАЛ    ===========*/
 
 /*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
