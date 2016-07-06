@@ -10,8 +10,8 @@ $to = "mv@1copro.ru";
 $subject = "Запрос с сайта 1coPro.ru от: ".htmlspecialchars($name);
 
 // Текст письма запроса
-$message = "Запрос с сайта 1coPro.ru поступил от: " .htmlspecialchars($name) ."<br> тел.: " .htmlspecialchars($phone)."<br> Запрос отправлен из формы" .$what."<br>Не забуьте позвонить посетителю.";
-$headers = "From: 1coPro.ru <site-mv@1coPro.ru>\r\nContent-type: text-html; 
+$message = "Запрос с сайта 1coPro.ru поступил от: " .htmlspecialchars($name) ."\n" ."тел.: " .htmlspecialchars($phone)."\n"."Запрос отправлен из формы: " .$what."\n"."Не забудьте позвонить посетителю.";
+$headers = "From: 1coPro.ru <mv@1coPro.ru>\r\nContent-type: text-html; 
 charset=utf-8 \r\n";
 mail($to, $subject, $message, $headers);
 header('Location: thanks.html');
