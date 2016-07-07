@@ -55,6 +55,7 @@ a{
 	}
 	&:focus {
 		text-decoration: none;
+		outline: none;
 	}
 	&:hover {
 		color: lighten(@link-color, 20%); // Делаем светлее
@@ -93,6 +94,10 @@ header {
 	height: 50px;
 	padding: 0;
 	margin: 0;
+	a {
+		border: none;
+
+	}
 }
 .logoPlace {
 	width: 255px; // чтобы текст перенесся сам
@@ -693,10 +698,9 @@ button[type="submit"] {
   	}
 }
 
-// Расположение модального окна по вертикали
+// Расположение модального окна формы заказа по вертикали
 .modal-dialog {
 	margin-top: 15%;
-
 
 }
 .modal-header {
@@ -711,6 +715,62 @@ button[type="submit"] {
 
 		}	
 }
+
+
+// Расположение модального окна МЕНЮ по вертикали
+#menu_modal {
+	.modal-dialog {
+		margin-top: 0;
+		margin-right: 0;
+		height: 100%
+	}
+	.modal-content {
+		border-radius: 0;
+		height: 100%;
+	}
+	.modal-header {
+		border-bottom: none;
+	}
+
+	.modal-body {
+		h4 {
+			.RCbold;
+			text-transform: uppercase;
+			margin: 10px auto;
+
+		}	
+		ul {
+			text-decoration: none;
+			list-style: none;
+			text-align: left;
+			margin: 0;
+			padding: 0;
+
+
+		}
+		li {
+			width: 100%
+
+		}
+		a {
+			display: block;
+			padding-left: 50px;
+			padding-bottom: 10px;			
+			padding-top: 10px;
+			width: 100%;
+			//border: none;
+			
+			.RCnormal;
+			margin: 0;
+			&:hover {
+				background-color: #facd0a;
+			}
+
+		}
+
+	}
+}
+
 /*============    	АДАПТИВ    ===========*/
 
 @media(min-width:0px) and (max-width:320px) {

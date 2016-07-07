@@ -11,7 +11,8 @@
 <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 <link href="css/bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css"> <!-- Пока не ясно нужны ли они -->
+<link rel="stylesheet" href="css/animate.css"> <!-- Animation library -->
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,15 +22,15 @@
       <![endif]-->
 </head>
 <body>
-<header>
+<header id="home">
   <div class="container">
     <div class="row"> <!-- Значек меню здесь -->
-      <div class="col-sm-12 header_Menu"><a href="#"><img alt="Меню" height="45" width="50" src="img/menu-icon.svg"></a></div>
+      <div class="col-sm-12 header_Menu"><a data-toggle="modal" id="menu_icon" href="#menu_modal"><img alt="Меню" height="45" width="50" src="img/menu-icon.svg"></a></div>
     </div>
     <div class="row"> <!-- Banner here -->
       <div class="col-sm-12 col-lg-12"> <!-- Logo here -->
         <div class="logoPlace"><a href="#">Центр оценки</a></div>
-        <div class="heder_phone_number">
+        <div class="heder_phone_number wow shake" data-wow-delay="5s">
         <h3>+7 (921) 360-58-92</h3>
         <p><small><i class="glyphicon glyphicon-map-marker"></i> СПб и Л.О. <i class="glyphicon glyphicon-calendar"></i> с 9:00  до 21:00</small></p>
         </div>
@@ -38,19 +39,19 @@
     <div class="row">
       <div class="col-sm-12 offer"> <!-- Offer here -->
         <div class="row">
-          <h1>Оценка квартиры<br>
+          <h1 class="wow fadeInUp" data-wow-delay="1.5s">Оценка квартиры<br>
             <small>за <span>1</span> день - от <span>3000</span>р!</small></h1>
         </div>
         <!-- Кнопка заказать! -->
-        <div class="row"> 
-          <div  class="text-center button_order main_button">
+        <div class="row wow bounceInUp" data-wow-delay="3s"> 
+          <div  class="text-center button_order main_button wow tada" data-wow-delay="7s">
             <button data-toggle="modal" id="order_now" href="#order_now_modal" class="order_btn">Заказать!</button>
           </div>
         </div> 
         <!-- end Кнопка заказать! -->
         <div class="row">
           <div class="description text-center">
-            <h5><span>Оценка комнат, квартир, земельных участков, домов </span><a href="#">...</a><br>
+            <h5 class="wow fadeInUp" data-wow-delay="2s"><span>Оценка комнат, квартир, земельных участков, домов </span><a href="#">...</a><br>
               в Санкт-Петербурге и Л.О. для банков, ипотеки,  судов и т.д.</h5>
           </div>
         </div>
@@ -66,35 +67,35 @@
     </div>
     <div class="row">
       <ul class="points_why_we">
-        <li class="col-sm-12 col-lg-6 icon120 icon120-clock-icon"> 
+        <li class="col-sm-12 col-lg-6 icon120 icon120-clock-icon wow fadeInLeft" > 
           <h3>У нас быстрее!</h3>
           <p>Оформление стандартного отчета по квартире за 1 день!</p>
         </li>
-        <li class="col-sm-12 col-lg-6  icon120 icon120-money-in-pig-icon-green"> <!-- icon120-money-in-pig-icon-yellow -->
+        <li class="col-sm-12 col-lg-6  icon120 icon120-money-in-pig-icon-green wow fadeInRight" data-wow-offset="50"> <!-- icon120-money-in-pig-icon-yellow -->
           <h3>У нас дешевле!</h3>
           <p>Наши цены ниже рыночных. Оценка стандартной квартиры от 3000р.</p>
         </li>
-        <li class="col-sm-12 col-lg-6  icon120 icon120-shield-2-icon">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-shield-2-icon wow fadeInLeft" >
           <h3>У нас надежнее!</h3>
           <p>Оплата при получении готового отчета - никаких авансов. Кроме того, мы гарантируем возврат денег в случае отказа банка. Вы ничем не рискуете!</p>
         </li>
-        <li class="col-sm-12 col-lg-6  icon120 icon120-cup-icon"> <!-- icon120-degree-icon -->
+        <li class="col-sm-12 col-lg-6  icon120 icon120-cup-icon wow fadeInRight" data-wow-offset="50"> <!-- icon120-degree-icon -->
           <h3>У нас качественнее!</h3>
           <p>В штате компании трудятся лучшие оценщики города. Специалисты компании имеют российские и международные сертификаты. Все отчеты проходят двойную проверку.</p>
         </li>
-        <li class="col-sm-12 col-lg-6  icon120 icon120-check-icon">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-check-icon wow fadeInLeft" data-wow-offset="50">
           <h3>С нами удобнее!</h3>
           <p>Принимаем заказы с 09:00 до 21:00 и в выходные дни. Работаем практически со всеми банками и со всеми <a href="#">видами оценки</a>.</p>
         </li>
-        <li class="col-sm-12 col-lg-6  icon120 icon120-place-icon">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-place-icon wow fadeInRight" data-wow-offset="50">
           <h3>Мы к Вам ближе!</h3>
           <p>Наш офис находится в самом центре города прямо возле метро Петроградская. Для Вас не составит труда забрать готовый отчет.</p>
         </li>
-        <li class="col-sm-12 col-lg-6  icon120 icon120-lock-icon">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-lock-icon wow fadeInLeft" data-wow-offset="50">
           <h3>У нас - конфиденциально!</h3>
           <p>Гарантируем конфиденциальность вашей информации. Уделяем особое внимание внутренней информационной безопасности для защиты интересов наших Заказчиков.</p>
         </li>
-        <li class="col-sm-12 col-lg-6  icon120 icon120-cup-coffee-icon">
+        <li class="col-sm-12 col-lg-6  icon120 icon120-cup-coffee-icon wow fadeInRight" data-wow-offset="50">
           <h3>Мы заботливее!</h3>
           <p>Мы готовы учесть все ваши пожелания по процедуре оценки, организовать доставку готового отчета к Вам домой или сразу в банк доверенному лицу.</p>
         </li>        
@@ -104,7 +105,7 @@
         <!-- Кнопка 2 заказать! -->
         <div class="row"> 
           <div  class="text-center button_order">
-            <button data-toggle="modal" id="order_now2" href="#order_now_modal" class="order_btn">Заказать!</button>
+            <button data-toggle="modal" id="order_now2" href="#order_now_modal" class="order_btn">Проверить!</button>
           </div>
         </div> 
         <!-- end Кнопка заказать! -->
@@ -221,7 +222,7 @@
     <div class="row">
       <table class="table table-hover">
         <thead>
-          <tr>
+          <tr class="wow fadeInLeft">
             <th>#</th>
             <th>Вид объекта оценки</th>
             <th>Стоимость</th>
@@ -229,25 +230,25 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr class="wow fadeInRight">
             <td>1</td>
             <td>Комната</td>
             <td>от 2700 р.</td>
             <td>1 день</td>
           </tr>
-          <tr>
+          <tr class="wow fadeInLeft">
             <td>2</td>
             <td>Квартира</td>
             <td>от 3000 р.</td>
             <td>1 день</td>
           </tr>
-          <tr>
+          <tr class="wow fadeInRight">
             <td>3</td>
             <td>Дом с участком земли</td>
             <td>от 10000 р.</td>
             <td>1-3 дня</td>
           </tr>
-          <tr>
+          <tr class="wow fadeInLeft">
             <td>4</td>
             <td>Земельный участок</td>
             <td>от 7000 р.</td>
@@ -265,10 +266,10 @@
     </div>
     <div class="row">
       <ul>
-        <li><span class="icon60 icon60-message-2-icon"></span><p class="listalgorytm_tetx">Шаг 1: Вы заказываете оценку.</p></li>
-        <li><span class="icon60 icon60-call-icon"></span><p class="listalgorytm_tetx">Шаг 2: Мы перезваниваем Вам и согласовываем время выезда специалиста на объект оценки.</p></li>
-        <li><i class="icon60 icon60-camera-icon"></i><p class="listalgorytm_tetx">Шаг 3: Сотрудник приезжает на объект, заключает с Вами договор и проводит фотосъемку и сбор исходных данных.</p></li>
-        <li><i class="icon60 icon60-letterhead-icon"></i><p class="listalgorytm_tetx">Шаг 4: Вы забираете готовый отчет и оплачиваете работу.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.1s"><span class="icon60 icon60-message-2-icon"></span><p class="listalgorytm_tetx">Шаг 1: Вы заказываете оценку.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.3s"><span class="icon60 icon60-call-icon"></span><p class="listalgorytm_tetx">Шаг 2: Мы перезваниваем Вам и согласовываем время выезда специалиста на объект оценки.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.5s"><i class="icon60 icon60-camera-icon"></i><p class="listalgorytm_tetx">Шаг 3: Сотрудник приезжает на объект, заключает с Вами договор и проводит фотосъемку и сбор исходных данных.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.7s"><i class="icon60 icon60-letterhead-icon"></i><p class="listalgorytm_tetx">Шаг 4: Вы забираете готовый отчет и оплачиваете работу.</p></li>
       </ul>
     </div>
 
@@ -288,22 +289,22 @@
       <h1>Отзывы наших клиентов:</h1>
     </div>
     <div class="row">
-      <div class="col-sm-12 col-md-6"> <img class="img-circle center-block" src="img/feedback1.jpg" alt="">
+      <div class="col-sm-12 col-md-6 wow fadeInLeft" > <img class="img-circle center-block" src="img/feedback1.jpg" alt="">
         <blockquote>
           <p>С ребятами было приятно иметь дело.</p>
           <small>Роман <cite>частное лицо</cite></small></blockquote>
       </div>
-      <div class="col-sm-12 col-md-6"> <img class="img-circle center-block" src="img/feedback2.jpg" alt="">
+      <div class="col-sm-12 col-md-6 wow fadeInRight" > <img class="img-circle center-block" src="img/feedback2.jpg" alt="">
         <blockquote>
           <p>Быстро, недорого, без лишних слов.</p>
           <small>Владимир Иванович <cite>частное лицо</cite></small></blockquote>
       </div>
-      <div class="col-sm-12 col-md-6"> <img class="img-circle center-block" src="img/feedback3.jpg" alt="">
+      <div class="col-sm-12 col-md-6 wow fadeInLeft" > <img class="img-circle center-block" src="img/feedback3.jpg" alt="">
         <blockquote>
           <p>Молодцы, действительно справились за 1 день. Я думала это просто рекламная уловка.</p>
           <small>Елена <cite>частное лицо</cite></small></blockquote>
       </div>
-      <div class="col-sm-12 col-md-6"> <img class="img-circle center-block" src="img/feedback4.jpg" alt="">
+      <div class="col-sm-12 col-md-6 wow fadeInRight" > <img class="img-circle center-block" src="img/feedback4.jpg" alt="">
         <blockquote>
           <p>Уже несколько раз обращались по оценке - ни разу не подвели. Адекватные менеджеры, качественные отчеты, опрятные фотографы. Отдельное спасибо за оперативность и гибкость - помогает ускорить процесс оформления сделки.</p>
           <small>Екатерина <cite>агенство недвижимости</cite></small></blockquote>
@@ -350,7 +351,7 @@
 <div id="top"><i class="glyphicon glyphicon-chevron-up"> </i></div> <!-- <i class="glyphicon glyphicon-chevron-up"> </i> -->
 <!-- Кнопка наверх end -->
 
-<!-- Modal -->
+<!-- Modal order form START -->
 <div class="modal fade" id="order_now_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
@@ -380,6 +381,47 @@
     </div>
   </div>
 </div>
+<!-- Modal order form END -->
+
+<!-- Modal MENU START --> 
+<div class="modal fade" id="menu_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body text-center"><h4>Навигация по сайту:</h4>
+        <div class="row"> 
+          <ul>
+            <li class="menu_item">
+             <a href="#home">Начало</a>
+            </li>
+            <li class="menu_item">
+             <a href="#why_we">Почему мы?</a>
+            </li>
+            <li class="menu_item">
+             <a href="#list_of_banks">Список банков</a>
+            </li>
+            <li class="menu_item">
+             <a href="#price_table">Цены</a>
+            </li>
+            <li class="menu_item">
+             <a href="#algorithm">Как заказать</a>
+            </li>
+            <li class="menu_item">
+             <a href="#feedback">Отзывы</a>
+            </li>
+            <li class="menu_item">
+             <a href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal MENU form END -->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
@@ -388,7 +430,13 @@
 <script src="js/jquery.nicescroll.min.js"></script> 
 <script src="js/wow.min.js"></script> 
 <script src="js/main.js"></script> <!-- Подключаю свои скрипты с кнопкой наверх -->
-<script>new WOW().init();</script> 
+<script>new WOW( {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       70,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }).init();</script> <!-- Скрипт включения анимации при прокрутке -->
 
 <script>
 $(document).ready(
