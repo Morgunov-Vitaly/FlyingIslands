@@ -105,7 +105,7 @@
         <!-- Кнопка 2 заказать! -->
         <div class="row"> 
           <div  class="text-center button_order">
-            <button data-toggle="modal" id="order_now2" href="#order_now_modal" class="order_btn">Проверить!</button>
+            <button data-toggle="modal" id="order_now2" href="#order_now_modal" class="order_btn">Заказать!</button>
           </div>
         </div> 
         <!-- end Кнопка заказать! -->
@@ -207,7 +207,7 @@
         <!-- Кнопка Спросить -->
         <div class="row"> 
           <div  class="text-center button_order">
-            <button data-toggle="modal" id="ask" href="#order_now_modal" class="order_btn">Задать вопрос</button>
+            <button data-toggle="modal" id="order_now3" href="#ask_now_modal" class="order_btn">Заказать!</button>
           </div>
         </div> 
         <!-- end Кнопка заказать! -->
@@ -276,7 +276,7 @@
         <!-- Кнопка 3 заказать! -->
         <div class="row"> 
           <div  class="text-center button_order">
-            <button data-toggle="modal" id="order_now3" href="#order_now_modal" class="order_btn">Заказать!</button>
+            <button data-toggle="modal" id="ask" href="#ask_now_modal" class="order_btn">Задать вопрос</button>
           </div>
         </div> 
         <!-- end Кнопка заказать! -->
@@ -382,6 +382,46 @@
   </div>
 </div>
 <!-- Modal order form END -->
+
+
+<!-- Modal Ask form START -->
+<div class="modal fade" id="ask_now_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      </div>
+      <div class="modal-body text-center"><h4>Укажите свои данные,<br>чтобы задать вопрос:</h4>
+        <div class="row"> 
+        </div>
+        <div class="row">
+          <form action="send.php" method="POST">
+             <div class="col-xs-12">
+              <!-- Хочу отправлять переменную с указанием, какой кнопкой была вызвана форма, не хочу делать много одинаковых форм с разными идентификаторами
+              -->
+              <input name="what" type="hidden" value="Задать вопрос"> 
+              <input name="name" type="text" required placeholder="Имя..." class="form-control">
+            </div>
+            <div class="col-xs-12">
+              <input name="phone" id="phone-1" type="text" required placeholder="Телефон..." class="form-control">
+            </div>
+            <div class="col-xs-12">
+               <input name="email" id="email" type="email" required placeholder="your@address.ru" class="form-control">
+            </div>
+            <div class="col-xs-12">
+               <textarea class="form-control" rows="3" name="question" id="question" placeholder="Текст вопроса..."></textarea>
+             <!--   <input name="question" id="question" type="text" required placeholder="Текст вопроса..." class="form-control"> -->
+            </div>
+            <div class="col-xs-12">
+              <button type="submit">Отправить вопрос</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Ask form END -->
 
 <!-- Modal MENU START --> 
 <div class="modal fade" id="menu_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

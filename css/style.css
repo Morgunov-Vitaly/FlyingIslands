@@ -613,6 +613,36 @@ input[name="phone"]:hover,
 input[name="phone"]:focus {
   opacity: 0.7;
 }
+input[name="email"] {
+  margin-top: 10px;
+  padding: 25px;
+  padding-left: 13px;
+  border-radius: 0;
+  border: 1px solid #728192;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  color: #728192;
+  opacity: 0.3;
+}
+input[name="email"]:hover,
+input[name="email"]:focus {
+  opacity: 0.7;
+}
+textarea {
+  margin-top: 10px;
+  padding: 25px;
+  padding-left: 30px;
+  border-radius: 0;
+  border: 1px solid #728192;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  color: #728192;
+  opacity: 0.3;
+}
+textarea:hover,
+textarea:focus {
+  opacity: 0.7;
+}
 button[type="submit"] {
   margin: 25px 0;
   padding: 10px;
@@ -687,6 +717,9 @@ button[type="submit"]:focus {
   color: #728192;
   text-transform: uppercase;
   margin: 10px auto;
+}
+#ask_now_modal .modal-dialog {
+  margin-top: 10%;
 }
 #menu_modal .modal-dialog {
   margin-top: 0;
