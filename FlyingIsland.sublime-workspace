@@ -228,6 +228,18 @@
 				"Git: Push"
 			],
 			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"ad",
+				"Git: Add All"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
 				"qui",
 				"Git: Quick Commit"
 			],
@@ -238,10 +250,6 @@
 			[
 				"Push",
 				"Git: Push"
-			],
-			[
-				"quick",
-				"Git: Quick Commit"
 			],
 			[
 				"git checkout",
@@ -300,10 +308,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"ad",
-				"Git: Add All"
-			],
-			[
 				"inst",
 				"Package Control: Install Package"
 			],
@@ -324,7 +328,7 @@
 				"SassBeautify"
 			]
 		],
-		"width": 402.0
+		"width": 418.0
 	},
 	"console":
 	{
@@ -535,10 +539,10 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2385.0,
+						"translation.y": 2421.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -594,7 +598,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -647,7 +651,7 @@
 						"translation.y": 11311.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
