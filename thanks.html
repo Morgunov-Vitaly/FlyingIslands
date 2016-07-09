@@ -2,12 +2,67 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Улетный центр оценки</title>
+
+	<!-- Bootstrap -->
+	<!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<style type="text/css">
+		html {
+			height: 100%;
+		}
+		body {
+			background: url(img/poly_birds.png) no-repeat  top center;
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+		#vcontent {
+			margin: 0;
+			padding: 0;
+			min-height: 100%;
+			position: relative;
+			vertical-align: middle;
+			
+		}
+		.vcenter {
+			position: absolute;
+			display: block;
+			margin: auto;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			height: 300px;
+			width: 100%;
+		}
+
+
+
+		/*   специально для IE   */
+		* html #vcontent  {
+			height: 100%;
+		}
+	</style>
+
 </head>
 <body>
-	<h1>Благодарим Вас за обращение. Постараемся перезвонить Вам в самое ближайшее время.</h1>
-	<a href="index.html">Вернуться на главную страницу</a>
-	<h3>Оценить удобство сайта.</h3>
-	<h3>Поставить оценку работе сотрудников компании</h3>
+<div  id="vcontent">
+			 <div class="col-md-12 text-center vcenter">
+			 	<h1>Благодарим Вас за обращение!</h1>
+			 	<h3>Наш сотрудник свяжется с Вами в ближайшее время.</h3><a  href="index.html">Вернуться на основную страницу</a>
+			 </div>
+</div>
+
+	
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
 </body>
 </html>
