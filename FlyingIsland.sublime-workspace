@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"no",
+				"no-repeat〔value〕"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
 				"tex",
 				"text-decoration"
 			],
@@ -18,10 +34,6 @@
 			[
 				"bo",
 				"border-top"
-			],
-			[
-				"pad",
-				"padding-bottom"
 			],
 			[
 				"marg",
@@ -58,10 +70,6 @@
 			[
 				"tabl",
 				"table-cell"
-			],
-			[
-				"i",
-				"inline-block"
 			],
 			[
 				"ma",
@@ -212,6 +220,22 @@
 			}
 		},
 		{
+			"file": "thanks.html",
+			"settings":
+			{
+				"buffer_size": 1636,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "send.php",
+			"settings":
+			{
+				"buffer_size": 824,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "js/main.js",
 			"settings":
 			{
@@ -252,14 +276,10 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 354.0,
-		"last_filter": "pull",
+		"height": 230.0,
+		"last_filter": "push",
 		"selected_items":
 		[
-			[
-				"pull",
-				"Git: Pull"
-			],
 			[
 				"push",
 				"Git: Push"
@@ -269,16 +289,20 @@
 				"Git: Quick Commit"
 			],
 			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
 				"ad",
 				"Git: Add All"
 			],
 			[
 				"pu",
 				"Git: Push"
-			],
-			[
-				"add",
-				"Git: Add All"
 			],
 			[
 				"quick",
@@ -504,7 +528,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -520,8 +544,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								2209,
+								2221
 							]
 						],
 						"settings":
@@ -534,14 +558,73 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 775.0,
+						"translation.y": 825.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "thanks.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1636,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								555,
+								555
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "send.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 3,
 					"file": "js/main.js",
 					"semi_transient": false,
 					"settings":
@@ -561,6 +644,7 @@
 						{
 							"auto_complete": false,
 							"auto_name": "<script type=\"text/javascript\">",
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -569,7 +653,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -579,7 +663,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "css/style.less",
 					"semi_transient": false,
 					"settings":
@@ -591,8 +675,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1885,
+								1960
 							]
 						],
 						"settings":
@@ -601,14 +685,14 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 16188.0,
+						"translation.y": 1650.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 5,
 					"file": "css/less/variables.less",
 					"semi_transient": false,
 					"settings":
@@ -630,14 +714,14 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 94.0,
+						"translation.y": 5550.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "css/less/bootstrap.less",
 					"semi_transient": false,
 					"settings":
@@ -655,10 +739,11 @@
 						],
 						"settings":
 						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,

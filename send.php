@@ -7,16 +7,15 @@
 	$question=$_POST['question'];
 	
 	// Адрес получателя  писем запросов
-$to = "mv@1copro.ru";
+$to = "mv@1copro.ru"; //morgunov.vitaly@gmail.com
 // Тема письма
 $subject = "Запрос с сайта 1coPro.ru от: ".htmlspecialchars($name);
 
 // Текст письма запроса
 $message = "Запрос с сайта 1coPro.ru поступил от: " .htmlspecialchars($name) ."\n" ."тел.: " .htmlspecialchars($phone)."\n"."email: ".htmlspecialchars($email)."\n"."Запрос отправлен из формы: " .$what."\n"."Вопрос посетителя: " .htmlspecialchars($question)."\n"."Не забудьте позвонить посетителю!";
-$headers = "From: 1coPro.ru <mv@1coPro.ru>\r\nContent-type: text-html; 
-charset=utf-8 \r\n";
+$headers = "From: server121.hosting.reg.ru\r\nContent-type: text/plain; charset=utf-8 \r\n";
 mail($to, $subject, $message, $headers);
 header('Location: thanks.html');
 exit();	
-
+//site@1coPro.ru <site@1coPro.ru>
 ?>
