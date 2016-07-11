@@ -5,7 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Улетный центр оценки</title>
+<meta name="description" content="Независимая оценка квартир комнат земельных участков домов для банков ипотеки судов">
+<title>Первый центр оценки - независимая оценка недвижимости в СПб</title>
 
 <!-- Bootstrap -->
 <!--  <link href="css/bootstrap.min.css" rel="stylesheet"> -->
@@ -27,11 +28,11 @@
 <header id="home">
   <div class="container">
     <div class="row"> <!-- Значек меню здесь -->
-      <div class="col-sm-12 header_Menu"><a data-toggle="modal" id="menu_icon" href="#menu_modal"><img alt="Меню" height="45" width="50" src="img/menu-icon.svg"></a></div>
+      <div class="col-sm-12 header_Menu"><a data-toggle="modal" id="menu_icon" href="#menu_modal" title="Меню навигации"><img alt="Меню" height="45" width="50" src="img/menu-icon.svg"></a></div>
     </div>
     <div class="row"> <!-- Banner here -->
       <div class="col-sm-12 col-lg-12"> <!-- Logo here -->
-        <div class="logoPlace"><a href="#">Центр оценки</a></div>
+        <div class="logoPlace"><a href="#home">Центр оценки</a></div>
         <div class="heder_phone_number wow shake" data-wow-delay="5s">
         <h3>+7 (921) 360-58-92</h3>
         <p><small><i class="glyphicon glyphicon-map-marker"></i> СПб и Л.О. <i class="glyphicon glyphicon-calendar"></i> с 9:00  до 21:00</small></p>
@@ -47,13 +48,13 @@
         <!-- Кнопка заказать! -->
         <div class="row wow bounceInUp" data-wow-delay="3s"> 
           <div  class="text-center button_order main_button wow tada" data-wow-delay="7s">
-            <button data-toggle="modal" id="order_now" href="#order_now_modal" class="order_btn">Заказать!</button>
+            <button data-toggle="modal" id="order_now" data-target="#order_now_modal" class="order_btn">Заказать!</button>
           </div>
         </div> 
         <!-- end Кнопка заказать! -->
         <div class="row">
           <div class="description text-center">
-            <h5 class="wow fadeInUp" data-wow-delay="2s"><span>Оценка комнат, квартир, земельных участков, домов </span><a href="#">...</a><br>
+            <h5 class="wow fadeInUp" data-wow-delay="2s"><span>Оценка комнат, квартир, земельных участков, домов </span><a href="#required_documents" title="Перейти к полному списку">...</a><br>
               в Санкт-Петербурге и Л.О. для банков, ипотеки,  судов и т.д.</h5>
           </div>
         </div>
@@ -65,7 +66,7 @@
 <section id="why_we"> <!-- Section Why We? -->
   <div class="container">
     <div class="row">
-      <h1 >Почему у нас?</h1>
+      <h2>Почему у нас?</h2>
     </div>
     <div class="row">
       <ul class="points_why_we">
@@ -87,7 +88,7 @@
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-check-icon wow fadeInLeft" data-wow-offset="50">
           <h3>С нами удобнее!</h3>
-          <p>Принимаем заказы с 09:00 до 21:00 и в выходные дни. Работаем практически со всеми банками и со всеми <a href="#">видами оценки</a>.</p>
+          <p>Принимаем заказы с 09:00 до 21:00 и в выходные дни. Работаем практически со всеми банками и со всеми <a href="#service_list_modal" data-toggle="modal" title="Ссылка на список видов оценки">видами оценки</a>.</p>
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-place-icon wow fadeInRight" data-wow-offset="50">
           <h3>Мы к Вам ближе!</h3>
@@ -107,17 +108,89 @@
         <!-- Кнопка 2 заказать! -->
         <div class="row"> 
           <div  class="text-center button_order">
-            <button data-toggle="modal" id="order_now2" href="#order_now_modal" class="order_btn">Заказать!</button>
+            <button data-toggle="modal" id="order_now2" data-target="#order_now_modal" class="order_btn">Заказать!</button>
           </div>
         </div> 
         <!-- end Кнопка заказать! -->
    
   </div>
 </section>
+
+<section id="price_table"> <!-- Секция с таблицой цен -->
+  <div class="container">
+    <div class="row">
+      <h2>Цены и сроки:</h2>
+    </div>
+    <div class="row">
+
+      <table class="table table-hover">
+        <thead>
+          <tr class="wow fadeInLeft">
+            <th>#</th>
+            <th>Вид объекта оценки</th>
+            <th>Стоимость</th>
+            <th>Срок выполнения</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="wow fadeInRight">
+            <td>1</td>
+            <td>Комната</td>
+            <td>от 2700 р.</td>
+            <td>1 день</td>
+          </tr>
+          <tr class="wow fadeInLeft">
+            <td>2</td>
+            <td>Квартира</td>
+            <td>от 3000 р.</td>
+            <td>1 день</td>
+          </tr>
+          <tr class="wow fadeInRight">
+            <td>3</td>
+            <td>Дом с участком земли</td>
+            <td>от 10000 р.</td>
+            <td>1-3 дня</td>
+          </tr>
+          <tr class="wow fadeInLeft">
+            <td>4</td>
+            <td>Земельный участок</td>
+            <td>от 7000 р.</td>
+            <td>1-2 дня</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="algorithm"> <!-- Порядок работы оценщика -->
+  <div class="container">
+    <div class="row">
+      <h2>План действий:</h2>
+    </div>
+    <div class="row">
+      <ul>
+        <li class="wow fadeInRight" data-wow-delay="0.1s"><span class="icon60 icon60-message-2-icon"></span><p class="listalgorytm_tetx">Шаг 1: Вы заказываете оценку.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.3s"><span class="icon60 icon60-call-icon"></span><p class="listalgorytm_tetx">Шаг 2: Мы перезваниваем Вам и согласовываем время выезда специалиста на объект оценки.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.5s"><i class="icon60 icon60-camera-icon"></i><p class="listalgorytm_tetx">Шаг 3: Сотрудник приезжает на объект, заключает с Вами договор и проводит фотосъемку и сбор исходных данных.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.7s"><i class="icon60 icon60-letterhead-icon"></i><p class="listalgorytm_tetx">Шаг 4: Вы забираете готовый отчет и оплачиваете работу.</p></li>
+      </ul>
+    </div>
+
+        <!-- Кнопка 3 заказать! -->
+        <div class="row"> 
+          <div  class="text-center button_order">
+            <button data-toggle="modal" id="ask" data-target="#ask_now_modal" class="order_btn">Задать вопрос</button>
+          </div>
+        </div> 
+        <!-- end Кнопка заказать! -->
+        </div>
+</section>
+
 <section id="list_of_banks"> <!-- Список банков -->
   <div class="container">
     <div class="row">
-      <h1>Список банков, с которыми мы работаем:</h1>
+      <h2>Банки, с которыми мы работаем:</h2>
     </div>
     <div class="row">
       <div class="col-xs-6 col-md-3">
@@ -209,86 +282,18 @@
         <!-- Кнопка Спросить -->
         <div class="row"> 
           <div  class="text-center button_order">
-            <button data-toggle="modal" id="order_now3" href="#ask_now_modal" class="order_btn">Заказать!</button>
+            <button data-toggle="modal" id="ask_now" data-target="#ask_now_modal" class="order_btn">Заказать!</button>
           </div>
         </div> 
         <!-- end Кнопка заказать! -->
 
   </div>
 </section>
-<section id="price_table"> <!-- Секция с таблицой цен -->
-  <div class="container">
-    <div class="row">
-      <h1>Цены:</h1>
-    </div>
-    <div class="row">
-      <table class="table table-hover">
-        <thead>
-          <tr class="wow fadeInLeft">
-            <th>#</th>
-            <th>Вид объекта оценки</th>
-            <th>Стоимость</th>
-            <th>Срок выполнения</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="wow fadeInRight">
-            <td>1</td>
-            <td>Комната</td>
-            <td>от 2700 р.</td>
-            <td>1 день</td>
-          </tr>
-          <tr class="wow fadeInLeft">
-            <td>2</td>
-            <td>Квартира</td>
-            <td>от 3000 р.</td>
-            <td>1 день</td>
-          </tr>
-          <tr class="wow fadeInRight">
-            <td>3</td>
-            <td>Дом с участком земли</td>
-            <td>от 10000 р.</td>
-            <td>1-3 дня</td>
-          </tr>
-          <tr class="wow fadeInLeft">
-            <td>4</td>
-            <td>Земельный участок</td>
-            <td>от 7000 р.</td>
-            <td>2-3 дня</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-<section id="algorithm"> <!-- Порядок работы оценщика -->
-  <div class="container">
-    <div class="row">
-      <h1>Последовательность действий:</h1>
-    </div>
-    <div class="row">
-      <ul>
-        <li class="wow fadeInRight" data-wow-delay="0.1s"><span class="icon60 icon60-message-2-icon"></span><p class="listalgorytm_tetx">Шаг 1: Вы заказываете оценку.</p></li>
-        <li class="wow fadeInRight" data-wow-delay="0.3s"><span class="icon60 icon60-call-icon"></span><p class="listalgorytm_tetx">Шаг 2: Мы перезваниваем Вам и согласовываем время выезда специалиста на объект оценки.</p></li>
-        <li class="wow fadeInRight" data-wow-delay="0.5s"><i class="icon60 icon60-camera-icon"></i><p class="listalgorytm_tetx">Шаг 3: Сотрудник приезжает на объект, заключает с Вами договор и проводит фотосъемку и сбор исходных данных.</p></li>
-        <li class="wow fadeInRight" data-wow-delay="0.7s"><i class="icon60 icon60-letterhead-icon"></i><p class="listalgorytm_tetx">Шаг 4: Вы забираете готовый отчет и оплачиваете работу.</p></li>
-      </ul>
-    </div>
 
-        <!-- Кнопка 3 заказать! -->
-        <div class="row"> 
-          <div  class="text-center button_order">
-            <button data-toggle="modal" id="ask" href="#ask_now_modal" class="order_btn">Задать вопрос</button>
-          </div>
-        </div> 
-        <!-- end Кнопка заказать! -->
-        </div>
-
-</section>
 <section id="feedback"> <!-- Отзывы клиентов -->
   <div class="container">
     <div class="row">
-      <h1>Отзывы наших клиентов:</h1>
+      <h2>Отзывы наших клиентов:</h2>
     </div>
     <div class="row">
       <div class="col-sm-12 col-md-6 wow fadeInLeft" > <img class="img-circle center-block" src="img/feedback1.jpg" alt="">
@@ -316,45 +321,82 @@
         <!-- Кнопка 3 заказать! -->
         <div class="row"> 
           <div  class="text-center button_order">
-            <button data-toggle="modal" id="order_now3" href="#order_now_modal" class="order_btn">Заказать!</button>
+            <button data-toggle="modal" id="order_now3" data-target="#order_now_modal" class="order_btn">Заказать!</button>
           </div>
         </div> 
         <!-- end Кнопка заказать! -->
   
   </div>
 </section>
+
+<section id="required_documents"> <!-- Необходимые документы -->
+  <div class="container">
+    <div class="row">
+      <h2>Необходимые документы:</h2>
+      <p>Для проведения оценки недвижимости необходимо собрать следующие документы:</p>
+      <h3>Квартира/комната (первичка):</h3>
+      <ul>
+        <li>Договор Долевого Участия (ДДУ) или Договор Купли-Продажи</li>
+        <li>Акт Приема-Передачи</li>
+        <li>Паспорт Заказчика</li>
+      </ul>
+      <h3>Квартира/комната (вторичка):</h3>
+      <ul>
+        <li>Свидетельство о собственности (до 1992года - Договор Купли-Продажи)</li>
+        <li>Кадастровый паспорт (в некоторых случаях достаточно указать кадастровый номер)</li>
+        <li>Технический паспорт на квартиру (если его нет - то форму 7)</li>        
+        <li>Паспорт Заказчика</li>
+      </ul>      
+      <h3>Земельный участок:</h3>
+      <ul>
+        <li>Свидетельство о собственности на участок</li>
+        <li>Кадастровый паспорт</li>
+        <li>Паспорт Заказчика</li>
+      </ul>       
+      <h3>Дом с земельным участком:</h3>
+      <ul>
+        <li>Свидетельство о собственности на дом и участок</li>
+        <li>Кадастровый паспорт на дом</li>
+        <li>Технический паспорт на дом</li>          
+        <li>Паспорт Заказчика</li>
+      </ul> 
+    </div>
+  </div>
+</section>
+
 <section id="yandex_map"> <!-- карта YandexMap -->
   <div class="container">
     <div class="row">
-      <h1>Контакты:</h1>
+      <h2>Контакты:</h2>
     </div>
     <div class="row"> 
       <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=nXBNV7nsG1txHFv2F_MwhrX8gPpjl5OX&width=100%&height=400&lang=ru_RU&sourceType=constructor&scroll=true"></script> 
     </div>
   </div>
 </section>
+
 <footer id="contacts"> <!-- Контакты  -->
   <div class="container"> <!-- container-fluid -->
     <div class="row">
       <div class="logo_footer"> <img src="img/logofooter.jpg" alt="Логотип"> </div>
       <div class="phone-numbers">
-        <address>
-        <h2>тел.: +7 (921) 360-58-92</h2>
-        <h5>Санкт-Петербург, Большой проспект П.С., д. 83</h5>
-        </address>
+      <!-- <address> -->
+        <h2>тел.: +7 (921) 360-58-92</h2><h5>Санкт-Петербург, Большой проспект П.С., д. 83</h5>
+      <!-- </address> -->
       </div>
-      <div class="mvdesign"> <a class="design" href="https://vk.com/v.morgunov"></a>
-        <p>Разработка: <a href="https://vk.com/v.morgunov">МВ</a></p>
+      <div class="mvdesign"> <a class="design" href="https://vk.com/v.morgunov" title="Дизайн и разработка - MV"></a>
+        <p>Разработка: <a href="https://vk.com/v.morgunov" title="Дизайн и разработка - MV">МВ</a></p>
       </div>
     </div>
   </div>
 </footer>
+
 <!-- Кнопка наверх start -->
 <div id="top"><i class="glyphicon glyphicon-chevron-up"> </i></div> <!-- <i class="glyphicon glyphicon-chevron-up"> </i> -->
 <!-- Кнопка наверх end -->
 
 <!-- Modal order form START -->
-<div class="modal fade" id="order_now_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="order_now_modal" tabindex="-1" role="dialog" aria-labelledby="order_now_modal" aria-hidden="true">
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
@@ -385,9 +427,44 @@
 </div>
 <!-- Modal order form END -->
 
+<!-- Виды оценки  -->
+<!-- Modal Service lis  START -->
+<div class="modal fade" id="service_list_modal" tabindex="-1" role="dialog" aria-labelledby="service_list_modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Список проводимых видов оценки</h4>
+      </div>
+      <div class="modal-body">
+       <ul>
+           <li>Оценка объектов залога для получения кредита;</li>
+           <li>Оценка государственного и муниципального имущества для приватизации, а также любой другой сделки;</li>
+           <li>Оценка не денежных взносов в уставный капитал;</li>
+           <li>Оценка имущества, вносимого в оплату выпуска акций;</li>
+           <li>Оценка акций для их выкупа предприятием по требованию акционеров;</li>
+           <li>Оценка акций для назначения советом директоров (наблюдательным советом) цены размещения дополнительных акций;</li>
+           <li>Оценка акций при покупке > 30% акций общества для обязательного предложения о приобретении у других акционеров;</li>
+           <li>Оценка акций для их выкупа лицом, владеющим более 95%, у владельцев остальных акций;</li>
+           <li>Оценка «справедливой» стоимости активов для составления отчетности по МСФО;</li>
+           <li>Оценка имущества в период внешнего и конкурсного управления;</li>
+           <li>Оценка имущества и ценных бумаг для совершения «крупной сделки» и сделки заинтересованными лицами»;</li>
+           <li>Оценка имущества для наложения взыскания и реализации судебным приставом;</li>
+           <li>Оценка имущества, выявленного в результате инвентаризации и полученного безвозмездно, для постановки на бухгалтерский учет;</li>
+           <li>Оценка и переоценка стоимости основных фондов для целей управления и налогообложения;</li>
+           <li>Подтверждение цены реализации имущества для целей налогового учета результатов сделки;</li>
+           <li>Оценка имущества для страхования, лизинга;</li>
+           <li>Оценка величины арендной платы (в том числе государственной собственности);</li>
+           <li>Анализ наилучшего и наиболее эффективного использования объекта недвижимости.</li>
+         </ul>  
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- Modal Service lis END -->
 
 <!-- Modal Ask form START -->
-<div class="modal fade" id="ask_now_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="ask_now_modal" tabindex="-1" role="dialog" aria-labelledby="ask_now_modal" aria-hidden="true">
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
@@ -405,7 +482,7 @@
               <input name="name" type="text" required placeholder="Имя..." class="form-control">
             </div>
             <div class="col-xs-12">
-              <input name="phone" id="phone-1" type="text" required placeholder="Телефон..." class="form-control">
+              <input name="phone" id="phone-2" type="text" required placeholder="Телефон..." class="form-control">
             </div>
             <div class="col-xs-12">
                <input name="email" id="email" type="email" required placeholder="your@address.ru" class="form-control">
@@ -426,7 +503,7 @@
 <!-- Modal Ask form END -->
 
 <!-- Modal MENU START --> 
-<div class="modal fade" id="menu_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="menu_modal" tabindex="-1" role="dialog" aria-labelledby="menu_modal" aria-hidden="true">
   <div class="modal-dialog modal-sm">
     <div class="modal-content">
       <div class="modal-header">
@@ -442,16 +519,19 @@
              <a href="#why_we">Почему мы?</a>
             </li>
             <li class="menu_item">
-             <a href="#list_of_banks">Список банков</a>
-            </li>
-            <li class="menu_item">
-             <a href="#price_table">Цены</a>
+             <a href="#price_table">Цены и сроки</a>
             </li>
             <li class="menu_item">
              <a href="#algorithm">Как заказать</a>
             </li>
             <li class="menu_item">
+             <a href="#list_of_banks">Список банков</a>
+            </li>
+            <li class="menu_item">
              <a href="#feedback">Отзывы</a>
+            </li>
+            <li class="menu_item">
+             <a href="#required_documents">Необходимые документы</a>
             </li>
             <li class="menu_item">
              <a href="#contacts">Контакты</a>

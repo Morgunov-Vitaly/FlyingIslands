@@ -32,6 +32,9 @@ h1, h2, h3, h4, h5 {
 h1, h2 {
 	text-transform: uppercase;
 }
+h2{
+	font-size: 44px;
+}
 a, p  {
 	.RCnormal;
 }
@@ -442,6 +445,9 @@ ul{
 		//top:0;
 		//bottom: 0;
 		//left: 80px;
+		.RCnormal;
+		font-size: 20px;
+
 	}
 }
 
@@ -516,10 +522,10 @@ blockquote {
 		display: inline-block;
 		padding: 0;
 		margin:  0 0 0 20px;
-		address {
-			margin: 0;
-			padding: 0;
-		}
+		// address {
+		// 	margin: 0;
+		// 	padding: 0;
+		// }
 		h2, h5 { 
 			padding: 0;
 			color: #d6d6d6;	
@@ -618,7 +624,7 @@ a.design:hover {
 }
 /*============    ПОДВАЛ    ===========*/
 
-/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	ВСПЛЫВАЮЩИЕ MODAL ОКНА    ===========*/
 // класс для поля ввода имени
 
 
@@ -752,17 +758,25 @@ button[type="submit"] {
 }
 }
 
+#service_list_modal {
+	// Расположение модального окна формы заказа по вертикали
+.modal-dialog {
+	margin-top: 5%;
+}
+}
 
 // Расположение модального окна МЕНЮ по вертикали
 #menu_modal {
 	.modal-dialog {
 		margin-top: 0;
 		margin-right: 0;
-		height: 100%
+		min-height: 100%
 	}
 	.modal-content {
+		position: absolute;
+		width: 100%;
+		min-height: 100%;
 		border-radius: 0;
-		height: 100%;
 	}
 	.modal-header {
 		border-bottom: none;

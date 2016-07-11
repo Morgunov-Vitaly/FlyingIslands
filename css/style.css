@@ -35,6 +35,9 @@ h1,
 h2 {
   text-transform: uppercase;
 }
+h2 {
+  font-size: 44px;
+}
 a,
 p {
   font-family: 'Roboto Condensed', sans-serif;
@@ -429,6 +432,10 @@ class="icon120 icon120-call-icon" */
   display: table-cell;
   vertical-align: middle;
   padding-left: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  color: #728192;
+  font-size: 20px;
 }
 /*============    Иконки спрайты 60px    ===========*/
 .icon60 {
@@ -488,10 +495,6 @@ blockquote footer {
   display: inline-block;
   padding: 0;
   margin: 0 0 0 20px;
-}
-#contacts .phone-numbers address {
-  margin: 0;
-  padding: 0;
 }
 #contacts .phone-numbers h2,
 #contacts .phone-numbers h5 {
@@ -580,7 +583,7 @@ a.design:hover {
   opacity: 1;
 }
 /*============    ПОДВАЛ    ===========*/
-/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	ВСПЛЫВАЮЩИЕ MODAL ОКНА    ===========*/
 input[name="name"] {
   margin-top: 10px;
   background: url(../img/user_25.png) no-repeat center left 5px;
@@ -721,14 +724,19 @@ button[type="submit"]:focus {
 #ask_now_modal .modal-dialog {
   margin-top: 10%;
 }
+#service_list_modal .modal-dialog {
+  margin-top: 5%;
+}
 #menu_modal .modal-dialog {
   margin-top: 0;
   margin-right: 0;
-  height: 100%;
+  min-height: 100%;
 }
 #menu_modal .modal-content {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
   border-radius: 0;
-  height: 100%;
 }
 #menu_modal .modal-header {
   border-bottom: none;
