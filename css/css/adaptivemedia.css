@@ -1,5 +1,46 @@
 /*============    	АДАПТИВ    ===========*/
-@media (min-width: 321px) and (max-width: 480px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+  .heder_phone_number p {
+    color: blue;
+  }
+}
+@media (max-width: 991px) {
+  .heder_phone_number p {
+    color: yellow;
+    letter-spacing: -0.7px;
+  }
+  .heder_phone_number h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-size: 25px;
+  }
+  .offer h1 {
+    font-size: 30px;
+  }
+  .offer small {
+    font-size: 30px;
+  }
+  .description h5 {
+    font-size: 14px;
+  }
+  .order_btn {
+    font-size: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .heder_phone_number {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .heder_phone_number p {
+    color: orange;
+  }
+}
+@media (max-width: 480px) {
+  .heder_phone_number p {
+    color: red;
+  }
   h1 {
     font-size: 28px;
   }
@@ -16,10 +57,10 @@
   h5 {
     font-size: 21px;
   }
-  .offer h1 {
+  offer h1 {
     font-size: 30px;
   }
-  .offer small {
+  offer small {
     font-size: 30px;
   }
   .description h5 {
@@ -27,5 +68,10 @@
   }
   .order_btn {
     font-size: 30px;
+  }
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  .heder_phone_number p {
+    color: magenta;
   }
 }

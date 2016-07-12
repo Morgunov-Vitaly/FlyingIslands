@@ -1,13 +1,80 @@
 /*============    	АДАПТИВ    ===========*/
 
-@media(min-width:0px) and (max-width:320px) {
+	@font_size_sx: 30px; //Размер заголовков
+
+
+@media(min-width:992px) and (max-width:1199px) {
+	//md
+.heder_phone_number{ //здесь будет размещен номер телефона
 	
+	p {
+		color:blue;
+	}
+	}		
+}
+
+@media (max-width:991px) { //(min-width:768px) and 
+	//sm
+.heder_phone_number{ //здесь будет размещен номер телефона
+	//margin-top: 25px;
+	//text-align: center;
+	
+	p {
+		color:yellow;
+		letter-spacing: -0.7px;
+	}
+	h3 {
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight: normal;
+		letter-spacing: -1px;
+		font-size: 25px
+	}
+	}
+	
+.offer { // Текст главного предложения
+	h1 {
+		font-size: @font_size_sx;
+		
+		}	
+	small {
+		font-size: @font_size_sx;
+			
+	}
+}
+.description {
+	h5 {
+		font-size: @font_size_sx - 16;
+	}
+}
+
+.order_btn{ // Button class for button
+	font-size: @font_size_sx;
+}
 
 }
 
-@media(min-width:321px) and (max-width:480px) {
-	// Пробую задать новый размер шрифтов для этого разрешения
-	@font_size_sx: 30px;
+@media (max-width:767px) { //(min-width:481px) and
+	//xs Уже надо менять фон, т.к. телефон наезжает на   пипилац
+.heder_phone_number{ //здесь будет размещен номер телефона
+	margin-top: 15px;
+	text-align: center;
+	p {
+		color:orange;
+	}
+	}
+	
+}
+
+
+@media (max-width:480px) { //(min-width:321px) and
+	// xxs Пробую задать новый размер шрифтов для этого  разрешения
+
+.heder_phone_number{ //здесь будет размещен номер телефона
+	
+	p {
+		color:red;
+	}
+	}		
 
 h1 {
 	font-size: @font_size_sx - 2;
@@ -25,14 +92,14 @@ h4{
 h5{
 	font-size: @font_size_sx - 9;
 }
-	
-.offer { // Текст главного предложения
+
+offer { // Текст главного предложения
 	h1 {
 		font-size: @font_size_sx;
 		
 		}	
-		small {
-			font-size: @font_size_sx;
+	small {
+		font-size: @font_size_sx;
 			
 	}
 }
@@ -46,18 +113,16 @@ h5{
 	font-size: @font_size_sx;
 }
 
-
 }
 
-@media(min-width:481px) and (max-width:768px) {
-	//Уже надо менять фон, т.к. телефон наезжает на   пипилац
-	
-}
+@media(min-width:0px) and (max-width:320px) {
+	// xxxs
 
-@media(min-width:769px) and (max-width:992px) {
+.heder_phone_number{ //здесь будет размещен номер телефона
 	
-}
+	p {
+		color:magenta;
+	}
+	}	
 
-@media(min-width:993px) and (max-width:1200px) {
-	
 }
