@@ -1,0 +1,31 @@
+/*============    	АДАПТИВ    ===========*/
+@media (min-width: 321px) and (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 21px;
+  }
+  .offer h1 {
+    font-size: 30px;
+  }
+  .offer small {
+    font-size: 30px;
+  }
+  .description h5 {
+    font-size: 14px;
+  }
+  .order_btn {
+    font-size: 30px;
+  }
+}

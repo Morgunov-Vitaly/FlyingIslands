@@ -1,0 +1,63 @@
+/*============    	АДАПТИВ    ===========*/
+
+@media(min-width:0px) and (max-width:320px) {
+	
+
+}
+
+@media(min-width:321px) and (max-width:480px) {
+	// Пробую задать новый размер шрифтов для этого разрешения
+	@font_size_sx: 30px;
+
+h1 {
+	font-size: @font_size_sx - 2;
+}
+h2{
+	font-size: @font_size_sx;
+	text-align: center;
+}
+h3{
+	font-size: @font_size_sx - 6;
+}
+h4{
+	font-size: @font_size_sx - 8;
+}
+h5{
+	font-size: @font_size_sx - 9;
+}
+	
+.offer { // Текст главного предложения
+	h1 {
+		font-size: @font_size_sx;
+		
+		}	
+		small {
+			font-size: @font_size_sx;
+			
+	}
+}
+.description {
+	h5 {
+		font-size: @font_size_sx - 16;
+	}
+}
+
+.order_btn{ // Button class for button
+	font-size: @font_size_sx;
+}
+
+
+}
+
+@media(min-width:481px) and (max-width:768px) {
+	//Уже надо менять фон, т.к. телефон наезжает на   пипилац
+	
+}
+
+@media(min-width:769px) and (max-width:992px) {
+	
+}
+
+@media(min-width:993px) and (max-width:1200px) {
+	
+}

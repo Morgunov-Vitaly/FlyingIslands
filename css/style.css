@@ -72,12 +72,12 @@ a:hover {
 /*============    Шапка   ===========*/
 body {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzU2YWFmZSIvPjxzdG9wIG9mZnNldD0iNCUiIHN0b3AtY29sb3I9IiNmNWZhZmUiLz48c3RvcCBvZmZzZXQ9IjYlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWRpZW50KSIgLz48L3N2Zz4=');
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-color: white;
   min-width: 370px;
 }
 header {
-  background: url(../img/banner.png) center 60px no-repeat;
+  background: url(../img/banner.svg) center 60px no-repeat;
   height: 680px;
 }
 .header_Menu {
@@ -439,37 +439,44 @@ class="icon120 icon120-call-icon" */
 }
 /*============    Иконки спрайты 60px    ===========*/
 .icon60 {
-  background-image: url(../img/icons/spritesheet_60.png);
-  background-repeat: no-repeat;
   display: table-cell;
-  vertical-align: middle;
 }
-.icon60.icon60-call-icon {
+.icon60:before {
+  vertical-align: middle;
+  content: "";
+  display: block;
+  /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+  /* top: 0;   для выравнивания по центру */
+  /* bottom: 0;   для выравнивания по центру */
+  padding: 0;
+  background: url(../img/icons/spritesheet_60.png) center center no-repeat;
+}
+.icon60.icon60-call-icon:before {
   background-position: -10px -10px;
   width: 60px;
   height: 60px;
 }
-.icon60.icon60-camera-icon {
+.icon60.icon60-camera-icon:before {
   background-position: -90px -10px;
   width: 60px;
   height: 60px;
 }
-.icon60.icon60-directions-icon {
+.icon60.icon60-directions-icon:before {
   background-position: -10px -90px;
   width: 60px;
   height: 60px;
 }
-.icon60.icon60-gift-8-icon {
+.icon60.icon60-gift-8-icon:before {
   background-position: -90px -90px;
   width: 60px;
   height: 60px;
 }
-.icon60.icon60-letterhead-icon {
+.icon60.icon60-letterhead-icon:before {
   background-position: -170px -10px;
   width: 60px;
   height: 60px;
 }
-.icon60.icon60-message-2-icon {
+.icon60.icon60-message-2-icon:before {
   background-position: -170px -90px;
   width: 60px;
   height: 60px;
@@ -774,3 +781,34 @@ button[type="submit"]:focus {
   background-color: #facd0a;
 }
 /*============    	АДАПТИВ    ===========*/
+/*============    	АДАПТИВ    ===========*/
+@media (min-width: 321px) and (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 21px;
+  }
+  .offer h1 {
+    font-size: 30px;
+  }
+  .offer small {
+    font-size: 30px;
+  }
+  .description h5 {
+    font-size: 14px;
+  }
+  .order_btn {
+    font-size: 30px;
+  }
+}

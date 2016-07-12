@@ -79,12 +79,12 @@ a{
 body {
 	
 	background-image: svg-gradient(to bottom, #56AAFE, #F5FAFE 4%, #ffffff 6%);
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
 	background-color: white;
 	min-width: 370px;	
 }
 header {
-	background: url(../img/banner.png) center 60px  no-repeat;
+	background: url(../img/banner.svg) center 60px  no-repeat;
 	height: 680px;
 }
 
@@ -103,7 +103,7 @@ header {
 	}
 }
 .logoPlace {
-	width: 255px; // чтобы текст перенесся сам
+	width: 255px; // чтобы текст логотипа перенесся сам
 	margin-left: 0; //-30px
 	margin-top: 50px;
 	float: left;
@@ -155,7 +155,7 @@ header {
 		color: white; //  #ffdc8e
 	}
 }
-.offer {
+.offer { // Текст главного предложения
 	h1 {
 		.RSbold;
 		font-size: 39px;
@@ -453,23 +453,40 @@ ul{
 
 /*============    Иконки спрайты 60px    ===========*/
 .stitches-icon60(@x: 0, @y: 0, @width: 0, @height: 0) {
+    &:before{
     background-position: @x @y;
     width: @width;
     height: @height;
 }
+}
 
 .icon60 {
-    background-image: url(../img/icons/spritesheet_60.png);    
-    background-repeat: no-repeat;
+   
     display: table-cell; 
+  //  position: relative;
    	//margin: auto;
 	// top:0;
 	// bottom: 0;
 	// left: 0;
 	// float: left;
-    vertical-align: middle;
 	//margin-left: 0;
 	//margin-right: 10px;
+	&:before{
+	    vertical-align: middle;
+		content: "";
+	//	position:absolute;
+		display: block;
+		// Блок для выравнивания по центру, но он не  работает, если высота абзаца меньше иконки
+		/* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
+		/* top: 0;   для выравнивания по центру */
+		/* bottom: 0;   для выравнивания по центру */
+		//margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
+		padding:0;
+		//float: left;
+		background: url(../img/icons/spritesheet_60.png) center center no-repeat; 
+
+	}
+
 
     &.icon60-call-icon {
         .stitches-icon60(-10px, -10px, 60px, 60px);
@@ -822,27 +839,8 @@ button[type="submit"] {
 	}
 }
 
+
 /*============    	АДАПТИВ    ===========*/
-
-@media(min-width:0px) and (max-width:320px) {
-	
-}
-
-@media(min-width:321px) and (max-width:480px) {
-	
-}
-
-@media(min-width:481px) and (max-width:768px) {
-	
-}
-
-@media(min-width:769px) and (max-width:992px) {
-	
-}
-
-@media(min-width:993px) and (max-width:1200px) {
-	
-}
-
+@import "less/adaptivemedia.less";
 
 
