@@ -1,50 +1,40 @@
 /*============    	АДАПТИВ    ===========*/
 
-	@font_size_sx: 30px; //Размер заголовков
+@font_size_sx: 30px; //Размер заголовков
 
 
 @media(min-width:992px) and (max-width:1199px) {
 	//md
-.heder_phone_number{ //здесь будет размещен номер телефона
-	
-	i {
-		color:blue;
-	}
-	}		
+	// .heder_phone_number{ //здесь будет размещен номер телефона
+	// 	i {	color:blue;	}
+	// }		
 }
 
 @media (max-width:991px) { //(min-width:768px) and 
 	//sm
-.heder_phone_number{ //здесь будет размещен номер телефона
-	//margin-top: 25px;
-	//text-align: center;
-	i {
-		color:yellow;
-	}
-	// p {
-	// 	letter-spacing: -0.7px;
-	// }
-	// h3 {
-	// 	font-family: 'Roboto Condensed', sans-serif;
-	// 	font-weight: normal;
-	// 	letter-spacing: -1px;
-	// 	font-size: 25px
-	// }
-	}
-	
-
-
+// .heder_phone_number{ //здесь будет размещен номер телефона
+// 	//margin-top: 25px;
+// 	//text-align: center;
+// 	i {	color:yellow;}
+// 	// p {
+// 	// 	letter-spacing: -0.7px;
+// 	// }
+// 	// h3 {
+// 	// 	font-family: 'Roboto Condensed', sans-serif;
+// 	// 	font-weight: normal;
+// 	// 	letter-spacing: -1px;
+// 	// 	font-size: 25px
+// 	// }
+// 	}
 }
 
 
 @media (max-width:767px) { //(min-width:481px) and
 	//xs Уже надо менять фон, т.к. телефон наезжает на   пипилац
-.heder_phone_number{ //здесь будет размещен номер телефона
+	// .heder_phone_number{ //здесь будет размещен номер телефона
 
-	i {
-		color:orange;
-	}
-	}	
+	// 	i {	color:orange;}
+	// }	
 	h2 {
 		text-align: center;
 	}	
@@ -57,9 +47,7 @@
 .heder_phone_number{ //здесь будет размещен номер телефона
 	margin-top: 56px;
 	text-align: center;
-	i {
-		color: violet;
-	}
+	// i { color: violet; }
 	p {
 		letter-spacing: -0.7px;
 	}
@@ -71,11 +59,7 @@
 	}
 
 	}
-.offer { // Текст главного предложения
-	h1 {
-		margin-top: 129px;
-		}
-		}
+
 h2 {
 	text-align: center;
 }	
@@ -87,62 +71,59 @@ h2 {
 @media (max-width:480px) { //(min-width:321px) and
 	// xxs Пробую задать новый размер шрифтов для этого  разрешения
 
-.heder_phone_number{ //здесь будет размещен номер телефона
-	
-	i {
-		color:red;
-	}
-	}		
-
-h1 {
-	font-size: @font_size_sx - 2;
-}
-h2{
-	font-size: @font_size_sx;
-	text-align: center;
-}
-h3{
-	font-size: @font_size_sx - 6;
-}
-h4{
-	font-size: @font_size_sx - 8;
-}
-h5{
-	font-size: @font_size_sx - 9;
-}
-
-.offer { // Текст главного предложения
-	h1 {
-		font-size: @font_size_sx;
-		margin-top: 100px;
+	// .heder_phone_number{ //здесь будет размещен номер телефона
 		
-		}	
-	small {
+	// 	i {	color:red; 	}
+	// 	}		
+
+	h1 {
+		font-size: @font_size_sx - 2;
+	}
+	h2{
 		font-size: @font_size_sx;
+		text-align: center;
+	}
+	h3{
+		font-size: @font_size_sx - 6;
+	}
+	h4{
+		font-size: @font_size_sx - 8;
+	}
+	h5{
+		font-size: @font_size_sx - 9;
+	}
+
+	.offer { // Текст главного предложения
+		h1 {
+			font-size: @font_size_sx;
+			margin-top: 100px;
 			
-	}
-}
-.description {
-	h5 {
-		font-size: @font_size_sx - 16;
-	}
-}
+		}	
+		small {
+			font-size: @font_size_sx;
 
-.order_btn{ // Button class for button
-	font-size: @font_size_sx;
-}
+		}
+	}
+	.description {
+		h5 {
+			font-size: @font_size_sx - 16;
+		}
+	}
 
+	.order_btn{ // Button class for button
+		font-size: @font_size_sx;
+	}
 }
 
 @media(min-width:0px) and (max-width:460px) {
 	// xxxs
 
-.heder_phone_number{ //здесь будет размещен номер телефона
-	
-	display: none;
-	i {
-		color:magenta;
-	}
+	.heder_phone_number{ //здесь будет размещен номер телефона
+		display: none;
+		// i { color:magenta; }
 	}	
+	.heder_phone_number_hid { //скрытый блок с телефоном для маленьких разрешений
+		display: block;
+	}
 
 }

@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
 				"pos",
 				"position"
 			],
@@ -26,10 +30,6 @@
 			[
 				"padd",
 				"padding"
-			],
-			[
-				"margin",
-				"margin-left"
 			],
 			[
 				"mar",
@@ -163,32 +163,8 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 26751,
+				"buffer_size": 29820,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.less",
-			"settings":
-			{
-				"buffer_size": 17863,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/less/adaptivemedia.less",
-			"settings":
-			{
-				"buffer_size": 1894,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/less/variables.less",
-			"settings":
-			{
-				"buffer_size": 25540,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -220,6 +196,14 @@
 				"Git: Quick Commit"
 			],
 			[
+				"check",
+				"Git: Checkout Tag"
+			],
+			[
+				"Push",
+				"Git: Push"
+			],
+			[
 				"dd",
 				"SublimeLinter: Disable Debug Mode"
 			],
@@ -242,10 +226,6 @@
 			[
 				"ad",
 				"Git: Add All"
-			],
-			[
-				"Push",
-				"Git: Push"
 			],
 			[
 				"git checkout",
@@ -342,13 +322,16 @@
 	"expanded_folders":
 	[
 		"/C/GitHub/FlyingIslands",
-		"/C/GitHub/FlyingIslands/css",
-		"/C/GitHub/FlyingIslands/css/less",
-		"/C/GitHub/FlyingIslands/fonts",
-		"/C/GitHub/FlyingIslands/js"
+		"/C/GitHub/FlyingIslands/css"
 	],
 	"file_history":
 	[
+		"/C/GitHub/FlyingIslands/css/less/variables.less",
+		"/C/GitHub/FlyingIslands/css/less/adaptivemedia.less",
+		"/C/GitHub/FlyingIslands/css/style.less",
+		"/C/GitHub/FlyingIslands/indexanimation.html",
+		"/C/GitHub/FlyingIslands/anim_index.html",
+		"/C/GitHub/FlyingIslands/img/banner/anim_index.html",
 		"/C/GitHub/FlyingIslands/js/main.js",
 		"/C/GitHub/FlyingIslands/thanks.html",
 		"/C/GitHub/FlyingIslands/send.php",
@@ -417,6 +400,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"disp",
+			"position",
 			"icon60",
 			"icon-60",
 			"ask",
@@ -506,141 +491,32 @@
 				{
 					"buffer": 0,
 					"file": "index.html",
-					"semi_transient": false,
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 26751,
+						"buffer_size": 29820,
 						"regions":
 						{
-							"bookmarks":
-							{
-								"flags": 144,
-								"icon": "bookmark",
-								"regions":
-								[
-									[
-										8815,
-										8815
-									]
-								],
-								"scope": "bookmarks"
-							}
 						},
 						"selection":
 						[
 							[
-								1663,
-								1709
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "css/style.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 17863,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3646,
-								3625
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2484.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/less/adaptivemedia.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1894,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								441,
-								441
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/less/variables.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 25540,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4782,
-								4782
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1902.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -663,18 +539,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.43549536249,
 			1.0
 		],
 		"rows":
@@ -739,12 +608,6 @@
 				0,
 				0,
 				1,
-				1
-			],
-			[
-				1,
-				0,
-				2,
 				1
 			]
 		]
