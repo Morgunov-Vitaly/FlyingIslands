@@ -44,6 +44,9 @@ p {
   font-weight: normal;
   color: #728192;
 }
+p {
+  margin-left: 5px;
+}
 a {
   color: #728192;
   text-decoration: none;
