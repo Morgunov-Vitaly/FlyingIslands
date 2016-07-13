@@ -378,15 +378,16 @@
 
 <footer id="contacts"> <!-- Контакты  -->
   <div class="container"> <!-- container-fluid -->
-    <div class="row">
-      <div class="logo_footer"> <img src="img/logofooter.jpg" alt="Логотип"> </div>
-      <div class="phone-numbers">
-      <!-- <address> -->
-        <h2>тел.: +7 (921) 360-58-92</h2><h5>Санкт-Петербург, Большой проспект П.С., д. 83</h5>
+    <div class="row"><!-- logo_footer -->
+      <div class="col-md-3 col-sm-4 col-xs-12 logo_footer"><img src="img/logofooter.jpg" alt="Логотип"> </div>
+      <div class="col-md-7 col-sm-8 col-xs-12 phone-numbers"><!-- phone-numbers -->
+      <!-- <address> glyphicon glyphicon-earphone -->
+        <h2><i class="glyphicon glyphicon-phone-alt"></i> +7 (921) 360-58-92</h2><h5>Санкт-Петербург, Большой проспект П.С., д. 83</h5>
+        <a data-toggle="modal" data-target="#polycy_c_modal" href="#polycy_c_modal" tittle="Текст политики конфиденциальности">Политика конфиденциальности</a>
       <!-- </address> -->
       </div>
-      <div class="mvdesign"> <a class="design" href="https://vk.com/v.morgunov" title="Дизайн и разработка - MV"></a>
-        <p>Разработка: <a href="https://vk.com/v.morgunov" title="Дизайн и разработка - MV">МВ</a></p>
+      <div class="col-md-2 col-sm-12 col-xs-12 mvdesign"> <a class="design" href="https://vk.com/v.morgunov" title="Дизайн и разработка - MV"></a>
+        <!-- <p>Разработка: <a href="https://vk.com/v.morgunov" title="Дизайн и разработка - MV">МВ</a></p> -->
       </div>
     </div>
   </div>
@@ -431,7 +432,7 @@
 <!-- Виды оценки  -->
 <!-- Modal Service lis  START -->
 <div class="modal fade" id="service_list_modal" tabindex="-1" role="dialog" aria-labelledby="service_list_modal" aria-hidden="true">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -463,6 +464,51 @@
   </div>
 </div>  
 <!-- Modal Service lis END -->
+
+
+
+<!-- Modal Text of polycy  START -->
+<div class="modal fade" id="polycy_c_modal" tabindex="-1" role="dialog" aria-labelledby="polycy_c_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Политика конфиденциальности</h4>
+      </div>
+      <div class="modal-body">
+      <h5>Какая информация подлежит сбору</h5>
+        <p>Сбору подлежат только сведения, обеспечивающие возможность поддержки обратной связи с пользователем.<br>
+Некоторые действия пользователей автоматически сохраняются в журналах сервера:
+</p>
+<ul>
+  <li>IP-адрес;</li>
+  <li>данные о типе браузера, надстройках, времени запроса и т. д.</li>
+</ul>
+      <h5>Как используется полученная информация</h5>
+       <p>Сведения, предоставленные пользователем, используются для связи с ним, в том числе для направления уведомлений об изменении статуса заявки.</p>
+      <h5>Предоставление данных третьим лицам</h5>
+       <p>Личные данные пользователей могут быть переданы лицам, не связанным с настоящим сайтом, если это необходимо:</p>
+       <ul>
+         <li>для соблюдения закона, нормативно-правового акта, исполнения решения суда;</li>
+         <li>для выявления или воспрепятствования мошенничеству;</li>
+         <li>для устранения технических неисправностей в работе сайта;</li>
+         <li>для предоставления информации на основании запроса уполномоченных государственных органов.</li>
+       </ul>
+      <h5>Безопасность данных</h5>
+       <p>Администрация сайта принимает все меры для защиты данных пользователей от несанкционированного доступа, в частности:</p>
+       <ul>
+         <li>регулярное обновление служб и систем управления сайтом и его содержимым;</li>
+         <li>шифровка архивных копий ресурса;</li>
+         <li>регулярные проверки на предмет наличия вредоносных кодов;</li>
+         <li>использование для размещения сайта виртуального выделенного сервера.li>
+       </ul>
+      <h5>Изменения</h5>
+       <p>Обновления политики конфиденциальности публикуются на данной странице. Для удобства пользователей все версии политики конфиденциальности подлежат сохранению в архивных файлах.</p>
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- Modal Text of polycy END -->
 
 <!-- Modal Ask form START -->
 <div class="modal fade" id="ask_now_modal" tabindex="-1" role="dialog" aria-labelledby="ask_now_modal" aria-hidden="true">

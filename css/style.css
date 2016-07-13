@@ -89,6 +89,7 @@ header {
   height: 50px;
   padding: 0;
   margin: 0;
+  z-index: 999;
 }
 .header_Menu a {
   border: none;
@@ -403,13 +404,6 @@ class="icon120 icon120-call-icon" */
   width: 120px;
   height: 120px;
 }
-/*============    Список Банков   ===========*/
-.bank_card {
-  height: 150px;
-  padding: 0;
-  line-height: 150px;
-  text-align: center;
-}
 /*============    Цены    ===========*/
 /*============    Последовательность действий    ===========*/
 #algorithm ul {
@@ -476,6 +470,13 @@ class="icon120 icon120-call-icon" */
   width: 60px;
   height: 60px;
 }
+/*============    Список Банков   ===========*/
+.bank_card {
+  height: 150px;
+  padding: 0;
+  line-height: 150px;
+  text-align: center;
+}
 /*============    Отзывы    ===========*/
 blockquote footer {
   color: #728192;
@@ -485,36 +486,43 @@ blockquote footer {
 /*============    Футер контакты    ===========*/
 #contacts {
   background-color: #6f6f6f;
-  padding: 50px;
+  padding: 50px 0;
 }
 #contacts .logo_footer {
-  margin-top: 0px;
-  margin-left: 0px;
-  vertical-align: top;
-  display: inline-block;
-}
-#contacts .phone-numbers {
-  display: inline-block;
+  margin: 0;
   padding: 0;
-  margin: 0 0 0 20px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 #contacts .phone-numbers h2,
 #contacts .phone-numbers h5 {
+  margin: 0;
+  text-align: left;
   padding: 0;
+  padding-left: 20px;
   color: #d6d6d6;
 }
 #contacts .phone-numbers h2 {
-  margin: 18px 0 0 0;
+  margin-top: 35px;
 }
 #contacts .phone-numbers h5 {
-  margin: 10px 0 0 0;
+  margin-top: 10px;
+}
+#contacts .phone-numbers i {
+  font-size: 30px;
+}
+#contacts .phone-numbers a {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #d6d6d6;
+  text-align: left;
 }
 #contacts .mvdesign {
-  display: inline-block;
-  margin-top: 0px;
-  float: right;
-  vertical-align: top;
-  padding: 0;
+  margin: 0;
+  margin-top: 35px;
 }
 #contacts .mvdesign p {
   color: #d6d6d6;
@@ -584,7 +592,6 @@ a.design:hover {
 #top:hover {
   opacity: 1;
 }
-/*============    ПОДВАЛ    ===========*/
 /*============    	ВСПЛЫВАЮЩИЕ MODAL ОКНА    ===========*/
 input[name="name"] {
   margin-top: 10px;
@@ -778,13 +785,15 @@ button[type="submit"]:focus {
 /*============    	АДАПТИВ    ===========*/
 /*============    	АДАПТИВ    ===========*/
 @media (min-width: 992px) and (max-width: 1199px) {
-  .heder_phone_number p {
+  .heder_phone_number i {
     color: blue;
   }
 }
 @media (max-width: 991px) {
-  .heder_phone_number p {
+  .heder_phone_number i {
     color: yellow;
+  }
+  .heder_phone_number p {
     letter-spacing: -0.7px;
   }
   .heder_phone_number h3 {
@@ -793,30 +802,24 @@ button[type="submit"]:focus {
     letter-spacing: -1px;
     font-size: 25px;
   }
-  .offer h1 {
-    font-size: 30px;
-  }
-  .offer small {
-    font-size: 30px;
-  }
-  .description h5 {
-    font-size: 14px;
-  }
-  .order_btn {
-    font-size: 30px;
-  }
 }
 @media (max-width: 767px) {
   .heder_phone_number {
     margin-top: 15px;
     text-align: center;
   }
-  .heder_phone_number p {
+  .heder_phone_number i {
     color: orange;
+  }
+  .offer h1 {
+    margin-top: 129px;
+  }
+  h2 {
+    text-align: center;
   }
 }
 @media (max-width: 480px) {
-  .heder_phone_number p {
+  .heder_phone_number i {
     color: red;
   }
   h1 {
@@ -835,10 +838,11 @@ button[type="submit"]:focus {
   h5 {
     font-size: 21px;
   }
-  offer h1 {
+  .offer h1 {
     font-size: 30px;
+    margin-top: 100px;
   }
-  offer small {
+  .offer small {
     font-size: 30px;
   }
   .description h5 {
@@ -849,7 +853,7 @@ button[type="submit"]:focus {
   }
 }
 @media (min-width: 0px) and (max-width: 320px) {
-  .heder_phone_number p {
+  .heder_phone_number i {
     color: magenta;
   }
 }
