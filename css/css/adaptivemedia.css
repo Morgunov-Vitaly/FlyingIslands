@@ -8,6 +8,23 @@
   .heder_phone_number i {
     color: yellow;
   }
+}
+@media (max-width: 767px) {
+  .heder_phone_number i {
+    color: orange;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 620px) {
+  .heder_phone_number {
+    margin-top: 56px;
+    text-align: center;
+  }
+  .heder_phone_number i {
+    color: violet;
+  }
   .heder_phone_number p {
     letter-spacing: -0.7px;
   }
@@ -16,15 +33,6 @@
     font-weight: normal;
     letter-spacing: -1px;
     font-size: 25px;
-  }
-}
-@media (max-width: 767px) {
-  .heder_phone_number {
-    margin-top: 15px;
-    text-align: center;
-  }
-  .heder_phone_number i {
-    color: orange;
   }
   .offer h1 {
     margin-top: 129px;
@@ -67,7 +75,10 @@
     font-size: 30px;
   }
 }
-@media (min-width: 0px) and (max-width: 320px) {
+@media (min-width: 0px) and (max-width: 460px) {
+  .heder_phone_number {
+    display: none;
+  }
   .heder_phone_number i {
     color: magenta;
   }
