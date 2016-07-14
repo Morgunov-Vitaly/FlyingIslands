@@ -32,17 +32,47 @@ h1, h2, h3, h4, h5 {
 h1, h2 {
 	text-transform: uppercase;
 }
+h2{
+	font-size: 44px;
+}
 a, p  {
 	.RCnormal;
 }
+a{
+	color: @text-color;;
+	text-decoration: none;
+	outline: none;
+	border-bottom: 1px dotted lighten(@text-color, 20%);
 
-
+	&:visited {
+		color: @text-color;;
+		text-decoration: none;
+		outline: none;
+		//border-bottom: 1px dotted @text-color;
+	}
+	&:active {
+		//color: @text-color;;
+		text-decoration: none;
+		outline: none;
+		//border-bottom: 1px dotted @text-color;
+	}
+	&:focus {
+		text-decoration: none;
+		outline: none;
+	}
+	&:hover {
+		color: lighten(@link-color, 20%); // Делаем светлее
+		text-decoration: none;
+		outline: none;
+		border-bottom: 1px dotted lighten(@link-color, 20%);
+	}
+}
 
 /*============    Шапка   ===========*/
-@link_color: white;  // #dc911b  Color of the links
+@header_link_color: #768daa;// #728192;  // #dc911b  Color of the links
 @main_color: #d05100; //  The dominant Color of the Color wheel
-@add_color1: spin(@link_color, 135); //  The first additional Color of the Color wheel 
-@add_color2: spin(@link_color, -135); // The second additional Color of the Color wheel 
+//@add_color1: spin(@link_color, 135); //  The first additional Color of the Color wheel 
+//@add_color2: spin(@link_color, -135); // The second additional Color of the Color wheel 
 @distanceUP: 10; // #dc911b  Color of the links
 @distanceDown: 15; // #dc911b  Color of the links
 @bigheadertext: #99b221; //Color of the offer in header and maybe others headers
@@ -67,16 +97,27 @@ header {
 	height: 50px;
 	padding: 0;
 	margin: 0;
+	a {
+		border: none;
+
+	}
 }
 .logoPlace {
-	.RCnormal;
-	width: 225px;
+	width: 255px; // чтобы текст перенесся сам
 	margin-left: 0; //-30px
 	margin-top: 50px;
+	float: left;
+
 	a {
-		color: @link_color;
-		font-size: 38px;
+		.RSbold;
+		display: block;
+		float: left;
+		color: @header_link_color; //#5692c7 //#768daa
+		font-size: 39px;
 		text-transform: uppercase;
+		text-decoration: none;
+		outline: none;
+		border: none;
 		line-height: 45px;
 		&:before {
 			content: '';
@@ -90,29 +131,55 @@ header {
 		}	
 		&:hover {
 			text-decoration: none;
-			display: block;
-			float: left;
-			color: spin(@link_color, @distanceUP); // saturate(@link_color,-30%);
-
+			color: spin(@header_link_color, @distanceUP); // saturate(@link_color,-30%);
 		}		
+		&:focus {
+			text-decoration: none;
+		}
+	}
+}
+.heder_phone_number{ //здесь будет размещен номер телефона
+	height: 80px;
+	width: 260px;
+	float: right;
+	margin-top: 53px;
+	text-align: right;
+	h3, p {
+	//.RCnormal;
+		color:  #ffe3a5;// #ffdc8e;
+		margin: 0;
+		//margin-top: ;
+		padding: 0;
+	}
+	p{
+		color: white; //  #ffdc8e
 	}
 }
 .offer {
 	h1 {
-		.RCbold;
-		font-size: 40px;
+		.RSbold;
+		font-size: 39px;
 		text-transform: uppercase;
 		color: @bigheadertext;
 		text-align: center;
 		padding: 0;
 		//padding-top: 220px; 
 		margin: 0 auto;
-		margin-top: 190px;
+		margin-top: 196px;
 		letter-spacing: -1px;
 		line-height: 1.3;
 		//text-shadow: white 1px 0 0px, white 0 1px 0px, white -1px 0 0px, white 0 -1px 0px;
 		}	text-shadow: white 0px 0 15px;
+		small {
+			.RSbold;
+			font-size: 39px;
+			text-transform: lowercase; 
+			color: @bigheadertext;
+			letter-spacing: -2px;
+			white-space: -3px;
+		}
 		span {
+			text-transform: none; 
 			color: #b53a00;
 		} 
 	}
@@ -120,12 +187,12 @@ header {
 	margin-top: 50px; //distance betveen button and h1
 	margin-bottom: 40px;
 }
-#main_button {
+.main_button {
 	margin-top: 30px; //distance betveen button and h1
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
-.order_btn{ // Button class
+.order_btn{ // Button class for button
 	.RCbold;
 	font-size: 36px;
 	margin: 0;
@@ -378,6 +445,9 @@ ul{
 		//top:0;
 		//bottom: 0;
 		//left: 80px;
+		.RCnormal;
+		font-size: 20px;
+
 	}
 }
 
@@ -452,10 +522,10 @@ blockquote {
 		display: inline-block;
 		padding: 0;
 		margin:  0 0 0 20px;
-		address {
-			margin: 0;
-			padding: 0;
-		}
+		// address {
+		// 	margin: 0;
+		// 	padding: 0;
+		// }
 		h2, h5 { 
 			padding: 0;
 			color: #d6d6d6;	
@@ -503,21 +573,254 @@ a.design {
 	.icon_mv;
 	background-position: 0 -80px;
 	cursor: pointer; 
+	border: none;
+	text-decoration: none;
 	
 }
 a.design:hover {
 	.icon_mv;
 	background-position: 0 0;
 	cursor: pointer;
+	border: none;
+	text-decoration: none;
 }    
 
 
 
-/*============    ШРИФТЫ    ===========*/
+/*============    Стиль кнопки НАВЕРХ    ===========*/
+#top {
+  position: fixed;
+  bottom: 5px;
+  right: 42px;
+  cursor: pointer;
+  display: none;
+  font-size: 14px;
+  color: white;
+  //padding: 15px 50px 5px 50px;
+  //margin-top: 25px;
+  //margin-left: 5px;
+  //margin-right: 5px;
+  //margin-bottom: 5px; 
+  //background-color: #256fa1;
+  opacity: 0.5;
+  //width: 0; height: 0;
 
+  &:before {
+  	content: "";
+  	border: 50px solid;
+  	border-top: none;
+  	border-left-color: rgba(255,255,255, 0);
+  	border-right-color: rgba(255,255,255, 0);
+  	//border-left: none;
+  	//border-right: none;
+    border-bottom-color:  #256fa1; // #ffb500; // #b73d62;
+    position: fixed;
+    bottom: 0;
+  	right: 0px;
+  }
+  &:hover {
+  	  opacity: 1;
+  }
+}
 /*============    ПОДВАЛ    ===========*/
 
-/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	ВСПЛЫВАЮЩИЕ MODAL ОКНА    ===========*/
+// класс для поля ввода имени
+
+
+input[name="name"] {
+margin-top: 10px;
+background: url(../img/user_25.png) no-repeat center left 5px;
+padding: 25px;
+padding-left: 30px;
+border-radius: 0;
+border: 1px solid @text-color;
+.RCnormal;
+opacity: 0.3;
+&:hover,
+&:focus {
+	opacity: 0.7;
+}
+}
+
+input[name="phone"] {
+margin-top: 10px;
+background: url(../img/cell-phone_25.png) no-repeat center left 5px;
+padding: 25px;
+padding-left: 30px;
+border-radius: 0;
+border: 1px solid @text-color;
+.RCnormal;
+opacity: 0.3;
+&:hover,
+&:focus {
+	opacity: 0.7;
+}
+}
+
+input[name="email"] {
+margin-top: 10px;
+//background: url(../img/cell-phone_25.png) no-repeat center left 5px;
+padding: 25px;
+padding-left: 13px;
+border-radius: 0;
+border: 1px solid @text-color;
+.RCnormal;
+opacity: 0.3;
+&:hover,
+&:focus {
+	opacity: 0.7;
+}
+}
+textarea {
+margin-top: 10px;
+//background: url(../img/cell-phone_25.png) no-repeat center left 5px;
+padding: 25px;
+padding-left: 30px;
+border-radius: 0;
+border: 1px solid @text-color;
+resize: vertical; //Блокируем возможность растягивать область по горизонтали
+.RCnormal;
+opacity: 0.3;
+
+&:hover,
+&:focus {
+	opacity: 0.7;
+}	
+}
+
+button[type="submit"] {
+	margin: 25px 0;
+	padding: 10px;
+	width: 100%;
+	.RCbold;
+	font-size: 22px;
+	border: none;
+	outline-style: none;
+	background-color: #cc436a; /* фон кнопки */
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none; /* убирать подчёркивание у ссылок */
+	user-select: none; /* убирать выделение текста */
+	outline: none; /* убирать контур в Mozilla */
+  	border-radius: 10px; // скругление углов
+  	&:hover { /* при наведении курсора мышки */
+  		background: #ef5000; 
+  		color: white;
+  		text-decoration: none; /* убирать подчёркивание у ссылок */
+  		user-select: none; /* убирать выделение текста */
+  		outline: none; /* убирать контур в Mozilla */
+  		outline-style: none; 	 	
+  	} 
+  	&:active {  /* при нажатии */
+  		background: #cc436a;
+  		color: white;
+  		text-decoration: none; /* убирать подчёркивание у ссылок */
+  		user-select: none; /* убирать выделение текста */
+  		outline: none; /* убирать контур в Mozilla */
+  		outline-style: none;	  	
+  	}
+  	&:visited {  /* посещенная кнопка */
+  		background: #cc436a;
+  		color: white;
+  		text-decoration: none; /* убирать подчёркивание у ссылок */
+  		user-select: none; /* убирать выделение текста */
+  		outline: none; /* убирать контур в Mozilla */
+  		outline-style: none;
+  	}
+  	&:focus {
+  		outline: none; //убираем рамку вокруг элемента кнопки после нажатия
+  		// background: #cc436a;
+  		color: white;  		
+  	}
+}
+
+// Расположение модального окна формы заказа по вертикали
+.modal-dialog {
+	margin-top: 15%;
+
+}
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-body {
+	h4 {
+		.RCbold;
+		text-transform: uppercase;
+		margin: 10px auto;
+
+		}	
+}
+#ask_now_modal {
+	// Расположение модального окна формы заказа по вертикали
+.modal-dialog {
+	margin-top: 10%;
+}
+}
+
+#service_list_modal {
+	// Расположение модального окна формы заказа по вертикали
+.modal-dialog {
+	margin-top: 5%;
+}
+}
+
+// Расположение модального окна МЕНЮ по вертикали
+#menu_modal {
+	.modal-dialog {
+		margin-top: 0;
+		margin-right: 0;
+		min-height: 100%
+	}
+	.modal-content {
+		position: absolute;
+		width: 100%;
+		min-height: 100%;
+		border-radius: 0;
+	}
+	.modal-header {
+		border-bottom: none;
+	}
+
+	.modal-body {
+		h4 {
+			.RCbold;
+			text-transform: uppercase;
+			margin: 10px auto;
+
+		}	
+		ul {
+			text-decoration: none;
+			list-style: none;
+			text-align: left;
+			margin: 0;
+			padding: 0;
+
+
+		}
+		li {
+			width: 100%
+
+		}
+		a {
+			display: block;
+			padding-left: 50px;
+			padding-bottom: 10px;			
+			padding-top: 10px;
+			width: 100%;
+			//border: none;
+			
+			.RCnormal;
+			margin: 0;
+			&:hover {
+				background-color: #facd0a;
+			}
+
+		}
+
+	}
+}
 
 /*============    	АДАПТИВ    ===========*/
 
