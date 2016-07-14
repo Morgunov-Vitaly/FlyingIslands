@@ -215,7 +215,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 26558,
+				"buffer_size": 26664,
 				"line_ending": "Windows"
 			}
 		},
@@ -223,7 +223,7 @@
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 17413,
+				"buffer_size": 17490,
 				"line_ending": "Windows"
 			}
 		},
@@ -251,7 +251,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 230.0,
+		"height": 320.0,
 		"last_filter": "push",
 		"selected_items":
 		[
@@ -447,6 +447,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"order_now",
 			"•  ",
 			"<a",
 			"h1",
@@ -539,15 +540,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 26558,
+						"buffer_size": 26664,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15892,
-								15892
+								0,
+								0
 							]
 						],
 						"settings":
@@ -560,7 +561,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 10519.0,
+						"translation.y": 3094.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -578,15 +579,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 17413,
+						"buffer_size": 17490,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16360,
-								16360
+								0,
+								0
 							]
 						],
 						"settings":
