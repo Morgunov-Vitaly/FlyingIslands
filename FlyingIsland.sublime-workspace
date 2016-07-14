@@ -268,6 +268,10 @@
 				"Git: Add All"
 			],
 			[
+				"stat",
+				"Git: Status"
+			],
+			[
 				"qui",
 				"Git: Quick Commit"
 			],
@@ -379,6 +383,7 @@
 	[
 		"/C/GitHub/FlyingIsland",
 		"/C/GitHub/FlyingIsland/css",
+		"/C/GitHub/FlyingIsland/css/less",
 		"/C/GitHub/FlyingIsland/fonts"
 	],
 	"file_history":
@@ -555,7 +560,7 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5239.0,
+						"translation.y": 10519.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
