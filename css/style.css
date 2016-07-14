@@ -637,6 +637,7 @@ textarea {
   padding-left: 30px;
   border-radius: 0;
   border: 1px solid #728192;
+  resize: vertical;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: normal;
   color: #728192;

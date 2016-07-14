@@ -170,20 +170,21 @@
     </div>
     <div class="row">
       <ul>
-        <li class="wow fadeInRight" data-wow-delay="0.1s"><span class="icon60 icon60-message-2-icon"></span><p class="listalgorytm_tetx">Шаг 1: Вы заказываете оценку.</p></li>
-        <li class="wow fadeInRight" data-wow-delay="0.3s"><span class="icon60 icon60-call-icon"></span><p class="listalgorytm_tetx">Шаг 2: Мы перезваниваем Вам и согласовываем время выезда специалиста на объект оценки.</p></li>
-        <li class="wow fadeInRight" data-wow-delay="0.5s"><i class="icon60 icon60-camera-icon"></i><p class="listalgorytm_tetx">Шаг 3: Сотрудник приезжает на объект, заключает с Вами договор и проводит фотосъемку и сбор исходных данных.</p></li>
-        <li class="wow fadeInRight" data-wow-delay="0.7s"><i class="icon60 icon60-letterhead-icon"></i><p class="listalgorytm_tetx">Шаг 4: Вы забираете готовый отчет и оплачиваете работу.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.1s"><span class="icon60 icon60-message-2-icon"> </span><p class="listalgorytm_tetx">Шаг 1: Вы заказываете оценку.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.3s"><span class="icon60 icon60-call-icon"> </span><p class="listalgorytm_tetx">Шаг 2: Мы перезваниваем Вам и согласовываем время выезда специалиста на объект оценки.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.5s"><i class="icon60 icon60-camera-icon"> </i><p class="listalgorytm_tetx">Шаг 3: Сотрудник приезжает на объект, заключает с Вами договор и проводит фотосъемку и сбор исходных данных.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.7s"><i class="icon60 icon60-letterhead-icon"> </i><p class="listalgorytm_tetx">Шаг 4: Вы забираете готовый отчет и оплачиваете работу.</p></li>
       </ul>
     </div>
 
-        <!-- Кнопка 3 заказать! -->
-        <div class="row"> 
-          <div  class="text-center button_order">
-            <button data-toggle="modal" id="ask" data-target="#ask_now_modal" class="order_btn">Задать вопрос</button>
-          </div>
-        </div> 
-        <!-- end Кнопка заказать! -->
+        <!-- Кнопка заказать 3 -->
+    <div class="row"> 
+      <div  class="text-center button_order">
+        <button data-toggle="modal" id="order_now3" data-target="#order_now_modal" class="order_btn">Заказать!</button>
+      </div>
+    </div> 
+    <!-- end Кнопка заказать! -->
+
         </div>
 </section>
 
@@ -278,15 +279,15 @@
         <div class="bank_card"><img src="img/banks/28.png" alt="Банк28"></div>
       </div>
     </div>
-    
-        <!-- Кнопка Спросить -->
-        <div class="row"> 
-          <div  class="text-center button_order">
-            <button data-toggle="modal" id="ask_now" data-target="#ask_now_modal" class="order_btn">Заказать!</button>
-          </div>
-        </div> 
-        <!-- end Кнопка заказать! -->
 
+    <!-- Кнопка задать вопрос -->
+    <div class="row"> 
+      <div  class="text-center button_order">
+        <button data-toggle="modal" id="ask" data-target="#ask_now_modal" class="order_btn">Задать вопрос</button>
+      </div>
+    </div> 
+    <!-- end Кнопка задать вопрос -->
+    
   </div>
 </section>
 
@@ -558,7 +559,9 @@
                       live:         true        // default
                     }).init();</script> <!-- Скрипт включения анимации при прокрутке -->
 
-<script>
+<!-- Скрипт для плавной прокрутки содержимого сайта колесом мыши - без скрипта идет дергание всех элементов с position fix кнопка наверх значек меню и т.д.
+ -->
+ <script>
 $(document).ready(
   function() {
     $("html").niceScroll({cursorcolor:"#000"});
