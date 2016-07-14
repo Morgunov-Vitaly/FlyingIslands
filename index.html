@@ -327,7 +327,7 @@
         <!-- Кнопка 3 заказать! -->
         <div class="row"> 
           <div  class="text-center button_order">
-            <button data-toggle="modal" id="order_now3" data-target="#order_now_modal" class="order_btn">Заказать!</button>
+            <button data-toggle="modal" id="order_now4" data-target="#order_now_modal" class="order_btn">Заказать!</button>
           </div>
         </div> 
         <!-- end Кнопка заказать! -->
@@ -388,7 +388,7 @@
       <div class="col-md-7 col-sm-8 col-xs-12 phone-numbers"><!-- phone-numbers -->
       <!-- <address> glyphicon glyphicon-earphone -->
         <h2><i class="glyphicon glyphicon-phone-alt"></i> +7 (921) 360-58-92</h2><h5>Санкт-Петербург, Большой проспект П.С., д. 83</h5>
-        <a data-toggle="modal" data-target="#polycy_c_modal" href="#polycy_c_modal" tittle="Текст политики конфиденциальности">Политика конфиденциальности</a>
+        <a data-toggle="modal" data-target="#policy_c_modal" href="#policy_c_modal" title="Текст политики конфиденциальности">Политика конфиденциальности</a>
       <!-- </address> -->
       </div>
       <div class="col-md-2 col-sm-12 col-xs-12 mvdesign"> <a class="design" href="https://vk.com/v.morgunov" title="Дизайн и разработка - MV"></a>
@@ -441,7 +441,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Список проводимых видов оценки</h4>
+        <h4 class="modal-title" id="service_list_modal_Label">Список проводимых видов оценки</h4>
       </div>
       <div class="modal-body">
        <ul>
@@ -472,13 +472,13 @@
 
 
 
-<!-- Modal Text of polycy  START -->
-<div class="modal fade" id="polycy_c_modal" tabindex="-1" role="dialog" aria-labelledby="polycy_c_modal" aria-hidden="true">
+<!-- Modal Text of policy  START -->
+<div class="modal fade" id="policy_c_modal" tabindex="-1" role="dialog" aria-labelledby="policy_c_modal" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Политика конфиденциальности</h4>
+        <h4 class="modal-title" id="policy_c_ModalLabel">Политика конфиденциальности</h4>
       </div>
       <div class="modal-body">
       <h5>Какая информация подлежит сбору</h5>
@@ -602,13 +602,27 @@
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/jquery.nicescroll.min.js"></script> 
-<script src="js/wow.min.js"></script> 
+
+<!-- STATRT Код, который отключает анимацию на устройствах с разрешением мнее 800px -->
+<!-- <script type="text/javascript">
+  {
+    if (screen.width > 800) document.write ('<script type="text/javascript" src="js/wow.min.js" ></sc' + 'ript>');
+  }
+  
+</script> -->
+
+<!-- END Код, который отключает анимацию на устройствах с разрешением мнее 800px -->
+
+<!-- отключим стандартное подключенгие-->
+<script src="js/wow.min.js"></script>  
+
+
 <script src="js/main.js"></script> <!-- Подключаю свои скрипты с кнопкой наверх -->
 <script>new WOW( {
                       boxClass:     'wow',      // default
                       animateClass: 'animated', // default
                       offset:       70,          // default
-                      mobile:       true,       // default
+                      mobile:       false,       // default true Отключение анимации на мобильных устройствах
                       live:         true        // default
                     }).init();</script> <!-- Скрипт включения анимации при прокрутке -->
 

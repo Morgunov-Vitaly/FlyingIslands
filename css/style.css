@@ -305,7 +305,7 @@ class="icon120 icon120-call-icon" */
   /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
   padding: 0;
   float: left;
-  background: url(../img/icons/spritesheet_120.png) left center no-repeat;
+  background: url(../img/icons/spritesheet_120.svg) left center no-repeat;
   width: 125px;
   height: 139px;
 }
@@ -463,7 +463,7 @@ class="icon120 icon120-call-icon" */
   /* top: 0;   для выравнивания по центру */
   /* bottom: 0;   для выравнивания по центру */
   padding: 0;
-  background: url(../img/icons/spritesheet_60.png) center center no-repeat;
+  background: url(../img/icons/spritesheet_60.svg) center center no-repeat;
 }
 .icon60.icon60-call-icon:before {
   background-position: -10px -10px;
@@ -760,6 +760,9 @@ button[type="submit"]:focus {
   margin-top: 10%;
 }
 #service_list_modal .modal-dialog {
+  margin-top: 5%;
+}
+#policy_c_modal .modal-dialog {
   margin-top: 5%;
 }
 #menu_modal .modal-dialog {

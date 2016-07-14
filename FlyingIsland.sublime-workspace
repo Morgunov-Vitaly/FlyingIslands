@@ -4,36 +4,104 @@
 		"selected_items":
 		[
 			[
-				"margin",
-				"margin-top"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"htm",
-				"htmlspecialchars"
+				"no",
+				"no-repeat〔value〕"
 			],
 			[
 				"i",
 				"inline-block"
 			],
 			[
-				"ro",
-				"row"
+				"mi",
+				"middle"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"bor",
+				"border-left"
 			],
 			[
 				"bo",
-				"border"
+				"border-top"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"border-",
+				"border-style"
+			],
+			[
+				"bgk",
+				"background-color"
+			],
+			[
+				"out",
+				"outline"
+			],
+			[
+				"s",
+				"dashed"
+			],
+			[
+				"st",
+				"outline-style"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"l",
+				"list-item"
+			],
+			[
+				"po",
+				"pos-f	position: fixed;"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"ro",
+				"row"
 			],
 			[
 				"padd",
 				"padding"
 			],
 			[
-				"mar",
-				"margin"
+				"margin",
+				"margin-left"
 			],
 			[
 				"margi",
@@ -68,16 +136,8 @@
 				"padding-top"
 			],
 			[
-				"pad",
-				"padding"
-			],
-			[
 				"con",
 				"container"
-			],
-			[
-				"tex",
-				"text-center"
 			],
 			[
 				"colo",
@@ -108,10 +168,6 @@
 				"float"
 			],
 			[
-				"pa",
-				"padding-top"
-			],
-			[
 				"font",
 				"font-size"
 			],
@@ -130,10 +186,6 @@
 			[
 				"fo",
 				"font-style"
-			],
-			[
-				"s",
-				"pagescroll/"
 			],
 			[
 				"li",
@@ -163,8 +215,48 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 29820,
+				"buffer_size": 30287,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/wow.min.js",
+			"settings":
+			{
+				"buffer_size": 8426,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.less",
+			"settings":
+			{
+				"buffer_size": 18474,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 18427,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/less/variables.less",
+			"settings":
+			{
+				"buffer_size": 25540,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/less/bootstrap.less",
+			"settings":
+			{
+				"buffer_size": 1071,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -175,7 +267,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 135.0,
+		"height": 320.0,
 		"last_filter": "push",
 		"selected_items":
 		[
@@ -192,23 +284,15 @@
 				"Git: Add All"
 			],
 			[
+				"stat",
+				"Git: Status"
+			],
+			[
 				"qui",
 				"Git: Quick Commit"
 			],
 			[
-				"check",
-				"Git: Checkout Tag"
-			],
-			[
 				"Push",
-				"Git: Push"
-			],
-			[
-				"dd",
-				"SublimeLinter: Disable Debug Mode"
-			],
-			[
-				"p",
 				"Git: Push"
 			],
 			[
@@ -216,28 +300,20 @@
 				"Git: Pull"
 			],
 			[
-				"stat",
-				"Git: Status"
-			],
-			[
-				"qu",
-				"Git: Quick Commit"
-			],
-			[
 				"ad",
 				"Git: Add All"
-			],
-			[
-				"git checkout",
-				"Git: Checkout Tag"
 			],
 			[
 				"pu",
 				"Git: Push"
 			],
 			[
-				"ins",
-				"Package Control: Install Package"
+				"git status",
+				"Git: Status"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
 			],
 			[
 				"git a",
@@ -300,7 +376,7 @@
 				"SassBeautify"
 			]
 		],
-		"width": 418.0
+		"width": 510.0
 	},
 	"console":
 	{
@@ -321,29 +397,20 @@
 	},
 	"expanded_folders":
 	[
-		"/C/GitHub/FlyingIslands",
-		"/C/GitHub/FlyingIslands/css"
+		"/C/GitHub/FlyingIsland",
+		"/C/GitHub/FlyingIsland/css",
+		"/C/GitHub/FlyingIsland/css/less",
+		"/C/GitHub/FlyingIsland/img/banner",
+		"/C/GitHub/FlyingIsland/js"
 	],
 	"file_history":
 	[
-		"/C/GitHub/FlyingIslands/css/less/variables.less",
-		"/C/GitHub/FlyingIslands/css/less/adaptivemedia.less",
-		"/C/GitHub/FlyingIslands/css/style.less",
-		"/C/GitHub/FlyingIslands/indexanimation.html",
-		"/C/GitHub/FlyingIslands/anim_index.html",
-		"/C/GitHub/FlyingIslands/img/banner/anim_index.html",
-		"/C/GitHub/FlyingIslands/js/main.js",
-		"/C/GitHub/FlyingIslands/thanks.html",
-		"/C/GitHub/FlyingIslands/send.php",
-		"/C/GitHub/FlyingIslands/css/less/bootstrap.less",
-		"/C/OpenServer/domains/FlyingIslands/send.php",
-		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
-		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
-		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
-		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
-		"/C/GitHub/CSS HTML Lessons/index2.html",
-		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/C/Users/HP/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
+		"/C/GitHub/FlyingIsland/img/banner/anim_index.html",
+		"/C/GitHub/FlyingIsland/send.php",
+		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/GitHub/FlyingIsland/thanks.html",
+		"/C/GitHub/FlyingIsland/js/main.js",
+		"/C/GitHub/FlyingIsland/css/less/glyphicons.less",
 		"/C/GitHub/FlyingIsland/img/sprites.css",
 		"/C/GitHub/FlyingIsland/css/style.css",
 		"/C/GitHub/FlyingIsland/css/bootstrap.min.css",
@@ -372,7 +439,6 @@
 		"/D/Обучение/Make Templates for WP/__clean_html_original/index.html",
 		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
 		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/CSS To Sass And Stylus Converter/css_to_sass.sublime-settings",
-		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
 		"/D/Графика/WEB/1coPRO.RU/index.html",
 		"/C/Users/morgu_000/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/Default (Windows).sublime-keymap",
@@ -385,14 +451,13 @@
 	],
 	"find":
 	{
-		"height": 36.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
-		"height": 92.0,
+		"height": 0.0,
 		"where_history":
 		[
-			"C:\\GitHub\\FlyingIslands"
 		]
 	},
 	"find_state":
@@ -400,29 +465,37 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"disp",
-			"position",
-			"icon60",
-			"icon-60",
-			"ask",
-			"textar",
-			"@direction:",
-			".resizable(@direction: both)",
-			"direction",
-			"@direction",
-			".resizable",
-			"вопрос!",
-			"прос!",
-			"задать влпрос!",
-			"wob",
-			"MV ",
-			"h5",
-			"form_input",
-			"order_btn",
-			"browser",
-			"%;\n",
-			"&:before {\n				.iconstyle;",
-			"				width: 125px;\n				height: 139px;",
+			"mobil",
+			"title",
+			"myModal",
+			"order_now",
+			"order_now3",
+			"order",
+			"polycy",
+			"policy",
+			"polycy",
+			"order_now",
+			"•  ",
+			"<a",
+			"h1",
+			"offer",
+			"h1",
+			"h2",
+			"h3",
+			"h2",
+			"h1",
+			"h3",
+			"h2",
+			"address",
+			"@724",
+			"button",
+			"h2",
+			"phone-1",
+			"ask_now",
+			"order_now",
+			"link",
+			";\n",
+			"display",
 			"raw",
 			"class=\"raw\"",
 			"@link-color",
@@ -468,7 +541,7 @@
 			"asd",
 			"html"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
@@ -480,43 +553,198 @@
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
 					"file": "index.html",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 29820,
+						"buffer_size": 30287,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								28366,
+								28366
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12041.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/wow.min.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 8426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								424
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 3501.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "css/style.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7677,
+								7677
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1500.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10139,
+								10139
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.x": -0.0,
+						"translation.y": 9150.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/less/variables.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								870,
+								859
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5550.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/less/bootstrap.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1071,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								370,
+								381
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 319.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -524,7 +752,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 33.0
 	},
 	"input":
 	{
@@ -539,11 +767,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.471848225215,
 			1.0
 		],
 		"rows":
@@ -559,13 +794,13 @@
 	},
 	"output.git":
 	{
-		"height": 89.0
+		"height": 236.0
 	},
 	"pinned_build_system": "",
 	"project": "FlyingIsland.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 116.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -599,7 +834,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 		"last_automatic_layout":
@@ -609,6 +844,12 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		]
 	},
@@ -616,7 +857,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 234.0,
+	"side_bar_width": 286.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
