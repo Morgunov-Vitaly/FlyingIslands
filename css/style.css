@@ -463,7 +463,7 @@ class="icon120 icon120-call-icon" */
   /* top: 0;   для выравнивания по центру */
   /* bottom: 0;   для выравнивания по центру */
   padding: 0;
-  background: url(../img/icons/spritesheet_60.svg) center center no-repeat;
+  background: url(../img/icons/spritesheet_60.png) center center no-repeat;
 }
 .icon60.icon60-call-icon:before {
   background-position: -10px -10px;

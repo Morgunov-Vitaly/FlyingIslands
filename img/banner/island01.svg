@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="178.30555"
-     inkscape:cy="229.04272"
+     inkscape:cx="40.80555"
+     inkscape:cy="286.14474"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,7 +59,10 @@
      transform="translate(-128.92607,-311.94461)">
     <g
        transform="translate(63.102561,-310.2925)"
-       id="cloud01">
+       id="cloud01"
+       inkscape:export-filename="C:\Users\HP\Documents\1 Центр Оценки\КП\FlyingIslands\Img\island01.png"
+       inkscape:export-xdpi="350"
+       inkscape:export-ydpi="350">
       <path
          style="fill:#dedede;fill-opacity:1;fill-rule:evenodd;stroke:#dedede;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 375.19739,652.47018 -3.33881,2.5041 15.02463,13.35522 z"
@@ -148,7 +151,10 @@
          inkscape:connector-curvature="0" />
     </g>
     <g
-       id="island01">
+       id="island01"
+       inkscape:export-filename="C:\Users\HP\Documents\1 Центр Оценки\КП\FlyingIslands\Img\island01.png"
+       inkscape:export-xdpi="350"
+       inkscape:export-ydpi="350">
       <path
          inkscape:connector-curvature="0"
          id="path6483"
