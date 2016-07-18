@@ -293,7 +293,7 @@ header {
 .points_why_we li {
   min-height: 139px;
   display: list-item;
-  padding-left: 130px;
+  padding-left: 125px;
   position: relative;
 }
 /*============    Иконки спрайты  icons 120    =========== 
@@ -305,7 +305,7 @@ class="icon120 icon120-call-icon" */
   /* margin: auto;  для выравнивания по центру  - убрать для выравнивания по верху*/
   /* top: 0;   для выравнивания по центру */
   /* bottom: 0;   для выравнивания по центру */
-  margin-left: -140px;
+  margin-left: -125px;
   /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
   padding: 0;
   float: left;
@@ -446,7 +446,7 @@ class="icon120 icon120-call-icon" */
   padding-left: 0;
   display: table;
 }
-#algorithm .listalgorytm_tetx {
+#algorithm .listalgorytm_text {
   display: table-cell;
   vertical-align: middle;
   padding-left: 10px;
@@ -871,6 +871,25 @@ button[type="submit"]:focus {
   }
 }
 @media (min-width: 0px) and (max-width: 460px) {
+  h2 {
+    font-size: 29px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 21px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  #algorithm .listalgorytm_text {
+    font-size: 18px;
+  }
   .heder_phone_number {
     display: none;
   }
