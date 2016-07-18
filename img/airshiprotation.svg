@@ -9,12 +9,14 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="760"
-   height="90"
-   viewBox="0 0 760 90"
+   width="177"
+   height="74"
+   viewBox="-6 -4 171 80"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="airshipPlus2.svg">
+   sodipodi:docname="airshiprotation.svg">
+  <defs
+     id="defs158" />
   <metadata
      id="metadata162">
     <rdf:RDF>
@@ -44,15 +46,15 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="2.2280766"
-     inkscape:cx="-117.7236"
-     inkscape:cy="39.835021"
+     inkscape:zoom="3.1509761"
+     inkscape:cx="33.143801"
+     inkscape:cy="26.684863"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <g
-     transform="translate(-621.23393,-522.19899)"
+     transform="translate(-621.23393,-521.85613)"
      id="airship"
      style="opacity:1">
     <path
@@ -818,20 +820,20 @@
   </g>
   <defs>
   <path
-     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 0,0 c -14.825742,0.43785746 -37.070742,1.4137274 -65.416369,6.8665474 -28.3458,5.4528196 -55.607221,4.2539896 -82.979321,0.27683 -37.6447,-5.46976 -55.6389,-10.3060798 -104.389,-2.1612 -11.8408,1.97829 -30.3958,4.54267 -35.9539,2.09354 -5.5581,-2.44914 6.3233,-10.9285498 19.6439,-5.32553 13.3206,5.60303 23.494,11.6128096 36.1948,14.1813596 20.0601,4.05687 40.9412,2.66515 61.3784,1.57561 35.5114,-1.89317 76.081621,-20.1235894 105.755821,-14.0613896 29.674027,6.0622 48.162327,13.3163596 72.2682249,10.0778396 C 14.783858,12.411067 34.011158,7.6507374 29.535158,3.6318974 25.059158,-0.38695254 8.2390559,-0.09955254 0.02036484,0.07272746 Z"
-     id="motionPath"
-     inkscape:connector-curvature="0" />  
-  </defs>
-  <animateMotion
-     xlink:href="#airship"
-     begin="0s"
-     dur="24s"
-     fill="freeze"
-     repeatCount="indefinite"
-     id="airship-anim">
-    <mpath
-       xlink:href="#motionPath" />
-  </animateMotion>
-
+     style="opacity:0.82999998;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.09999748;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M -0.0499987,4.8840306e-7 A 2.9500012,3.9500015 0 0 1 -2.9999999,3.9500013 2.9500012,3.9500015 0 0 1 -5.9500013,4.8840306e-7 2.9500012,3.9500015 0 0 1 -2.9999999,-3.9500013 2.9500012,3.9500015 0 0 1 -0.0499987,4.8840306e-7 Z"
+     id="wawepath"
+     inkscape:connector-curvature="0" />
+</defs>
+	 
+<animateMotion 
+           xlink:href="#airship"
+           begin="0s"
+           dur="10s"
+           fill="freeze"
+           repeatCount="indefinite"
+		   id="airship-anim"
+    >
+    <mpath xlink:href="#wawepath" />
+	</animateMotion>
 </svg>

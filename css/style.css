@@ -80,7 +80,7 @@ body {
   min-width: 370px;
 }
 header {
-  background: url(../img/bannerPlus.svg) center 60px no-repeat;
+  background: url(../img/banneranim.svg) center 60px no-repeat;
   height: 680px;
 }
 .header_Menu {
@@ -137,6 +137,9 @@ header {
   padding: 0;
   margin-top: 50px;
   overflow: visible;
+}
+.airship img {
+  float: right;
 }
 .heder_phone_number_hid {
   display: none;
