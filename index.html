@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<meta name="description" content="Независимая оценка квартир комнат земельных участков домов для банков ипотеки судов">
+<meta name="description" content="Независимая оценка квартир комнат земельных участков домов для банков ипотеки судов в Санкт-Перебурге и области">
 <title>Первый центр оценки - независимая оценка недвижимости в СПб</title>
 
 <!-- Bootstrap -->
@@ -52,15 +52,14 @@
         </div>
         <!-- Кнопка заказать! -->
         <div class="row wow bounceInUp" data-wow-delay="3s"> 
-          <div  class="text-center button_order main_button wow tada" data-wow-delay="7s">
+          <div  class="text-center button_order main_button"> <!-- wow tada" data-wow-delay="7s" -->
             <button data-toggle="modal" id="order_now" data-target="#order_now_modal" class="order_btn">Заказать!</button>
           </div>
         </div> 
         <!-- end Кнопка заказать! -->
         <div class="row">
           <div class="description text-center">
-            <h5 class="wow fadeInUp" data-wow-delay="2s"><span>Оценка комнат, квартир, земельных участков, домов </span><a href="#required_documents" title="Перейти к полному списку">...</a><br>
-              в Санкт-Петербурге и Л.О. для банков, ипотеки,  судов и т.д.</h5>
+            <h5 class="wow fadeInUp" data-wow-delay="2s"><span>Оценка комнат, квартир, земельных участков, домов </span><a href="#estimation_types_modal" data-toggle="modal" data-target="#estimation_types_modal" title="Перейти к полному списку">...</a><br>для ипотеки, нотариуса и др. в Санкт-Петербурге и Л.О.</h5>
           </div>
         </div>
       </div>
@@ -93,7 +92,7 @@
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-check-icon wow fadeInLeft" data-wow-offset="50">
           <h3>С нами удобнее!</h3>
-          <p>Принимаем заказы с 09:00 до 21:00 и в выходные дни. Работаем практически со всеми банками и со всеми <a href="#service_list_modal" data-toggle="modal" title="Ссылка на список видов оценки">видами оценки</a>.</p>
+          <p>Принимаем заказы с 09:00 до 21:00 и в выходные дни. Работаем практически со всеми банками и со всеми <a href="#service_list_modal" data-toggle="modal" data-target="#service_list_modal" title="Ссылка на список видов оценки">видами оценки</a>.</p>
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-place-icon wow fadeInRight" data-wow-offset="50">
           <h3>Мы к Вам ближе!</h3>
@@ -174,10 +173,10 @@
       <h2>План действий:</h2>
     </div>
     <div class="row">
-      <ul>
+      <ul class="soft_scroll">
         <li class="wow fadeInRight" data-wow-delay="0.1s"><span class="icon60 icon60-message-2-icon"> </span><p class="listalgorytm_text">Шаг 1: Вы заказываете оценку.</p></li>
         <li class="wow fadeInRight" data-wow-delay="0.3s"><span class="icon60 icon60-call-icon"> </span><p class="listalgorytm_text">Шаг 2: Мы перезваниваем Вам и согласовываем время выезда специалиста на объект оценки.</p></li>
-        <li class="wow fadeInRight" data-wow-delay="0.5s"><i class="icon60 icon60-camera-icon"> </i><p class="listalgorytm_text">Шаг 3: Сотрудник приезжает на объект, проводит фотосъемку и сбор исходных данных.</p></li>
+        <li class="wow fadeInRight" data-wow-delay="0.5s"><i class="icon60 icon60-camera-icon"> </i><p class="listalgorytm_text">Шаг 3: Сотрудник приезжает на объект, проводит фотосъемку и <a href="#required_documents">сбор исходных данных</a>.</p></li>
         <li class="wow fadeInRight" data-wow-delay="0.7s"><i class="icon60 icon60-letterhead-icon"> </i><p class="listalgorytm_text">Шаг 4: Вы забираете готовый отчет и оплачиваете работу.</p></li>
       </ul>
     </div>
@@ -388,7 +387,7 @@
       <div class="col-md-7 col-sm-8 col-xs-12 phone-numbers"><!-- phone-numbers -->
       <!-- <address> glyphicon glyphicon-earphone -->
         <h2><i class="glyphicon glyphicon-phone-alt"></i> +7 (921) 360-58-92</h2><h5>Санкт-Петербург, Большой проспект П.С., д. 83</h5>
-        <a data-toggle="modal" data-target="#policy_c_modal" href="#policy_c_modal" title="Текст политики конфиденциальности">Политика конфиденциальности</a>
+        <p><a data-toggle="modal" data-target="#policy_c_modal" href="#policy_c_modal" title="Текст политики конфиденциальности">Политика конфиденциальности</a>  и  <a data-toggle="modal" data-target="#laws_modal" href="#laws_modal" title="Законодательство">законодательство</a></p> 
       <!-- </address> -->
       </div>
       <div class="col-md-2 col-sm-12 col-xs-12 mvdesign"> <a class="design" href="https://vk.com/v.morgunov" title="Дизайн и разработка - MV"></a>
@@ -397,10 +396,100 @@
     </div>
   </div>
 </footer>
-
 <!-- Кнопка наверх start -->
 <div id="top"><i class="glyphicon glyphicon-chevron-up"> </i></div> <!-- <i class="glyphicon glyphicon-chevron-up"> </i> -->
 <!-- Кнопка наверх end -->
+
+<!-- Виды оценки  -->
+<!-- Modal types of estimation  START -->
+<div class="modal fade" id="estimation_types_modal" tabindex="-1" role="dialog" aria-labelledby="estimation_types_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="service_list_modal_Label">Независимая оценка имущества</h4>
+      </div>
+      <div class="modal-body">
+        <p>Независимая оценка рыночной стоимости имущества производится для оформления ипотеки, купли-продажи, наследства, судебных процедур и пр.
+        <p>В случае оформления жилищной ипотеки банки требуют предоставить <em>Отчет об оценке стоимости объекта недвижимости</em>, передаваемого в залог.</p>
+        <h5>Предметом залога  могут выступать:</h5>
+        <ul>
+          <li>квартиры;</li>
+          <li>части жилых домов и квартир, состоящие из одной или нескольких изолированных комнат;</li>
+          <li>офисы, здания и сооружения;</li>
+          <li>земельные участки и загородные дома;</li>
+          <li>гаражи и дачи</li>        
+        </ul>  
+        <p>Данная процедура регламентируется Федеральным законом «Об ипотеке (залоге недвижимости)» от 16 июля 1998 г. №102-ФЗ и является одним из основных требований для предоставления ипотечного кредита.</p>
+        <p>На основании отчета независимой оценки, банк определяет свои риски и устанавливает величину займа.<br></p>
+        <p></p>
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- Modal types of estimation  END -->
+
+<!-- Законодательство laws -->
+<!-- Modal LAWS  START -->
+<div class="modal fade" id="laws_modal" tabindex="-1" role="dialog" aria-labelledby="laws_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="service_list_modal_Label">Наша компания осуществляет свою деятельность в соответствии с:</h4>
+      </div>
+      <div class="modal-body">
+        <ol>
+          <li>Федеральным законом от 29 июля 1998 года № 135-ФЗ "Об оценочной деятельности в Российской Федерации"</li>
+                <li>Федерального закона от 27 июля 2006 года № 157-ФЗ "О внесении изменений в Федеральной закон "Об оценочной деятельности в Российской Федерации"</li>
+          <li>Федерального закона от 28 декабря 2010 года № 431-ФЗ "О внесении изменений в Федеральный закон "Об оценочной деятельности в Российской Федерации" и отдельные законодательные акты Российской Федерации"</li>
+          <li>Федерального стандарта оценки № 1 (утвержден Приказом Минэкономразвития России от 20 июля 2007 года № 256)</li>
+          <li>Федерального стандарта оценки № 2 (утвержден Приказом Минэкономразвития России от 20 июля 2007 года № 255)</li>
+          <li>Федерального стандарта оценки № 3 (утвержден Приказом Минэкономразвития России от 20 июля 2007 года № 254)</li>
+          <li>Федерального стандарта оценки № 4 (утвержден Приказом Минэкономразвития России от 22 октября 2010 года № 508).</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- Modal LAWS  END -->
+
+
+<!-- Modal Service lis  START -->
+<div class="modal fade" id="service_list_modal" tabindex="-1" role="dialog" aria-labelledby="service_list_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="service_list_modal_Label">Список проводимых видов оценки</h4>
+      </div>
+      <div class="modal-body">
+       <ul>
+           <li>Оценка объектов залога для получения кредита;</li>
+           <li>Оценка ущерба в результате ДТП, залива или пожара</li>
+           <li>Оценка государственного и муниципального имущества для приватизации, а также любой другой сделки;</li>
+           <li>Оценка не денежных взносов в уставный капитал;</li>
+           <li>Оценка имущества, вносимого в оплату выпуска акций;</li>
+           <li>Оценка акций для их выкупа предприятием по требованию акционеров;</li>
+           <li>Оценка акций для назначения советом директоров (наблюдательным советом) цены размещения дополнительных акций;</li>
+           <li>Оценка акций при покупке > 30% акций общества для обязательного предложения о приобретении у других акционеров;</li>
+           <li>Оценка акций для их выкупа лицом, владеющим более 95%, у владельцев остальных акций;</li>
+           <li>Оценка «справедливой» стоимости активов для составления отчетности по МСФО;</li>
+           <li>Оценка имущества в период внешнего и конкурсного управления;</li>
+           <li>Оценка имущества и ценных бумаг для совершения «крупной сделки» и сделки заинтересованными лицами»;</li>
+           <li>Оценка имущества для наложения взыскания и реализации судебным приставом;</li>
+           <li>Оценка имущества, выявленного в результате инвентаризации и полученного безвозмездно, для постановки на бухгалтерский учет;</li>
+           <li>Оценка и переоценка стоимости основных фондов для целей управления и налогообложения;</li>
+           <li>Подтверждение цены реализации имущества для целей налогового учета результатов сделки;</li>
+           <li>Оценка имущества для страхования, лизинга;</li>
+           <li>Оценка величины арендной платы (в том числе государственной собственности);</li>
+           <li>Анализ наилучшего и наиболее эффективного использования объекта недвижимости.</li>
+         </ul>  
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- Modal Service lis END -->
 
 <!-- Modal ORDER form START -->
 <div class="modal fade" id="order_now_modal" tabindex="-1" role="dialog" aria-labelledby="order_now_modal" aria-hidden="true">
@@ -433,85 +522,6 @@
   </div>
 </div>
 <!-- Modal ORDER form END -->
-
-<!-- Виды оценки  -->
-<!-- Modal Service lis  START -->
-<div class="modal fade" id="service_list_modal" tabindex="-1" role="dialog" aria-labelledby="service_list_modal" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="service_list_modal_Label">Список проводимых видов оценки</h4>
-      </div>
-      <div class="modal-body">
-       <ul>
-           <li>Оценка объектов залога для получения кредита;</li>
-           <li>Оценка государственного и муниципального имущества для приватизации, а также любой другой сделки;</li>
-           <li>Оценка не денежных взносов в уставный капитал;</li>
-           <li>Оценка имущества, вносимого в оплату выпуска акций;</li>
-           <li>Оценка акций для их выкупа предприятием по требованию акционеров;</li>
-           <li>Оценка акций для назначения советом директоров (наблюдательным советом) цены размещения дополнительных акций;</li>
-           <li>Оценка акций при покупке > 30% акций общества для обязательного предложения о приобретении у других акционеров;</li>
-           <li>Оценка акций для их выкупа лицом, владеющим более 95%, у владельцев остальных акций;</li>
-           <li>Оценка «справедливой» стоимости активов для составления отчетности по МСФО;</li>
-           <li>Оценка имущества в период внешнего и конкурсного управления;</li>
-           <li>Оценка имущества и ценных бумаг для совершения «крупной сделки» и сделки заинтересованными лицами»;</li>
-           <li>Оценка имущества для наложения взыскания и реализации судебным приставом;</li>
-           <li>Оценка имущества, выявленного в результате инвентаризации и полученного безвозмездно, для постановки на бухгалтерский учет;</li>
-           <li>Оценка и переоценка стоимости основных фондов для целей управления и налогообложения;</li>
-           <li>Подтверждение цены реализации имущества для целей налогового учета результатов сделки;</li>
-           <li>Оценка имущества для страхования, лизинга;</li>
-           <li>Оценка величины арендной платы (в том числе государственной собственности);</li>
-           <li>Анализ наилучшего и наиболее эффективного использования объекта недвижимости.</li>
-         </ul>  
-      </div>
-    </div>
-  </div>
-</div>  
-<!-- Modal Service lis END -->
-
-<!-- Modal Text of policy  START -->
-<div class="modal fade" id="policy_c_modal" tabindex="-1" role="dialog" aria-labelledby="policy_c_modal" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="policy_c_ModalLabel">Политика конфиденциальности</h4>
-      </div>
-      <div class="modal-body">
-      <h5>Какая информация подлежит сбору</h5>
-        <p>Сбору подлежат только сведения, обеспечивающие возможность поддержки обратной связи с пользователем.<br>
-Некоторые действия пользователей автоматически сохраняются в журналах сервера:
-</p>
-<ul>
-  <li>IP-адрес;</li>
-  <li>данные о типе браузера, надстройках, времени запроса и т. д.</li>
-</ul>
-      <h5>Как используется полученная информация</h5>
-       <p>Сведения, предоставленные пользователем, используются для связи с ним, в том числе для направления уведомлений об изменении статуса заявки.</p>
-      <h5>Предоставление данных третьим лицам</h5>
-       <p>Личные данные пользователей могут быть переданы лицам, не связанным с настоящим сайтом, если это необходимо:</p>
-       <ul>
-         <li>для соблюдения закона, нормативно-правового акта, исполнения решения суда;</li>
-         <li>для выявления или воспрепятствования мошенничеству;</li>
-         <li>для устранения технических неисправностей в работе сайта;</li>
-         <li>для предоставления информации на основании запроса уполномоченных государственных органов.</li>
-       </ul>
-      <h5>Безопасность данных</h5>
-       <p>Администрация сайта принимает все меры для защиты данных пользователей от несанкционированного доступа, в частности:</p>
-       <ul>
-         <li>регулярное обновление служб и систем управления сайтом и его содержимым;</li>
-         <li>шифровка архивных копий ресурса;</li>
-         <li>регулярные проверки на предмет наличия вредоносных кодов;</li>
-         <li>использование для размещения сайта виртуального выделенного сервера.li>
-       </ul>
-      <h5>Изменения</h5>
-       <p>Обновления политики конфиденциальности публикуются на данной странице. Для удобства пользователей все версии политики конфиденциальности подлежат сохранению в архивных файлах.</p>
-      </div>
-    </div>
-  </div>
-</div>  
-<!-- Modal Text of polycy END -->
 
 <!-- Modal ASK Question form START -->
 <div class="modal fade" id="ask_now_modal" tabindex="-1" role="dialog" aria-labelledby="ask_now_modal" aria-hidden="true">
@@ -595,6 +605,49 @@
 
 <!-- Modal MENU form END -->
 
+<!-- Modal Text of policy  START -->
+<div class="modal fade" id="policy_c_modal" tabindex="-1" role="dialog" aria-labelledby="policy_c_modal" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="policy_c_ModalLabel">Политика конфиденциальности</h4>
+      </div>
+      <div class="modal-body">
+        <h5>Какая информация подлежит сбору</h5>
+        <p>Сбору подлежат только сведения, обеспечивающие возможность поддержки обратной связи с пользователем.<br>
+        Некоторые действия пользователей автоматически сохраняются в  журналах сервера:
+        </p>
+        <ul>
+          <li>IP-адрес;</li>
+          <li>данные о типе браузера, надстройках, времени запроса и т. д.</li>
+        </ul>
+       <h5>Как используется полученная информация</h5>
+       <p>Сведения, предоставленные пользователем, используются для связи с ним, в том числе для направления уведомлений об изменении статуса заявки.</p>
+        <h5>Предоставление данных третьим лицам</h5>
+        <p>Личные данные пользователей могут быть переданы лицам, не связанным с настоящим сайтом, если это необходимо:</p>
+        <ul>
+          <li>для соблюдения закона, нормативно-правового акта, исполнения решения суда;</li>
+          <li>для выявления или воспрепятствования мошенничеству;</li>
+          <li>для устранения технических неисправностей в работе сайта;</li>
+          <li>для предоставления информации на основании запроса уполномоченных государственных органов.</li>
+        </ul>
+        <h5>Безопасность данных</h5>
+        <p>Администрация сайта принимает все меры для защиты данных пользователей от несанкционированного доступа, в частности:</p>
+        <ul>
+           <li>регулярное обновление служб и систем управления сайтом и его содержимым;</li>
+           <li>шифровка архивных копий ресурса;</li>
+           <li>регулярные проверки на предмет наличия вредоносных кодов;</li>
+           <li>использование для размещения сайта виртуального выделенного сервера.li>
+        </ul>
+        <h5>Изменения</h5>
+        <p>Обновления политики конфиденциальности публикуются на данной странице. Для удобства пользователей все версии политики конфиденциальности подлежат сохранению в архивных файлах.</p>
+      </div>
+    </div>
+  </div>
+</div>  
+<!-- Modal Text of polycy END -->
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
@@ -633,6 +686,19 @@ $(document).ready(
   }
   );
 </script>
+
+<!-- Start Google Analytics  -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81025660-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- END Google Analytics  -->
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">

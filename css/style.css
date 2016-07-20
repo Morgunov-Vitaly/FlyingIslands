@@ -467,7 +467,7 @@ class="icon120 icon120-call-icon" */
   /* top: 0;   для выравнивания по центру */
   /* bottom: 0;   для выравнивания по центру */
   padding: 0;
-  background: url(../img/icons/spritesheet_60.png) center center no-repeat;
+  background: url(../img/icons/spritesheet_60.svg) center center no-repeat;
 }
 .icon60.icon60-call-icon:before {
   background-position: -10px -10px;
@@ -540,7 +540,7 @@ blockquote footer {
 #contacts .phone-numbers i {
   font-size: 30px;
 }
-#contacts .phone-numbers a {
+#contacts .phone-numbers p {
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -548,6 +548,9 @@ blockquote footer {
   margin-left: 20px;
   color: #d6d6d6;
   text-align: left;
+}
+#contacts .phone-numbers a {
+  color: #d6d6d6;
 }
 #contacts .mvdesign {
   margin: 0;
@@ -763,11 +766,36 @@ button[type="submit"]:focus {
 #ask_now_modal .modal-dialog {
   margin-top: 10%;
 }
-#service_list_modal .modal-dialog {
-  margin-top: 5%;
-}
+#service_list_modal .modal-dialog,
+#estimation_types_modal .modal-dialog,
+#laws_modal .modal-dialog,
 #policy_c_modal .modal-dialog {
   margin-top: 5%;
+}
+#service_list_modal .modal-header h4,
+#estimation_types_modal .modal-header h4,
+#laws_modal .modal-header h4,
+#policy_c_modal .modal-header h4 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: #728192;
+  text-transform: uppercase;
+  margin: 25px;
+  margin-bottom: 0;
+}
+#service_list_modal .modal-body,
+#estimation_types_modal .modal-body,
+#laws_modal .modal-body,
+#policy_c_modal .modal-body {
+  padding: 35px;
+}
+#service_list_modal .modal-body h5,
+#estimation_types_modal .modal-body h5,
+#laws_modal .modal-body h5,
+#policy_c_modal .modal-body h5 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  color: #728192;
 }
 #menu_modal .modal-dialog {
   margin-top: 0;

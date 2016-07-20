@@ -497,7 +497,7 @@ ul{
 		//margin-left: -140px; /* смещение иконки влево от текста списка оно совпадает со значением отступа самого списка */
 		padding:0;
 		//float: left;
-		background: url(../img/icons/spritesheet_60.png) center center no-repeat; 
+		background: url(../img/icons/spritesheet_60.svg) center center no-repeat; 
 
 	}
 
@@ -587,7 +587,7 @@ blockquote {
 			font-size: 30px;
 		}
 
-		a{
+		p {
 			font-size: 14px;
 			margin: 0;
 			padding: 0;
@@ -596,6 +596,9 @@ blockquote {
 			color: #d6d6d6;	
 			text-align: left;
 
+		}
+		a {
+			color: #d6d6d6;
 		}
 
 	}
@@ -822,16 +825,25 @@ button[type="submit"] {
 	}
 }
 
-#service_list_modal {
+#service_list_modal, #estimation_types_modal, #laws_modal, #policy_c_modal {
 	// Расположение модального окна формы заказа по вертикали
 	.modal-dialog {
 	margin-top: 5%;
 	}
-}
+	.modal-header {
+		h4 {
+			.RCbold;
+			text-transform: uppercase;
+			margin: 25px;
+			margin-bottom: 0;
 
-#policy_c_modal {
-	.modal-dialog {
-	margin-top: 5%;
+		}
+	}
+	.modal-body {
+		padding: 35px;
+		h5 {
+			.RCbold;
+		}
 	}
 }
 
