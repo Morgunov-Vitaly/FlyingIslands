@@ -54,6 +54,25 @@
   }
 }
 @media (min-width: 0px) and (max-width: 460px) {
+  h2 {
+    font-size: 29px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 21px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
+  }
+  #algorithm .listalgorytm_text {
+    font-size: 18px;
+  }
   .heder_phone_number {
     display: none;
   }
