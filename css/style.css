@@ -28,7 +28,7 @@ h5 {
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
   color: #728192;
-  margin-bottom: 30px;
+  margin-bottom: 0.7em;
   margin-left: 5px;
 }
 h1,
@@ -59,10 +59,12 @@ a:visited {
   outline: none;
 }
 a:active {
+  color: #728192;
   text-decoration: none;
   outline: none;
 }
 a:focus {
+  color: #728192;
   text-decoration: none;
   outline: none;
 }
@@ -131,6 +133,7 @@ header {
 }
 .logoPlace a:focus {
   text-decoration: none;
+  color: #768daa;
 }
 .airship {
   margin: 0;
@@ -279,6 +282,7 @@ header {
   font-weight: normal;
   font-size: 16px;
   color: #728192;
+  line-height: 22px;
 }
 .description h5 span {
   text-transform: uppercase;
@@ -780,7 +784,9 @@ button[type="submit"]:focus {
   font-weight: bold;
   color: #728192;
   text-transform: uppercase;
-  margin: 25px;
+  margin-top: 25px;
+  margin-left: 43px;
+  margin-right: 43px;
   margin-bottom: 0;
 }
 #service_list_modal .modal-body,
@@ -788,6 +794,7 @@ button[type="submit"]:focus {
 #laws_modal .modal-body,
 #policy_c_modal .modal-body {
   padding: 35px;
+  padding-top: 15px;
 }
 #service_list_modal .modal-body h5,
 #estimation_types_modal .modal-body h5,
@@ -796,6 +803,27 @@ button[type="submit"]:focus {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   color: #728192;
+  margin-left: 25px;
+}
+#service_list_modal .modal-body i,
+#estimation_types_modal .modal-body i,
+#laws_modal .modal-body i,
+#policy_c_modal .modal-body i {
+  padding-right: 10px;
+  margin-left: -27px;
+  color: #FF9800;
+}
+#service_list_modal .modal-body p,
+#estimation_types_modal .modal-body p,
+#laws_modal .modal-body p,
+#policy_c_modal .modal-body p {
+  padding-left: 20px;
+}
+#service_list_modal .modal-body ul,
+#estimation_types_modal .modal-body ul,
+#laws_modal .modal-body ul,
+#policy_c_modal .modal-body ul {
+  margin-left: 20px;
 }
 #menu_modal .modal-dialog {
   margin-top: 0;

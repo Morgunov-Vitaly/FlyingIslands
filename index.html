@@ -13,6 +13,9 @@
 <link rel="icon" href="/favicon.ico" type="image/x-icon"> 
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link href="css/bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<!-- <link rel="stylesheet" href="css/font-awesome.min.css">  Пока не ясно нужны ли они -->
+<link rel="stylesheet" href="css/animate.css"> <!-- Animation library -->
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -55,7 +58,7 @@
         <!-- end Кнопка заказать! -->
         <div class="row">
           <div class="description text-center">
-            <h5 class="wow fadeInUp" data-wow-delay="2s"><span>Оценка комнат, квартир, земельных участков, домов </span><a href="#estimation_types_modal" data-toggle="modal" data-target="#estimation_types_modal" title="Перейти к полному списку">...</a><br>для ипотеки, нотариуса и др. в Санкт-Петербурге и Л.О.</h5>
+            <h5 class="wow fadeInUp" data-wow-delay="2s"><span><a href="#estimation_types_modal" data-toggle="modal" data-target="#estimation_types_modal" title="Перейти к полному списку">Оценка комнат, квартир, домов и земельных участков</a></span><br><a href="#estimation_types_modal" data-toggle="modal" data-target="#estimation_types_modal" title="Перейти к полному списку">для ипотеки, нотариуса, суда в Санкт-Петербурге и Л.О.</a></h5>
           </div>
         </div>
       </div>
@@ -72,15 +75,15 @@
       <ul class="points_why_we">
         <li class="col-sm-12 col-lg-6 icon120 icon120-clock-icon wow fadeInLeft" data-wow-offset="50"> 
           <h3>У нас быстрее!</h3>
-          <p>Оформление стандартного отчета по квартире за 1 день!</p>
+          <p>Оформление стандартного отчета по квартире за 1 день, земельного участка 1-2 дня!</p>
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-money-in-pig-icon-green wow fadeInRight" data-wow-offset="50"> <!-- icon120-money-in-pig-icon-yellow -->
           <h3>У нас дешевле!</h3>
-          <p>Наши цены ниже рыночных. Оценка стандартной квартиры от 3000р.</p>
+          <p class="soft_scroll">Наши <a href="#price_table">цены</a> ниже рыночных. Оценка стандартной квартиры от 3000р., земельного участка - от 7000р.!</p>
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-shield-2-icon wow fadeInLeft"  data-wow-offset="50">
           <h3>У нас надежнее!</h3>
-          <p>Оплата при получении готового отчета - никаких авансов. Кроме того, мы гарантируем возврат денег в случае отказа банка. Вы ничем не рискуете!</p>
+          <p>Оплата при получении готового отчета - никаких авансов! Кроме того, мы гарантируем возврат денег в случае отказа банка.</p>
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-cup-icon wow fadeInRight" data-wow-offset="50"> <!-- icon120-degree-icon -->
           <h3>У нас качественнее!</h3>
@@ -88,7 +91,7 @@
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-check-icon wow fadeInLeft" data-wow-offset="50">
           <h3>С нами удобнее!</h3>
-          <p>Принимаем заказы с 09:00 до 21:00 и в выходные дни. Работаем практически со всеми банками и со всеми <a href="#service_list_modal" data-toggle="modal" data-target="#service_list_modal" title="Ссылка на список видов оценки">видами оценки</a>.</p>
+          <p class="soft_scroll">Принимаем заказы с 09:00 до 21:00 и в выходные дни. Работаем практически со всеми <a href="#list_of_banks">банками</a> и со всеми <a href="#service_list_modal" data-toggle="modal" data-target="#service_list_modal" title="Ссылка на список видов оценки">видами оценки</a>.</p>
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-place-icon wow fadeInRight" data-wow-offset="50">
           <h3>Мы к Вам ближе!</h3>
@@ -100,7 +103,7 @@
         </li>
         <li class="col-sm-12 col-lg-6  icon120 icon120-cup-coffee-icon wow fadeInRight" data-wow-offset="50">
           <h3>Мы заботливее!</h3>
-          <p>Мы готовы учесть все ваши пожелания по процедуре оценки, организовать доставку готового отчета к Вам домой или сразу в банк доверенному лицу.</p>
+          <p>Мы готовы учесть все ваши пожелания по процедуре оценки, организовать доставку готового отчета  на дом или в банк доверенному лицу.</p>
         </li>        
       </ul>
     </div>
@@ -403,21 +406,20 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="service_list_modal_Label">Независимая оценка имущества</h4>
+        <h4 class="modal-title">Независимая оценка рыночной стоимости</h4>
       </div>
       <div class="modal-body">
-        <p>Независимая оценка рыночной стоимости имущества производится для оформления ипотеки, купли-продажи, наследства, судебных процедур и пр.
-        <p>В случае оформления жилищной ипотеки банки требуют предоставить <em>Отчет об оценке стоимости объекта недвижимости</em>, передаваемого в залог.</p>
-        <h5>Предметом залога  могут выступать:</h5>
+        <p><i class="glyphicon glyphicon-info-sign"></i>1 Центр Оценки является группой компаний, выполняющей услуги по независимой оценке:</p>
         <ul>
-          <li>квартиры;</li>
-          <li>части жилых домов и квартир, состоящие из одной или нескольких изолированных комнат;</li>
-          <li>офисы, здания и сооружения;</li>
-          <li>земельные участки и загородные дома;</li>
-          <li>гаражи и дачи</li>        
-        </ul>  
-        <p>Данная процедура регламентируется Федеральным законом «Об ипотеке (залоге недвижимости)» от 16 июля 1998 г. №102-ФЗ и является одним из основных требований для предоставления ипотечного кредита.</p>
-        <p>На основании отчета независимой оценки, банк определяет свои риски и устанавливает величину займа.<br></p>
+          <li>жилой недвижимости (квартир, комнат, домов, дач);</li>
+          <li>коммерческой недвижимости (офисов, складов, помещений и т.п.);</li>
+          <li>земельных участков;</li>
+          <li>автотранспорта, техники и оборудования;</li>
+          <li>причиненного ущерба (от ДТП, пожаров, затоплений и пр.).</li>        
+        </ul> 
+        <p><i class="glyphicon glyphicon-list-alt"></i>По итогам оценки оформляем типовые отчеты, запрашиваемые банками при оформлении ипотеки, нотариусами (при оформлении наследства, сделок купли-продажи и др.) и судами (при разделе имущества и др. процедур).</p>
+        <p><i class="glyphicon glyphicon-certificate"></i>Специалисты нашей компании осуществляют свою деятельность в соответствии с законодательством РФ и являются действительными членами НП «Саморегулируемая организация «национальная коллегия специалистов – оценщиков» (НП «СРО» «НКСО») и Саморегулируемой организации оценщиков «Сообщество профессионалов оценки» (НП СРОО «СПО»).</p>
+        <p><i class="glyphicon glyphicon-send"></i>Стандартный отчет для Сбербанка на квартиру до 100м2, находящуюся в черте города в 30 мин. доступности от ближайшего метро, выполняется в течение <strong>1 рабочего дня за 3000руб.!</strong><br></p>
         <p></p>
       </div>
     </div>
@@ -431,12 +433,12 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="service_list_modal_Label">Наша компания осуществляет свою деятельность в соответствии с:</h4>
+        <h4 class="modal-title">Наша компания осуществляет свою деятельность в соответствии с:</h4>
       </div>
       <div class="modal-body">
         <ol>
           <li>Федеральным законом от 29 июля 1998 года № 135-ФЗ "Об оценочной деятельности в Российской Федерации"</li>
-                <li>Федерального закона от 27 июля 2006 года № 157-ФЗ "О внесении изменений в Федеральной закон "Об оценочной деятельности в Российской Федерации"</li>
+          <li>Федерального закона от 27 июля 2006 года № 157-ФЗ "О внесении изменений в Федеральной закон "Об оценочной деятельности в Российской Федерации"</li>
           <li>Федерального закона от 28 декабря 2010 года № 431-ФЗ "О внесении изменений в Федеральный закон "Об оценочной деятельности в Российской Федерации" и отдельные законодательные акты Российской Федерации"</li>
           <li>Федерального стандарта оценки № 1 (утвержден Приказом Минэкономразвития России от 20 июля 2007 года № 256)</li>
           <li>Федерального стандарта оценки № 2 (утвержден Приказом Минэкономразвития России от 20 июля 2007 года № 255)</li>
@@ -456,14 +458,14 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="service_list_modal_Label">Список проводимых видов оценки</h4>
+        <h4 class="modal-title">Список проводимых видов оценки:</h4>
       </div>
       <div class="modal-body">
        <ul>
            <li>Оценка объектов залога для получения кредита;</li>
            <li>Оценка ущерба в результате ДТП, залива или пожара;</li>
            <li>Оценка государственного и муниципального имущества для приватизации, а также любой другой сделки;</li>
-           <li>Оценка не денежных взносов в уставный капитал;</li>
+           <li>Оценка неденежных взносов в уставный капитал;</li>
            <li>Оценка имущества, вносимого в оплату выпуска акций;</li>
            <li>Оценка акций для их выкупа предприятием по требованию акционеров;</li>
            <li>Оценка акций для назначения советом директоров (наблюдательным советом) цены размещения дополнительных акций;</li>
@@ -577,7 +579,7 @@
              <a href="#price_table">Цены и сроки</a>
             </li>
             <li class="menu_item">
-             <a href="#algorithm">Как заказать</a>
+             <a href="#algorithm">План действий</a>
             </li>
             <li class="menu_item">
              <a href="#list_of_banks">Список банков</a>
@@ -642,9 +644,6 @@
   </div>
 </div>  
 <!-- Modal Text of polycy END -->
-<link rel="stylesheet" href="css/style.css">
-<!-- <link rel="stylesheet" href="css/font-awesome.min.css">  Пока не ясно нужны ли они -->
-<link rel="stylesheet" href="css/animate.css"> <!-- Animation library -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
@@ -652,22 +651,23 @@
 <script src="js/jquery.nicescroll.min.js"></script> 
 
 <!-- отключим стандартное подключенгие-->
-<script src="js/wow.min.js"></script>  
+<script src="js/wow.min.js"></script> 
 
-
-<!-- <script src="js/main.js"></script>  Подключаю свои скрипты с кнопкой наверх -->
-<script>new WOW( {
-                      boxClass:     'wow',      // default
-                      animateClass: 'animated', // default
-                      offset:       70,          // default
-                      mobile:       false,       // default true Отключение анимации на мобильных устройствах
-                      live:         true        // default
-                    }).init();</script> <!-- Скрипт включения анимации при прокрутке -->
+<!-- Скрипт включения анимации при прокрутке -->
+<script>
+  new WOW( {
+             boxClass:     'wow',      // default
+             animateClass: 'animated', // default
+             offset:       70,          // default
+             mobile:       false,       // default true Отключение анимации на мобильных устройствах
+             live:         true        // default
+            }).init();
+</script> 
 
 <!-- Скрипт для плавной прокрутки содержимого сайта колесом мыши - без скрипта идет дергание всех элементов с position fix кнопка наверх значек меню и т.д.
  -->
- <script>
-$(document).ready(
+<script>
+  $(document).ready(
   function() {
     $("html").niceScroll({cursorcolor:"#000"});
   }
@@ -676,8 +676,8 @@ $(document).ready(
 <!-- Подключаю свои скрипты с кнопкой "наверх" и плавной прокруткой по клику на ссылки -->
 <script type="text/javascript">
   // код для прокрутки кнопкой наверх
-var top_show = 150; // В каком положении полосы прокрутки начинать показ кнопки "Наверх"
-var delay = 1000; // Задержка прокрутки
+  var top_show = 150; // В каком положении полосы прокрутки начинать показ кнопки "Наверх"
+  var delay = 1000; // Задержка прокрутки
   $(document).ready(function() {
     $(window).scroll(function () { // При прокрутке попадаем в эту функцию
       /* В зависимости от положения полосы прокрукти и значения top_show, скрываем или открываем кнопку "Наверх" */
@@ -692,8 +692,8 @@ var delay = 1000; // Задержка прокрутки
     });
   });
 
-// Функция плавного скролла до якоря из модального меню и для всех ссылок с класом .soft_scroll
-$(document).ready(function(){
+  // Функция плавного скролла до якоря из модального меню и для всех ссылок с класом .soft_scroll
+  $(document).ready(function(){
   $('#menu_modal,.soft_scroll').on("click","a", function (event) {
     //отменяем стандартную обработку нажатия по ссылке
     event.preventDefault();
@@ -707,7 +707,7 @@ $(document).ready(function(){
     //анимируем переход на расстояние - top за 1500 мс
     $('body,html').animate({scrollTop: top}, 1500);
   });
-});
+  });
 </script>
 
 <!-- Start Google Analytics  -->
