@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-top"
+			],
+			[
 				"no",
 				"no-repeat〔value〕"
 			],
@@ -14,10 +18,6 @@
 			[
 				"mi",
 				"middle"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"tex",
@@ -215,7 +215,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 35696,
+				"buffer_size": 36156,
 				"line_ending": "Windows"
 			}
 		},
@@ -231,39 +231,23 @@
 			"file": "css/style.less",
 			"settings":
 			{
-				"buffer_size": 18721,
+				"buffer_size": 18825,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "css/less/adaptivemedia.less",
+			"file": "img/banneranim.svg",
 			"settings":
 			{
-				"buffer_size": 2561,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/less/variables.less",
-			"settings":
-			{
-				"buffer_size": 25540,
+				"buffer_size": 63068,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "css/less/bootstrap.less",
+			"file": "img/airshiprotation.svg",
 			"settings":
 			{
-				"buffer_size": 1071,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "js/jquery.nicescroll.min.js",
-			"settings":
-			{
-				"buffer_size": 60534,
+				"buffer_size": 19085,
 				"line_ending": "Unix"
 			}
 		}
@@ -408,10 +392,16 @@
 		"/C/GitHub/FlyingIsland",
 		"/C/GitHub/FlyingIsland/css",
 		"/C/GitHub/FlyingIsland/css/less",
+		"/C/GitHub/FlyingIsland/img",
 		"/C/GitHub/FlyingIsland/js"
 	],
 	"file_history":
 	[
+		"/C/GitHub/FlyingIsland/js/jquery.nicescroll.min.js",
+		"/C/GitHub/FlyingIsland/css/less/bootstrap.less",
+		"/C/GitHub/FlyingIsland/css/less/variables.less",
+		"/C/GitHub/FlyingIsland/css/less/adaptivemedia.less",
+		"/C/GitHub/OrangeBlue/index.html",
 		"/C/GitHub/FlyingIsland/css/style.css",
 		"/D/Рабочая/Макетбург/www/Papirus.html",
 		"/C/GitHub/FlyingIsland/send.php",
@@ -423,7 +413,6 @@
 		"/C/GitHub/FlyingIsland/css/less/glyphicons.less",
 		"/C/GitHub/FlyingIsland/img/sprites.css",
 		"/C/GitHub/FlyingIsland/css/bootstrap.min.css",
-		"/C/GitHub/FlyingIsland/css/less/bootstrap.less",
 		"/C/GitHub/FlyingIsland/css/bootstrap.css.map",
 		"/C/GitHub/FlyingIsland/css/variables.less",
 		"/D/Install/Bootstrap/bootstrap-3.1.0/js/tests/index.html",
@@ -474,6 +463,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"по итогам",
+			"; ;",
+			";;",
+			"список провод",
+			"список",
+			"как заказать",
+			"@link_color",
+			"@header_link_color",
+			"service_list_modal_Label",
+			"не денежных",
 			"сервера",
 			"пожара",
 			"logo",
@@ -591,7 +590,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 35696,
+						"buffer_size": 36156,
 						"regions":
 						{
 							"bookmarks":
@@ -601,8 +600,8 @@
 								"regions":
 								[
 									[
-										8536,
-										8536
+										8998,
+										8998
 									]
 								],
 								"scope": "bookmarks"
@@ -611,8 +610,8 @@
 						"selection":
 						[
 							[
-								30865,
-								30865
+								0,
+								36156
 							]
 						],
 						"settings":
@@ -625,10 +624,10 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4844.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -660,13 +659,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -675,15 +674,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18721,
+						"buffer_size": 18825,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2356,
-								2356
+								6113,
+								6113
 							]
 						],
 						"settings":
@@ -692,127 +691,70 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1015.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "css/less/adaptivemedia.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2561,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2350,
-								2350
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2739.0,
+						"translation.y": 1868.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
+					"buffer": 3,
+					"file": "img/banneranim.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 63068,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63068,
+								63068
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 825.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
 					"buffer": 4,
-					"file": "css/less/variables.less",
+					"file": "img/airshiprotation.svg",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25540,
+						"buffer_size": 19085,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1559,
-								1568
+								19085,
+								19085
 							]
 						],
 						"settings":
 						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 794.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/less/bootstrap.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1071,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								370,
-								381
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 319.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "js/jquery.nicescroll.min.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 60534,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -902,7 +844,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 		"last_automatic_layout":
