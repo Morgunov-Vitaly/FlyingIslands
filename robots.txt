@@ -1,0 +1,10 @@
+User-agent: Yandex
+Disallow: /img
+Host: www.1copro.ru
+
+User-agent: Googlebot
+Disallow: /img
+
+User-agent: *
+Crawl-delay: 30
+Disallow: /img

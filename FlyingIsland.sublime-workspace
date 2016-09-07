@@ -215,7 +215,15 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 36156,
+				"buffer_size": 36158,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/F/Портфолио/Макетбург/Papirus.html",
+			"settings":
+			{
+				"buffer_size": 2931,
 				"line_ending": "Windows"
 			}
 		},
@@ -397,6 +405,7 @@
 	],
 	"file_history":
 	[
+		"/D/Рабочая/00 Фриланс/Бухгалтерия сервис/Бухгалтерия Сервис.html",
 		"/C/GitHub/FlyingIsland/js/jquery.nicescroll.min.js",
 		"/C/GitHub/FlyingIsland/css/less/bootstrap.less",
 		"/C/GitHub/FlyingIsland/css/less/variables.less",
@@ -581,7 +590,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -590,7 +599,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 36156,
+						"buffer_size": 36158,
 						"regions":
 						{
 							"bookmarks":
@@ -610,8 +619,8 @@
 						"selection":
 						[
 							[
-								0,
-								36156
+								3110,
+								3110
 							]
 						],
 						"settings":
@@ -624,6 +633,34 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 1298.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/F/Портфолио/Макетбург/Papirus.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -631,7 +668,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "js/main.js",
 					"semi_transient": false,
 					"settings":
@@ -659,17 +696,17 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "css/style.less",
 					"semi_transient": false,
 					"settings":
@@ -691,14 +728,14 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1868.0,
+						"translation.y": 1643.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "img/banneranim.svg",
 					"semi_transient": false,
 					"settings":
@@ -724,11 +761,11 @@
 						"translation.y": 825.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "img/airshiprotation.svg",
 					"semi_transient": false,
 					"settings":
@@ -754,7 +791,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
