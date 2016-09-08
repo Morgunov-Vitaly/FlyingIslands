@@ -215,16 +215,19 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 36158,
+				"buffer_size": 36221,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/F/Портфолио/Макетбург/Papirus.html",
+			"contents": "diff --git a/index.html b/index.html\nindex 360eb5a..6009863 100644\n--- a/index.html\n+++ b/index.html\n@@ -655,7 +655,7 @@\n \n <!-- Скрипт включения анимации при прокрутке -->\n <script>\n-  new WOW( {\n+    new WOW( {\n              boxClass:     'wow',      // default\n              animateClass: 'animated', // default\n              offset:       70,          // default\n",
 			"settings":
 			{
-				"buffer_size": 2931,
-				"line_ending": "Windows"
+				"buffer_size": 375,
+				"line_ending": "Windows",
+				"name": "Git Diff",
+				"read_only": true,
+				"scratch": true
 			}
 		},
 		{
@@ -267,8 +270,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 230.0,
-		"last_filter": "push",
+		"height": 354.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -276,20 +279,24 @@
 				"Git: Push"
 			],
 			[
-				"qui",
-				"Git: Quick Commit"
+				"quick",
+				"Git: Quick Commit (repo)"
 			],
 			[
 				"add",
 				"Git: Add All"
 			],
 			[
-				"Push",
-				"Git: Push"
+				"git",
+				"Git: Status"
 			],
 			[
-				"quick",
+				"qui",
 				"Git: Quick Commit"
+			],
+			[
+				"Push",
+				"Git: Push"
 			],
 			[
 				"stat",
@@ -376,7 +383,7 @@
 				"SassBeautify"
 			]
 		],
-		"width": 414.0
+		"width": 510.0
 	},
 	"console":
 	{
@@ -405,6 +412,7 @@
 	],
 	"file_history":
 	[
+		"/F/Портфолио/Макетбург/Papirus.html",
 		"/D/Рабочая/00 Фриланс/Бухгалтерия сервис/Бухгалтерия Сервис.html",
 		"/C/GitHub/FlyingIsland/js/jquery.nicescroll.min.js",
 		"/C/GitHub/FlyingIsland/css/less/bootstrap.less",
@@ -590,7 +598,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -599,7 +607,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 36158,
+						"buffer_size": 36221,
 						"regions":
 						{
 							"bookmarks":
@@ -609,8 +617,8 @@
 								"regions":
 								[
 									[
-										8998,
-										8998
+										9061,
+										9061
 									]
 								],
 								"scope": "bookmarks"
@@ -619,8 +627,8 @@
 						"selection":
 						[
 							[
-								3110,
-								3110
+								102,
+								102
 							]
 						],
 						"settings":
@@ -633,19 +641,18 @@
 							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1298.0,
+						"translation.y": 75.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/F/Портфолио/Макетбург/Papirus.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2931,
+						"buffer_size": 375,
 						"regions":
 						{
 						},
@@ -658,13 +665,16 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"default_dir": "C:\\GitHub\\FlyingIsland",
+							"git_root_dir": "C:\\GitHub\\FlyingIsland",
+							"syntax": "Packages/Diff/Diff.tmLanguage",
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -728,7 +738,7 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1643.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
