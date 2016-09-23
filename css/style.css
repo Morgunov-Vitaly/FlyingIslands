@@ -515,6 +515,9 @@ blockquote footer {
   color: #728192;
   background-color: white;
 }
+blockquote cite {
+  font-style: italic;
+}
 /*============    Карта    ===========*/
 /*============    Футер контакты    ===========*/
 #contacts {
