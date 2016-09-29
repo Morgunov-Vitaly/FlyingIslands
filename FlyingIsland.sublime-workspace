@@ -211,6 +211,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 36250,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -226,6 +235,14 @@
 			[
 				"push",
 				"Git: Push"
+			],
+			[
+				"qu",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"git add",
+				"Git: Add All"
 			],
 			[
 				"quick",
@@ -268,10 +285,6 @@
 				"Git: Status"
 			],
 			[
-				"qu",
-				"Git: Quick Commit"
-			],
-			[
 				"git a",
 				"Git: Add All"
 			],
@@ -294,10 +307,6 @@
 			[
 				"git push",
 				"Git: Push"
-			],
-			[
-				"git add",
-				"Git: Add All"
 			],
 			[
 				"insta",
@@ -355,9 +364,7 @@
 	[
 		"/C/GitHub/FlyingIsland",
 		"/C/GitHub/FlyingIsland/css",
-		"/C/GitHub/FlyingIsland/css/less",
-		"/C/GitHub/FlyingIsland/img",
-		"/C/GitHub/FlyingIsland/js"
+		"/C/GitHub/FlyingIsland/css/less"
 	],
 	"file_history":
 	[
@@ -552,8 +559,41 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18465,
+								18495
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 9579.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
