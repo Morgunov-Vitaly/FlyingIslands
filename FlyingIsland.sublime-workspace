@@ -215,7 +215,28 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 36250,
+				"buffer_size": 36295,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Графика/Портфолио/Мои работы/All/Web/Crystal/index.html",
+			"settings":
+			{
+				"buffer_size": 11230,
+				"encoding": "Cyrillic (Windows 1251)",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n\t<meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\n\t<title></title>\n\t<meta name=\"title\" content=\"\" />\n\t<meta name=\"keywords\" content=\"\" />\n\t<meta name=\"description\" content=\"\" />\n\t<link rel=\"stylesheet\" href=\"style.css\" type=\"text/css\" media=\"screen, projection\" />\n    <link href=\"img/style.css\" rel=\"stylesheet\" type=\"text/css\" />\n</head>\n\n<body>\n<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n  <!--Банер и меню-->\n  <tr >\n    <td width=\"197\" background=\"img/banerfon2.jpg\"><a href=\"index.html\"><img src=\"img/baner2.jpg\" alt=\"\" width=\"197\" height=\"221\" align=\"left\" /></a></td>\n    <td width=\"90%\" align=\"left\" valign=\"top\" background=\"img/banerfon2.jpg\"><table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n  <tr>\n    <td width=\"10%\" align=\"left\" valign=\"top\"><a href=\"index.html\"><img src=\"img/baner22.jpg\" alt=\"\" width=\"349\" height=\"221\" align=\"left\" /></a></td>\n    <td width=\"90%\"align=\"left\" valign=\"bottom\"><img src=\"img/menu202.jpg\" alt=\"\" width=\"367\" height=\"103\" align=\"left\" usemap=\"#Map\"/></td>\n  </tr>\n</table>\n</td>\n    <td width=\"197\"align=\"right\" valign=\"top\" background=\"img/banerfon2.jpg\"><img src=\"img/godscow.jpg\" alt=\"\" width=\"89\" height=\"112\" align=\"right\" /></td>\n  </tr>\n<!-- Основной документ--> <tr>\n    <td align=\"left\" valign=\"top\" background=\"img/fonleft.jpg\"><img src=\"img/menuleft02.jpg\" alt=\"\" width=\"191\" height=\"130\" /></td>\n    <td id=\"content\"align=\"left\" valign=\"top\"><p><img src=\"img/fotka.jpg\" alt=\"\" width=\"153\" height=\"153\" align=\"right\" class=\"photos\" /></p>\n      <h1>ПРОЕКТЫ</h1> \n      <p>Возможность добавлять на карту (отсылать сообщения) о пробке, регулировщике, ДТП лучше с вариантом \"срочно НУЖНА ПОМОЩЬ\", ремонте, объезде, знаке тупик, въезд запрещен, огр\n        аничение скорости 40, 50, 60,80, движение прямо, прямо –налево, прямо –направо. И.т.д. , которые иногда \"вырастают, как грибы после дождя. Проверка \"на вшивость\" до тех пор, пока информация не поступит от другого (или еще 2-х разных абонентов) знак можно отображать полупрозрачным или с вопросом.</p>\n      <p class=\"comment\">13.07.2011 | Алан Паркер | Текст комментариев выглядит вот так.</p>\n      <h2>Заголовок 2</h2>\n      <p>Возможность добавлять на карту (отсылать сообщения) о пробке, регулировщике, ДТП лучше с вариантом \"срочно НУЖНА ПОМОЩЬ\", ремонте, объезде, знаке тупик, въезд запрещен, огр\n        аничение скорости 40, 50, 60,80, движение прямо, прямо –налево, прямо –направо. И.т.д. , которые иногда \"вырастают, как грибы после дождя. Проверка \"на вшивость\" до тех пор, пока информация не поступит от другого (или еще 2-х разных абонентов) знак можно отображать полупрозрачным или с вопросом.</p>\n      <h3>Заголовок 3</h3>\n      <p>Возможность добавлять на карту (отсылать сообщения) о пробке, регулировщике, ДТП лучше с вариантом \"срочно НУЖНА ПОМОЩЬ\", ремонте, объезде, знаке тупик, въезд запрещен, огр\n        аничение скорости 40, 50, 60,80, движение прямо, прямо –налево, прямо –направо. И.т.д. , которые иногда \"вырастают, как грибы после дождя. Проверка \"на вшивость\" до тех пор, пока информация не поступит от другого (или еще 2-х разных абонентов) знак можно отображать полупрозрачным или с вопросом.</p>\n      <h4>Заголовок 4</h4>\n  <ul>\n        <li>Пункт 1</li>\n        <li>Пункт 2</li>\n        <li>Пункт 3</li>\n  </ul>      \n  <ol>\n        <li>Пункт</li>\n        <li>Пункт</li>\n        <li>Пункт</li>\n  </ol>\n      \n    <p>КОнец :)</p></td>\n    <td></td>\n  </tr>\n<!--Футер--> <tr >\n    <td background=\"img/footerfon2.jpg\"><img src=\"img/razbeg2.jpg\" alt=\"\" /></td>\n    <td background=\"img/footerfon2.jpg\"></td>\n    <td background=\"img/footerfon2.jpg\"><img src=\"img/planer2.jpg\" alt=\"\" width=\"141\" height=\"94\" /></td>\n  </tr>    \n</table>\n\n<map name=\"Map\" id=\"Map\">\n  <area shape=\"rect\" coords=\"1,-4,75,31\" href=\"aboutus.html\" alt=\"\" />\n<area shape=\"rect\" coords=\"175,-4,273,31\" href=\"fortichers.html\" alt=\"\" />\n<area shape=\"rect\" coords=\"276,-4,368,31\" href=\"forsch.html\" alt=\"\" />\n</map></body>\n</html>",
+			"file": "/F/Портфолио/1beg/www 3/projects.html",
+			"file_size": 5456,
+			"file_write_time": 129438945700000000,
+			"settings":
+			{
+				"buffer_size": 4157,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -228,10 +249,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 230.0,
-		"last_filter": "push",
+		"height": 354.0,
+		"last_filter": "p",
 		"selected_items":
 		[
+			[
+				"p",
+				"Git: Push"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
 			[
 				"push",
 				"Git: Push"
@@ -253,16 +286,8 @@
 				"Git: Add All"
 			],
 			[
-				"add",
-				"Git: Add All"
-			],
-			[
 				"git",
 				"Git: Status"
-			],
-			[
-				"qui",
-				"Git: Quick Commit"
 			],
 			[
 				"Push",
@@ -559,7 +584,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -568,15 +593,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 36250,
+						"buffer_size": 36295,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								18465,
-								18495
+								933,
+								933
 							]
 						],
 						"settings":
@@ -588,7 +613,65 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 9579.0,
+						"translation.y": 75.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/Графика/Портфолио/Мои работы/All/Web/Crystal/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/F/Портфолио/1beg/www 3/projects.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
