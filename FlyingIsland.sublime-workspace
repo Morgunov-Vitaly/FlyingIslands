@@ -215,9 +215,20 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 36724,
+				"buffer_size": 36951,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nMaterial Theme\n--------------\n\n  #### Material Theme for Sublime Text 3\n  \n  ## Version 4.0.3\n  \n  📣 **BUGFIXES**:\n    * Fix accent-teal missing assets ([d959813](https://github.com/equinusocio/material-theme/commit/d959813))\n    * Improve Theme Info dialog.\n  \n  \n  ** Check the official changelog ( https://github.com/equinusocio/material-theme/blob/master/CHANGELOG.md  ) **\n",
+			"settings":
+			{
+				"buffer_size": 429,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -237,7 +248,7 @@
 				"Git: Push"
 			],
 			[
-				"quick",
+				"qui",
 				"Git: Quick Commit (repo)"
 			],
 			[
@@ -245,12 +256,12 @@
 				"Git: Add All"
 			],
 			[
-				"p",
-				"Git: Push"
+				"quick",
+				"Git: Quick Commit (repo)"
 			],
 			[
-				"qui",
-				"Git: Quick Commit (repo)"
+				"p",
+				"Git: Push"
 			],
 			[
 				"qu",
@@ -366,8 +377,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/GitHub/FlyingIsland",
-		"/C/GitHub/FlyingIsland/css/less"
+		"/C/GitHub/FlyingIsland"
 	],
 	"file_history":
 	[
@@ -445,6 +455,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"keywords",
+			"descrip",
+			"nofollow",
+			"<h2",
+			"<h1",
+			"<title>",
+			"title",
 			"cite",
 			"по итогам",
 			"; ;",
@@ -564,7 +581,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -573,15 +590,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 36724,
+						"buffer_size": 36951,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								36668,
-								36668
+								103,
+								103
 							]
 						],
 						"settings":
@@ -593,7 +610,37 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 19095.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								429,
+								429
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -645,7 +692,7 @@
 	"project": "FlyingIsland.sublime-project",
 	"replace":
 	{
-		"height": 116.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":
